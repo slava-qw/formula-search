@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="260" viewBox="0 0 1600 260" role="img" aria-labelledby="t d">
+<title id="t">Formula Search</title><desc id="d">Find the formula. Stay in the paper. Local notation search for PDFs and arXiv.</desc>
+<rect width="1600" height="260" fill="#eef4f2"/><path d="M65 196H1535" stroke="#c8d8d1"/>
+<text x="64" y="104" fill="#142d29" font-family="Segoe UI,Arial,sans-serif" font-size="62" font-weight="700" letter-spacing="-2">Formula Search</text>
+<text x="66" y="157" fill="#086f64" font-family="Segoe UI,Arial,sans-serif" font-size="30">Find the formula. Stay in the paper.</text>
+<text x="66" y="230" fill="#526961" font-family="Segoe UI,Arial,sans-serif" font-size="19">MATHEMATICAL NOTATION SEARCH / CHROME + LOCAL PYTHON BACKEND</text>
+</svg>

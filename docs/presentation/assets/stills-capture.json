@@ -1,0 +1,74 @@
+{
+  "capture": "Capture the real Chrome extension on the original example PDF.\n\nNo API responses, candidates, searches, or recognition are mocked. The panel is\nopened as an extension tab with the panel URL for reproducible recording. This\ndoes not demonstrate a toolbar/side-panel opening gesture. No OCR is shown.\nRequires installed Chrome and Playwright. Use a new --work directory each time.\n",
+  "browser": "158.0.8127.37",
+  "steps": [
+    {
+      "name": "Ready: real PDF prepared",
+      "capture_seconds": 1.163
+    },
+    {
+      "name": "Contains search: matrix numerator",
+      "capture_seconds": 3.256
+    },
+    {
+      "name": "Enter squared weight query",
+      "capture_seconds": 8.133
+    },
+    {
+      "name": "Squared weight: two real occurrences",
+      "capture_seconds": 8.265
+    },
+    {
+      "name": "Page filter: second occurrence",
+      "capture_seconds": 11.183
+    },
+    {
+      "name": "Saved occurrence: bookmark",
+      "capture_seconds": 13.824
+    },
+    {
+      "name": "Original PDF excerpt and page navigation",
+      "capture_seconds": 16.916
+    },
+    {
+      "name": "Dark appearance",
+      "capture_seconds": 21.702
+    }
+  ],
+  "page_errors": [],
+  "network_errors": [],
+  "recognition": "not demonstrated",
+  "timing": "Recorded live, including startup. No speed changes or substituted product frames.",
+  "extension_version": "0.11.1",
+  "backend_dependencies": "requirements-core-lock.txt",
+  "navigation": {
+    "before_wait": "formula-playground.pdf#page=2",
+    "dialog": "Formula on page 2",
+    "filter": "page:1",
+    "status": "Opened page 2. Exact highlighting inside Chrome\u2019s PDF viewer is unavailable; use the formula excerpt.",
+    "verified_state": {
+      "url": "formula-playground.pdf#page=2",
+      "pending": null,
+      "status": "complete",
+      "visible_pdf_page_zero_based": 1,
+      "playwright_url": "formula-playground.pdf#page=2"
+    }
+  },
+  "checks": [
+    "Actual PDF upload/preparation via extension",
+    "Unmocked HTTP notation search",
+    "One QK^T result on page 1",
+    "Two w^2 results across two pages",
+    "Page filter",
+    "Persisted bookmark",
+    "Original-PDF excerpt",
+    "Page-2 URL navigation",
+    "Dark theme",
+    "No page errors or failed backend responses"
+  ],
+  "still_pixel_density": 2,
+  "video_dimensions": {
+    "width": 420,
+    "height": 860
+  }
+}

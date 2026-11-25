@@ -1,0 +1,20 @@
+{
+  "description": "Reviewed opening lines in the pinned original TeX archive members; not expanded-text line numbers.",
+  "probes": [
+    {"paper":"attention","file":"introduction.tex","line":3,"latex":"h_{t-1}"},
+    {"paper":"attention","file":"model_architecture.tex","line":40,"contains":"QK^T"},
+    {"paper":"attention","file":"model_architecture.tex","line":117,"contains":"\\mathrm{FFN}"},
+    {"paper":"smc_sd","file":"colm2026_conference.tex","line":424,"label":"eq:prefix-token"},
+    {"paper":"smc_sd","file":"colm2026_conference.tex","line":429,"label":"eq:prefix-eos"},
+    {"paper":"logz","file":"techreportv1.tex","line":396,"label":"eq:pathsamplingidentity"},
+    {"paper":"logz","file":"techreportv1.tex","line":452,"label":"eq:cvobjective"},
+    {"paper":"vae_tutorial","file":"vae_tutorial.tex","line":178,"label":"eq:total"},
+    {"paper":"vae_tutorial","file":"vae_tutorial.tex","line":310,"label":"eq:kl"},
+    {"paper":"gan_tutorial","file":"tree.tex","line":37,"label":"eq:log"},
+    {"paper":"gan_tutorial","file":"tree.tex","line":52,"label":"eq:kl"},
+    {"paper":"2307.09288v2","file":"templateArxiv.tex","line":468,"label":"eq:rating_loss_default"},
+    {"paper":"2307.09288v2","file":"templateArxiv.tex","line":476,"label":"eq:rating_loss"},
+    {"paper":"1802.01528v3","file":"matrix-calculus.tex","line":75,"contains":"target(\\mathbf{x})"},
+    {"paper":"1802.01528v3","file":"matrix-calculus.tex","line":839,"latex":"activation(z) = max(0,z)"}
+  ]
+}

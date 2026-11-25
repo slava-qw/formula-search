@@ -1,0 +1,36 @@
+{
+  "source": "docs/presentation/stills.html",
+  "renders": [
+    {
+      "view": "hero",
+      "file": "overview.png",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "view": "workflow",
+      "file": "workflow.png",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "view": "architecture",
+      "file": "architecture.png",
+      "width": 1600,
+      "height": 780
+    },
+    {
+      "view": "poster",
+      "file": "demo-poster.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "view": "social",
+      "file": "social-preview.png",
+      "width": 1280,
+      "height": 640
+    }
+  ],
+  "errors": []
+}

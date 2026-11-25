@@ -1,0 +1,182 @@
+{
+  "review": "All 33 new section-start crops manually inspected in the nine heading galleries on 2026-11-22. These gates validate heading anchors, not every formula mapping.",
+  "papers": [
+    {
+      "paper": "1802.01528v3",
+      "pdf_sha256": "5ec0f6fc76751527bbcf9ec076a82a490ad2f6fde05f2c140b181386bbeffbd8",
+      "headings": [
+        {
+          "key": "introduction",
+          "page": 2,
+          "y": 71.74697875976562
+        },
+        {
+          "key": "review scalar derivative rules",
+          "page": 3,
+          "y": 613.2150268554688
+        },
+        {
+          "key": "introduction to vector calculus and partial derivatives",
+          "page": 4,
+          "y": 501.9280090332031
+        },
+        {
+          "key": "matrix calculus",
+          "page": 5,
+          "y": 342.9610595703125
+        },
+        {
+          "key": "generalization of the jacobian",
+          "page": 6,
+          "y": 149.9236602783203
+        },
+        {
+          "key": "derivatives of vector element wise binary operators",
+          "page": 8,
+          "y": 245.1096954345703
+        },
+        {
+          "key": "derivatives involving scalar expansion",
+          "page": 10,
+          "y": 607.9166259765625
+        },
+        {
+          "key": "vector sum reduction",
+          "page": 11,
+          "y": 646.3726196289062
+        },
+        {
+          "key": "the chain rules",
+          "page": 13,
+          "y": 73.61561584472656
+        },
+        {
+          "key": "single variable chain rule",
+          "page": 13,
+          "y": 438.8761901855469
+        },
+        {
+          "key": "single variable total derivative chain rule",
+          "page": 17,
+          "y": 74.43318176269531
+        },
+        {
+          "key": "vector chain rule",
+          "page": 20,
+          "y": 198.94215393066406
+        },
+        {
+          "key": "the gradient of neuron activation",
+          "page": 22,
+          "y": 477.6189880371094
+        },
+        {
+          "key": "the gradient of the neural network loss function",
+          "page": 24,
+          "y": 620.9859619140625
+        },
+        {
+          "key": "the gradient with respect to the weights",
+          "page": 25,
+          "y": 303.6117248535156
+        },
+        {
+          "key": "the derivative with respect to the bias",
+          "page": 26,
+          "y": 616.381591796875
+        },
+        {
+          "key": "gradients and jacobians",
+          "page": 28,
+          "y": 454.8516845703125
+        },
+        {
+          "key": "element wise operations on vectors",
+          "page": 29,
+          "y": 73.61561584472656
+        },
+        {
+          "key": "scalar expansion",
+          "page": 29,
+          "y": 501.0676574707031
+        },
+        {
+          "key": "vector reductions",
+          "page": 30,
+          "y": 73.61561584472656
+        },
+        {
+          "key": "chain rules",
+          "page": 30,
+          "y": 410.3126525878906
+        },
+        {
+          "key": "notation",
+          "page": 30,
+          "y": 587.0399780273438
+        },
+        {
+          "key": "resources",
+          "page": 31,
+          "y": 492.1890563964844
+        }
+      ]
+    },
+    {
+      "paper": "2307.09288v2",
+      "pdf_sha256": "1df284ce95f783002074bfe8f21d47c646b396ceb1736ea3ec0ea212fc070d91",
+      "headings": [
+        {
+          "key": "introduction",
+          "page": 2,
+          "y": 386.1612243652344
+        },
+        {
+          "key": "pretraining data",
+          "page": 4,
+          "y": 464.2906494140625
+        },
+        {
+          "key": "training details",
+          "page": 4,
+          "y": 580.503662109375
+        },
+        {
+          "key": "llama 2 pretrained model evaluation",
+          "page": 6,
+          "y": 424.04864501953125
+        },
+        {
+          "key": "supervised fine tuning sft",
+          "page": 8,
+          "y": 74.68264770507812
+        },
+        {
+          "key": "system message for multi turn consistency",
+          "page": 15,
+          "y": 407.9826354980469
+        },
+        {
+          "key": "safety in pretraining",
+          "page": 19,
+          "y": 202.69064331054688
+        },
+        {
+          "key": "red teaming",
+          "page": 27,
+          "y": 564.3456420898438
+        },
+        {
+          "key": "safety evaluation of llama 2 chat",
+          "page": 28,
+          "y": 574.9736938476562
+        },
+        {
+          "key": "learnings and observations",
+          "page": 31,
+          "y": 144.90463256835938
+        }
+      ]
+    }
+  ]
+}

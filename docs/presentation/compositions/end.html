@@ -1,0 +1,20 @@
+<template>
+<style>
+#root{position:absolute;inset:0;background:#eef4f2;overflow:hidden}
+#end-copy{position:absolute;left:112px;top:160px;width:960px}#end-copy h2{font-size:94px;line-height:1.06;letter-spacing:-5px;margin-top:58px}#end-copy h2 span{color:#086f64}#end-copy p{margin-top:36px;font-size:30px;line-height:1.5;color:#4b625c}
+#end-screen{position:absolute;left:1240px;top:90px;width:568px;height:900px;border-radius:16px;overflow:hidden;background:#1e2128;box-shadow:0 20px 60px #142d2922}#end-screen img{width:568px;display:block}
+#end-install{position:absolute;left:116px;top:738px;font-size:29px;line-height:1.5;color:#086f64;border-top:1px solid #b9cdc3;width:900px;padding-top:28px}
+</style>
+<div id="root" data-composition-id="end" data-width="1920" data-height="1080">
+ <div id="end-copy" class="clip" data-start="0" data-duration="6" data-track-index="0"><div class="film-brand"><img src="assets/icon.png" alt="">Formula Search</div><h2>Find the formula.<br><span>Stay in the paper.</span></h2><p>Chrome extension + local Python backend.<br>No API key for core search.</p></div>
+ <figure id="end-screen" class="clip" data-start="0" data-duration="6" data-track-index="1"><img src="assets/search-dark.png" data-layout-allow-overflow alt="Actual extension dark appearance"></figure>
+ <p id="end-install" class="clip" data-start=".8" data-duration="5.2" data-track-index="2">Start with the example PDF.<br>Setup and user guide in the README.</p>
+ <p id="end-footer" class="film-footer clip" data-start="0" data-duration="6" data-track-index="3">Original code: MIT · dependency terms apply separately</p>
+</div>
+<script>
+const tl=gsap.timeline({paused:true});
+tl.fromTo('#end-screen',{x:60,opacity:0},{x:0,opacity:1,duration:.7,ease:'power4.out'},0);
+tl.fromTo('#end-install',{opacity:0},{opacity:1,duration:.4},.8);
+window.__timelines.end=tl;
+</script>
+</template>

@@ -1,0 +1,14 @@
+name: Feature request
+description: Suggest an improvement with a concrete reading/search use case
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: What would this help you do?
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example and proposed behavior
+      description: A public paper/query example helps; avoid confidential documents.

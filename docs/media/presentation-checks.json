@@ -1,0 +1,103 @@
+{
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": "30/1",
+    "seconds": 32.0,
+    "codec": "h264",
+    "optional_english_subtitles": true,
+    "sound": "deliberately silent for README playback"
+  },
+  "gif": {
+    "width": 960,
+    "fps": 8,
+    "source_start": 4.2,
+    "seconds": 12,
+    "playback_speed": 1
+  },
+  "product_capture": {
+    "browser": "158.0.8127.37",
+    "checks": [
+      "Actual PDF upload/preparation via extension",
+      "Unmocked HTTP notation search",
+      "One QK^T result on page 1",
+      "Two w^2 results across two pages",
+      "Page filter",
+      "Persisted bookmark",
+      "Original-PDF excerpt",
+      "Page-2 URL navigation",
+      "Dark theme",
+      "No page errors or failed backend responses"
+    ],
+    "page_errors": [],
+    "network_errors": []
+  },
+  "files": [
+    {
+      "path": "docs/media/demo.mp4",
+      "bytes": 2393249,
+      "sha256": "bfa94b6795dc34cb10df2e64f952019ae54cc75ac032373b06d6de4c170a2160"
+    },
+    {
+      "path": "docs/media/demo-preview.gif",
+      "bytes": 866395,
+      "sha256": "435183d0bd46225932c394c9c9833186d8d652f031a632aa4d687d31e1b7cceb"
+    },
+    {
+      "path": "docs/media/walkthrough.mp4",
+      "bytes": 265086,
+      "sha256": "65fd51eb886060d6f7f9f20e9a7bcee39093d768a07313652de949f0c70ec845"
+    },
+    {
+      "path": "docs/media/overview.png",
+      "bytes": 160119,
+      "sha256": "a33d8ae8c18264399e5f04ac3b6d4c8513a650d63d1f3c410919ebe348029bcb"
+    },
+    {
+      "path": "docs/media/workflow.png",
+      "bytes": 124875,
+      "sha256": "22e3a53bea9ea9a18f42b5ea42e8fe1b98b1a9c147a6d8a503a04839a144cb4c"
+    },
+    {
+      "path": "docs/media/architecture.png",
+      "bytes": 88910,
+      "sha256": "054dcd9cac98bdf6479ce3697a13028b10a09cade8873321f10cb75233d48fa3"
+    },
+    {
+      "path": "docs/media/demo-poster.png",
+      "bytes": 162332,
+      "sha256": "d6597dcc1f6cea700761e78f43f83e83eaf4e384a9f23440d2edec441d5fd93e"
+    },
+    {
+      "path": "docs/media/social-preview.png",
+      "bytes": 62678,
+      "sha256": "6bef290ad2dbfdccfe887c05b1f321d7a49ce0bd8238f505919370d640565dde"
+    }
+  ],
+  "hyperframes": {
+    "lint": {
+      "errorCount": 0,
+      "warningCount": 0
+    },
+    "runtime": {
+      "errorCount": 0,
+      "warningCount": 0
+    },
+    "layout": {
+      "errorCount": 0,
+      "warningCount": 0
+    },
+    "motion": {
+      "errorCount": 0,
+      "warningCount": 0
+    },
+    "contrast": {
+      "errorCount": 0,
+      "warningCount": 0
+    },
+    "craft": {
+      "errorCount": 0,
+      "warningCount": 1
+    }
+  }
+}

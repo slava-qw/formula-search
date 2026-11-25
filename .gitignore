@@ -1,0 +1,62 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.env
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+node_modules/
+.idea/
+.vscode/
+*.pyc
+*.log
+*.stackdump
+
+# tools/verify_extension_ui.py defaults its screenshot/profile dirs to
+# system temp, but these are here in case --out-dir/--profile-dir point
+# somewhere local for convenience.
+tools/_ui_screenshots/
+tools/_chrome_profile/
+
+# Isolated workspaces for subagent-driven-development execution
+# (superpowers:using-git-worktrees) -- scratch, never committed.
+.worktrees/
+.superpowers/
+
+# Versioned public-paper benchmarks are reproducible from the checked-in manifest.
+testdata/benchmarks/artifacts/
+
+# New runtime caches; preserve the historical checked-in formula fixtures.
+.formula_cache/pdf-artifacts-v1/
+.formula_cache/arxiv-source-*.json.gz
+.formula_cache/line-index-v1/
+
+.formula_cache/candidates-v1/
+.venv-ocr/
+.venv-publish/
+
+# Private assistant configuration and local publication/capture work.
+.claude/
+.codex/
+.env.*
+!.env.example
+.media-work/
+Screenshot*.png
+testdata/papers/*.pdf
+testdata/papers/*.tar.gz
+examples/*.aux
+examples/*.log
+examples/*.xdv
+
+# Historical tracked files are retained locally. The public export omits them.
+.formula_cache/
+
+# Editable media sources are public; local render caches and generated profiles are not.
+docs/presentation/.hyperframes/
+docs/presentation/node_modules/
+docs/presentation/renders/
+docs/presentation/AGENTS.md
+docs/presentation/CLAUDE.md

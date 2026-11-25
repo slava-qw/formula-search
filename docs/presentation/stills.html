@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Formula Search — publication artwork</title>
+<style>
+@font-face{font-family:Inter;src:url('assets/fonts/Inter-400.woff2');font-weight:400}
+@font-face{font-family:Inter;src:url('assets/fonts/Inter-700.woff2');font-weight:700}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,sans-serif;color:#142d29;background:#eef4f2}
+.canvas{width:1600px;height:1000px;position:relative;overflow:hidden;display:none}
+.canvas.active{display:block}.brand{display:flex;gap:16px;align-items:center;font-size:25px;font-weight:700;letter-spacing:-.6px}.brand img{width:48px;height:48px}
+.eyebrow{font-size:18px;font-weight:700;color:#086f64;letter-spacing:1.5px;text-transform:uppercase}
+h1,h2,p{margin:0}h1{font-size:86px;line-height:1.075;letter-spacing:-4.5px;font-weight:700}h2{font-size:62px;line-height:1.12;letter-spacing:-2.8px}
+.deck{font-size:26px;line-height:1.5;color:#4b625c}.rule{height:1px;background:#c8d8d1}.small{font-size:18px;color:#526961;line-height:1.5}.frame{overflow:hidden;background:white;border:1px solid #ccd9d3;border-radius:16px;box-shadow:0 20px 56px #142d2917}
+.frame .bar{height:42px;background:#f5f8f6;border-bottom:1px solid #dce5df;display:flex;align-items:center;padding:0 18px;font-size:14px;color:#526961;gap:9px}
+.bar .dot{width:6px;height:6px;border-radius:50%;background:#7c9b90}.frame img{display:block;width:100%}code{font-family:Consolas,monospace}
+.tagline{display:flex;gap:24px;align-items:center;font-size:18px;color:#4b625c}.tagline b{font-weight:400;color:#086f64}.tagline i{width:4px;height:4px;background:#86a89b;border-radius:50%}
+.hero-brand{position:absolute;left:72px;top:56px}.hero-meta{position:absolute;right:72px;top:76px;font-size:16px;color:#526961}
+.hero-kicker{position:absolute;left:72px;top:178px}.hero-title{position:absolute;left:72px;top:222px;width:920px}.hero-title span{color:#086f64}.hero-deck{position:absolute;left:76px;top:440px;width:770px}
+.hero-tags{position:absolute;left:76px;top:544px}.hero-shot{position:absolute;left:1042px;top:162px;width:486px;height:748px}.hero-shot img{width:484px}
+.hero-proof{position:absolute;left:72px;top:652px;width:880px;height:210px;display:flex;align-items:center;border-top:1px solid #b9cdc3;border-bottom:1px solid #b9cdc3}
+.proof-query{width:320px;padding-left:4px}.proof-query code{font-size:44px;color:#086f64}.proof-query p{font-size:17px;margin-top:16px;color:#526961}
+.proof-arrow{font-size:44px;color:#86a89b}.proof-source{width:450px;margin-left:32px;position:relative;height:160px;display:flex;align-items:center;justify-content:center}.proof-source img{width:370px;mix-blend-mode:multiply}.hero-foot{position:absolute;left:76px;top:920px;font-size:16px;color:#526961}
+.workflow{height:1000px;background:#142d29;color:#f0f7f3}.workflow .eyebrow{color:#a5edcf}.workflow .heading{position:absolute;top:64px;left:72px}.workflow h2{margin-top:18px}.workflow .deck{color:#b6cec2;margin-top:20px}
+.result-stage{position:absolute;left:72px;top:290px;width:742px;height:586px;background:#fff;padding:30px;border-radius:16px;box-shadow:0 24px 60px #0002;overflow:hidden}.result-stage img{width:680px;display:block}.result-stage .stage-label{font-size:16px;color:#526961;margin-bottom:24px}
+.saved-stage{position:absolute;left:886px;top:290px;width:642px;height:586px;border:1px solid #456358;border-radius:16px;overflow:hidden;background:#fff}.saved-stage .screenshot{width:640px;position:absolute;top:-550px}.saved-stage .saved-title{position:absolute;left:0;top:0;width:100%;height:60px;background:#f5f8f6;color:#526961;display:flex;align-items:center;padding:0 26px;font-size:16px;z-index:2}
+.workflow-footer{position:absolute;left:76px;top:928px;font-size:17px;color:#b6cec2}
+.architecture{height:780px;background:#f6f9f7}.arch-title{position:absolute;left:72px;top:62px}.arch-title h2{font-size:56px;margin-top:16px}.arch-title .deck{margin-top:18px;font-size:23px}
+.arch-grid{position:absolute;left:72px;top:292px;width:1456px;height:324px;display:grid;grid-template-columns:290px 90px 596px 90px 290px;align-items:center}
+.arch-col{height:254px;display:flex;flex-direction:column;justify-content:center;gap:14px}.arch-col h3{font-size:26px;letter-spacing:-.8px;margin:0}.arch-col p{font-size:20px;line-height:1.5;color:#526961}.arch-icon{width:44px;height:44px;display:block;color:#086f64;margin-bottom:10px}
+.arrow{font-size:42px;color:#86a89b;text-align:center}.engine{height:324px;border:1px solid #b9cdc3;background:#e6f1eb;border-radius:16px;padding:30px 32px}.engine h3{font-size:27px;margin:0 0 24px;letter-spacing:-.8px}.engine .paths{display:flex;gap:18px;font-size:18px;color:#325b4e;margin-bottom:22px}.engine .paths span{flex:1;padding-bottom:14px;border-bottom:1px solid #b9cdc3}.engine strong{display:block;font-size:25px;font-weight:700;letter-spacing:-.5px}.engine p{font-size:18px;color:#526961;margin-top:18px}
+.arch-foot{position:absolute;left:72px;top:680px;width:1456px;border-top:1px solid #c8d8d1;padding-top:22px;font-size:18px;color:#526961;display:flex;justify-content:space-between}
+.poster{width:1920px;height:1080px;background:#142d29;color:#eff8f3}.poster-copy{position:absolute;left:110px;top:180px;width:1000px}.poster .brand{color:#eff8f3}.poster h1{font-size:112px;margin-top:74px;line-height:1.04;letter-spacing:-6px}.poster h1 span{color:#a5edcf}.poster .deck{font-size:32px;color:#b6cec2;margin-top:42px;width:840px}.poster .play{margin-top:62px;font-size:24px;display:flex;align-items:center;gap:18px;color:#a5edcf}.play svg{width:54px;height:54px}.poster-screen{position:absolute;left:1240px;top:104px;width:560px;height:880px}.poster-screen img{width:558px}.poster .footer{position:absolute;left:116px;bottom:80px;font-size:18px;color:#b6cec2}
+.social{width:1280px;height:640px}.social .brand{position:absolute;left:60px;top:45px;font-size:22px}.social .brand img{width:40px;height:40px}.social h1{position:absolute;left:60px;top:160px;font-size:74px;line-height:1.06;letter-spacing:-3px;width:900px}.social h1 span{color:#086f64}.social .deck{position:absolute;left:64px;top:350px;font-size:22px;width:720px}.social .social-equation{position:absolute;right:48px;top:405px;width:346px;mix-blend-mode:multiply}.social .tagline{position:absolute;left:64px;bottom:80px;font-size:16px;gap:18px}.social .math-bracket{position:absolute;right:65px;top:110px;font-size:210px;line-height:1;color:#c2d9cd;font-family:Arial,sans-serif}
+</style>
+</head>
+<body>
+<main id="hero" class="canvas">
+ <div class="brand hero-brand"><img src="assets/icon.png" alt="">Formula Search</div>
+ <div class="hero-meta">Chrome extension + local Python backend</div>
+ <div class="eyebrow hero-kicker">Notation search for research papers</div>
+ <h1 class="hero-title">Find the formula.<br><span>Stay in the paper.</span></h1>
+ <p class="deck hero-deck">Search mathematical notation in PDFs and arXiv.<br>Follow the match back to its original context.</p>
+ <div class="tagline hero-tags"><b>Local processing</b><i></i><span>Explicit match modes</span><i></i><span>No API key for core search</span></div>
+ <div class="hero-proof"><div class="proof-query"><code>QK^T</code><p>Your notation query</p></div><div class="proof-arrow">→</div><div class="proof-source"><img src="assets/equation-score.png" alt="Original score equation from the example PDF"></div></div>
+ <figure class="frame hero-shot"><div class="bar"><i class="dot"></i>Actual extension capture · light appearance</div><img src="assets/search-light.png" alt="Genuine search result for QK transpose"></figure>
+ <p class="hero-foot">Original example PDF · genuine Chrome capture · editorial framing</p>
+</main>
+<main id="workflow" class="canvas workflow">
+ <div class="heading"><div class="eyebrow">From search to saved occurrence</div><h2>Two pages. One notation.</h2><p class="deck">Search w^2. Narrow by page. Keep the occurrence.</p></div>
+ <div class="result-stage"><div class="stage-label">Two real matches · pages 1 and 2</div><img src="assets/two-page-results.png" alt="Two actual result cards for squared weight"></div>
+ <div class="saved-stage"><div class="saved-title">The saved occurrence · page 2</div><img class="screenshot" src="assets/bookmarks.png" alt="The actual saved bookmark on page 2"></div>
+ <p class="workflow-footer">Actual extension captures · original two-page example · cropped and arranged for readability</p>
+</main>
+<main id="architecture" class="canvas architecture">
+ <div class="arch-title"><div class="eyebrow">How it works</div><h2>Your paper. A local search pipeline.</h2><p class="deck">TeX when available. PDF text and geometry otherwise.</p></div>
+ <div class="arch-grid">
+  <div class="arch-col"><svg class="arch-icon" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 4h17l9 9v27H10zM27 4v10h9M17 23h12M17 30h9"/></svg><h3>PDF or arXiv</h3><p>Open a paper.<br>Enter mathematical notation.</p></div><div class="arrow">→</div>
+  <div class="engine"><h3>Local Python backend</h3><div class="paths"><span>arXiv TeX + provenance</span><span>PDF text + glyph geometry</span></div><strong>Notation index → explicit match modes</strong><p>Optional OCR uses a separate local worker and review step.</p></div><div class="arrow">→</div>
+  <div class="arch-col"><svg class="arch-icon" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="7" width="36" height="30" rx="3"/><path d="M27 7v30M32 15h4M32 22h4M32 29h4M9 15h12M9 21h9"/></svg><h3>Matches + context</h3><p>Page navigation, excerpts,<br>bookmarks and exports.</p></div>
+ </div>
+ <div class="arch-foot"><span>Core search: no hosted inference or API key</span><span>arXiv retrieval and first-time OCR weights use the network.</span></div>
+</main>
+<main id="poster" class="canvas poster">
+ <div class="poster-copy"><div class="brand"><img src="assets/icon.png" alt="">Formula Search</div><h1>One notation.<br><span>Follow every match.</span></h1><p class="deck">A real search, a page filter, a saved occurrence.<br>See the workflow in 32 seconds.</p><div class="play"><svg viewBox="0 0 54 54" fill="none"><circle cx="27" cy="27" r="25" stroke="currentColor" stroke-width="2"/><path d="m23 17 16 10-16 10z" fill="currentColor"/></svg><span>Watch the product demo</span></div></div>
+ <figure class="frame poster-screen"><div class="bar"><i class="dot"></i>Actual Chrome extension recording</div><img src="assets/two-pages.png" alt="Two genuine matches in the extension"></figure><div class="footer">Edited demo · original example PDF · normal-speed product actions · silent</div>
+</main>
+<main id="social" class="canvas social">
+ <div class="brand"><img src="assets/icon.png" alt="">Formula Search</div><div class="math-bracket">[ ]</div><h1>Find the formula.<br><span>Stay in the paper.</span></h1><p class="deck">Mathematical notation search for PDFs and arXiv.<br>A Chrome extension with a local Python backend.</p><img class="social-equation" src="assets/equation-score.png" alt="Original example equation"><div class="tagline"><b>Local processing</b><i></i><span>Explicit match modes</span><i></i><span>MIT original code</span></div>
+</main>
+<script>document.getElementById(new URLSearchParams(location.search).get('view')||'hero').classList.add('active');</script>
+</body>
+</html>

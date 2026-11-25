@@ -1,0 +1,13 @@
+# Dev-only tooling, not needed to run the backend or extension.
+-r requirements.txt
+pytest==8.2.2
+pytest-asyncio==0.23.7
+# playwright: drives real Chrome for tools/verify_extension_ui.py.
+#   One-time setup after `pip install -r requirements-dev.txt`:
+#     python -m playwright install chromium
+playwright==1.62.0
+# py-mini-racer: embeds V8 for tools/run_js_test.py, which runs extracted
+# extension-JS logic (chat store, etc.) without a real browser or Node.js.
+py-mini-racer==0.6.0
+# The legacy source-block runner imports pkg_resources; retain a compatible provider.
+setuptools==80.9.0

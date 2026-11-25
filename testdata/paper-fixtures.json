@@ -1,0 +1,113 @@
+{
+  "notice": "External papers are not relicensed by this project. Download only for local verification. Historical unversioned URLs must still match these hashes.",
+  "files": [
+    {
+      "url": "https://arxiv.org/pdf/1802.01528v3",
+      "path": "testdata/benchmarks/artifacts/1802.01528v3.pdf",
+      "bytes": 761311,
+      "sha256": "5ec0f6fc76751527bbcf9ec076a82a490ad2f6fde05f2c140b181386bbeffbd8"
+    },
+    {
+      "url": "https://arxiv.org/src/1802.01528v3",
+      "path": "testdata/benchmarks/artifacts/1802.01528v3.tar.gz",
+      "bytes": 449242,
+      "sha256": "725e5d8d47a1d3e57d274f93ddb7a03966d2cd453bb55bc16dd28a2bb9a424c0"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2307.09288v2",
+      "path": "testdata/benchmarks/artifacts/2307.09288v2.pdf",
+      "bytes": 13661300,
+      "sha256": "1df284ce95f783002074bfe8f21d47c646b396ceb1736ea3ec0ea212fc070d91"
+    },
+    {
+      "url": "https://arxiv.org/src/2307.09288v2",
+      "path": "testdata/benchmarks/artifacts/2307.09288v2.tar.gz",
+      "bytes": 18147507,
+      "sha256": "0a0a39ea6a6ec13474bca12d84badb5d142a6ce5d98824c4167ed13aa9254c0a"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2312.00752v2",
+      "path": "testdata/benchmarks/artifacts/2312.00752v2.pdf",
+      "bytes": 1168615,
+      "sha256": "adf70ed1803c85b1899dec3e21f3af0b124411439e8654b840ea65f7b9f52b2e"
+    },
+    {
+      "url": "https://arxiv.org/src/2312.00752v2",
+      "path": "testdata/benchmarks/artifacts/2312.00752v2.tar.gz",
+      "bytes": 1041804,
+      "sha256": "e44586835a0845a837bff72905a6c2d9d5e8702f5f473ea299785064d80c5301"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1606.05908",
+      "path": "testdata/papers/1606.05908.pdf",
+      "bytes": 880152,
+      "sha256": "e40708ee9b5f7e92937c3e3861fc9ecaee360757951a4d885ddbac5c0a34bd21"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1701.00160",
+      "path": "testdata/papers/1701.00160.pdf",
+      "bytes": 10905503,
+      "sha256": "91546ebce8df19a43eb2ad314ec6943576dde925c00b3779186cb073571be4ca"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1706.03762v7",
+      "path": "testdata/papers/1706.03762v7.pdf",
+      "bytes": 2215244,
+      "sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1810.01382v1",
+      "path": "testdata/papers/1810.01382v1.pdf",
+      "bytes": 1482719,
+      "sha256": "fad385f9c93dd8b153fd11d68caf6128b3264e45fa32a44ec4f0caadc908d58f"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2506.01320",
+      "path": "testdata/papers/2506.01320.pdf",
+      "bytes": 41035452,
+      "sha256": "eb6cf0ba56f2319b8aac8b194e1376c08a4e4d29a8f0295c4f415c48becf5020"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2604.15672v1",
+      "path": "testdata/papers/2604.15672v1.pdf",
+      "bytes": 658685,
+      "sha256": "b0eb5926356996512f4bcd9f32961f277c6f10fc6f52f95c98889054c07deb16"
+    },
+    {
+      "url": "https://arxiv.org/src/1606.05908",
+      "path": "testdata/papers/arXiv-1606.05908.tar.gz",
+      "bytes": 614290,
+      "sha256": "693cb7f829e84c19315545396fe365fec43218a0233de3650362c13f0ece5857"
+    },
+    {
+      "url": "https://arxiv.org/src/1701.00160",
+      "path": "testdata/papers/arXiv-1701.00160.tar.gz",
+      "bytes": 9470810,
+      "sha256": "8749629bead65f6b2ac049baa4220cf4d973dc170b1d41cd841abbbc7f2a0eb7"
+    },
+    {
+      "url": "https://arxiv.org/src/1706.03762v7",
+      "path": "testdata/papers/arXiv-1706.03762v7.tar.gz",
+      "bytes": 1150988,
+      "sha256": "2e7a7d9ee2520d22eb23dae0cb148e167be02a30d6cb3f11b1c67723194339c6"
+    },
+    {
+      "url": "https://arxiv.org/src/1810.01382v1",
+      "path": "testdata/papers/arXiv-1810.01382v1.tar.gz",
+      "bytes": 810086,
+      "sha256": "73a16020c022c10926c830475288860a02f174c052c70701662a3f3c500f3c10"
+    },
+    {
+      "url": "https://arxiv.org/src/2506.01320",
+      "path": "testdata/papers/arXiv-2506.01320.tar.gz",
+      "bytes": 39359265,
+      "sha256": "fcd82d3ef01896f2ff3ea087a1d1b7f3a2d4b33f60e478da5681908e918de4c4"
+    },
+    {
+      "url": "https://arxiv.org/src/2604.15672v1",
+      "path": "testdata/papers/arXiv-2604.15672v1.tar.gz",
+      "bytes": 546185,
+      "sha256": "651d532b85fb6ce820fddd8f0f1e7c408d596868fb8f8b0972d2920904ca6523"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Formula Search — Settings</title>
+  <style>
+    :root {
+      --fs-bg: #ffffff;
+      --fs-text: #1a1a1a;
+      --fs-border-control: #d8ddd6;
+      --fs-text-secondary: #555555;
+      --fs-accent: #1a73e8;
+      --fs-accent-hover: #1557b0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --fs-bg: #1e2128;
+        --fs-text: #e5e7eb;
+        --fs-border-control: #3a3f4a;
+        --fs-text-secondary: #b5bac3;
+        --fs-accent: #4c8df0;
+        --fs-accent-hover: #6ea2f2;
+      }
+    }
+    :root[data-theme="dark"] {
+      --fs-bg: #1e2128;
+      --fs-text: #e5e7eb;
+      --fs-border-control: #3a3f4a;
+      --fs-text-secondary: #b5bac3;
+      --fs-accent: #4c8df0;
+      --fs-accent-hover: #6ea2f2;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      max-width: 480px;
+      margin: 32px auto;
+      padding: 0 16px;
+      font-size: 13px;
+      background: var(--fs-bg);
+      color: var(--fs-text);
+    }
+    h1 { font-size: 16px; margin-bottom: 4px; }
+    .field { margin-bottom: 16px; }
+    label { display: block; margin-bottom: 4px; color: var(--fs-text-secondary); font-size: 12px; }
+    input[type="text"], input[type="number"], select {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 6px 8px;
+      border: 1px solid var(--fs-border-control);
+      border-radius: 5px;
+      font-size: 13px;
+      background: var(--fs-bg);
+      color: var(--fs-text);
+    }
+    .checkbox-field { display: flex; align-items: center; gap: 8px; }
+    .checkbox-field label { margin-bottom: 0; }
+    button#save-btn {
+      padding: 7px 14px;
+      background: var(--fs-accent);
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    button#save-btn:hover { background: var(--fs-accent-hover); }
+    #save-status { margin-left: 10px; font-size: 12px; color: var(--fs-text-secondary); }
+  </style>
+</head>
+<body>
+  <h1>Formula Search Settings</h1>
+  <div class="field">
+    <label for="backend-url">Backend URL</label>
+    <input id="backend-url" type="text" placeholder="http://localhost:7878">
+  </div>
+  <div class="field">
+    <label for="max-chat-history">Maximum saved notes</label>
+    <input id="max-chat-history" type="number" min="10" max="5000" step="10">
+  </div>
+  <div class="field">
+    <label for="default-view">Default view on popup open</label>
+    <select id="default-view">
+      <option value="list">List</option>
+      <option value="step">Step through</option>
+      <option value="chat">Notes</option>
+      <option value="bookmarks">Bookmarks</option>
+    </select>
+  </div>
+  <div class="field">
+    <label for="theme">Theme</label>
+    <select id="theme">
+      <option value="auto">Match system</option>
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+    </select>
+  </div>
+  <div class="field checkbox-field">
+    <input id="badge-enabled" type="checkbox" disabled>
+    <label for="badge-enabled">Show match count on the toolbar icon (coming in a future update)</label>
+  </div>
+  <button id="save-btn" type="button">Save</button>
+  <span id="save-status"></span>
+  <script src="options.js"></script>
+</body>
+</html>

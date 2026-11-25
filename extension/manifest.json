@@ -1,0 +1,94 @@
+{
+  "manifest_version": 3,
+  "name": "Formula Search",
+  "version": "0.11.1",
+  "description": "Search mathematical notation in papers, keep results beside your PDF, and jump to formulas in Chrome's native viewer.",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "debugger",
+    "storage",
+    "contextMenus",
+    "downloads",
+    "sidePanel"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*",
+    "file:///*",
+    "http://localhost:7878/*"
+  ],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon.png"
+    }
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": true
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "externally_connectable": {
+    "ids": [
+      "mhjfbmdgcfjbbpaeojofohoefgiehjai"
+    ]
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon.png"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "Command+Shift+F"
+      },
+      "description": "Open Formula Search (like Ctrl+F, but for formulas)"
+    },
+    "next-result": {
+      "suggested_key": {
+        "default": "Alt+Down"
+      },
+      "description": "Step to the next search result (popup must be open)"
+    },
+    "prev-result": {
+      "suggested_key": {
+        "default": "Alt+Up"
+      },
+      "description": "Step to the previous search result (popup must be open)"
+    },
+    "toggle-chat": {
+      "description": "Open Formula Search and show saved notes"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "popup/lib/katex.min.js",
+        "popup/lib/katex.min.css",
+        "popup/lib/fonts/*"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*",
+        "file:///*"
+      ],
+      "extension_ids": [
+        "mhjfbmdgcfjbbpaeojofohoefgiehjai"
+      ]
+    }
+  ],
+  "minimum_chrome_version": "125",
+  "side_panel": {
+    "default_path": "popup/popup.html?surface=sidepanel"
+  }
+}

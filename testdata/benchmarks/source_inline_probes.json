@@ -1,0 +1,1707 @@
+{
+  "review": "All changed candidate locations visually reviewed against PDF crops and immediate TeX source context on 2026-11-22. Geometry and raw-span regressions rejected before these gates were recorded. These are occurrence-specific regression gates, not a corpus-wide accuracy estimate.",
+  "papers": [
+    {
+      "paper": "1802.01528v3",
+      "pdf_path": "testdata/benchmarks/artifacts/1802.01528v3.pdf",
+      "source_path": "testdata/benchmarks/artifacts/1802.01528v3.tar.gz",
+      "hashes": {
+        "pdf": "5ec0f6fc76751527bbcf9ec076a82a490ad2f6fde05f2c140b181386bbeffbd8",
+        "source": "725e5d8d47a1d3e57d274f93ddb7a03966d2cd453bb55bc16dd28a2bb9a424c0"
+      },
+      "locations": [
+        {
+          "index": 95,
+          "occurrence_id": "occ1:21b16fc5fef3b54dcbc0c7af0392ffd561a03813e7df0a79802e7eaa0799a519",
+          "latex": "f(x,y)",
+          "source_file": "matrix-calculus.tex",
+          "source_line": 125,
+          "page": 5,
+          "bbox": [
+            158.96998596191406,
+            269.98321533203125,
+            190.7936248779297,
+            280.892333984375
+          ]
+        },
+        {
+          "index": 230,
+          "occurrence_id": "occ1:d68252340a44b30a73a9512f54727583454e88eef8f49b368159fd37491a6dad",
+          "latex": "\\mathbf{f(w)} + \\mathbf{g(x)}",
+          "source_file": "matrix-calculus.tex",
+          "source_line": 335,
+          "page": 10,
+          "bbox": [
+            203.19900512695312,
+            74.43318176269531,
+            259.920654296875,
+            85.34227752685547
+          ]
+        },
+        {
+          "index": 305,
+          "occurrence_id": "occ1:05a6085b78dddf27b162b29c0088062ec78f147c84b18c7f6ab02e8b4763a650",
+          "latex": "y = f(g(x))",
+          "source_file": "matrix-calculus.tex",
+          "source_line": 436,
+          "page": 13,
+          "bbox": [
+            398.1120300292969,
+            569.565185546875,
+            453.71435546875,
+            580.4743041992188
+          ]
+        },
+        {
+          "index": 395,
+          "occurrence_id": "occ1:fb534d3376a982362c69a095a1282e89ab6f54998b28bbbb3a64880358066d0d",
+          "latex": "y=u_2(x,u_1)",
+          "source_file": "matrix-calculus.tex",
+          "source_line": 530,
+          "page": 17,
+          "bbox": [
+            210.7079620361328,
+            482.1261901855469,
+            272.5166015625,
+            494.03021240234375
+          ]
+        },
+        {
+          "index": 575,
+          "occurrence_id": "occ1:6a301ebdca40cacb4ec0e22b0f84b0a6e42897264507d808bd361ba2a103fc02",
+          "latex": "max",
+          "source_file": "matrix-calculus.tex",
+          "source_line": 816,
+          "page": 23,
+          "bbox": [
+            396.06298828125,
+            634.7371826171875,
+            417.6520690917969,
+            645.6463012695312
+          ]
+        },
+        {
+          "index": 572,
+          "latex": "\\frac{\\partial}{\\partial z}max(0,z) =\n\t\\begin{cases}\n\t0 & z \\leq 0\\\\\n\t\\frac{dz}{dz}=1 & z > 0\\\\\n\\end{cases}",
+          "source_file": "matrix-calculus.tex",
+          "source_line": 811,
+          "occurrence_id": "occ1:6a456ebfa960886c8d9cc4bcf80bd80d0a57e1661affac42d5bdf9385a33e32a",
+          "page": 23,
+          "bbox": [
+            100.46800231933594,
+            580.2738037109375,
+            250.3545379638672,
+            611.3453369140625
+          ],
+          "reviewed_on": "2026-11-24"
+        }
+      ],
+      "forbidden_locations": [
+        {
+          "index": 235,
+          "occurrence_id": "occ1:7d57359936329652455099ca24aa1b47d59f886605e74709ae9e2d85c53001bf",
+          "latex": "\\frac{\\partial (\\mathbf{w+x})}{\\partial \\mathbf{w}} = \\frac{\\partial (\\mathbf{w+x})}{\\partial \\mathbf{x}} = I",
+          "page": 9,
+          "bbox": [
+            78.18508911132812,
+            169.898193359375,
+            82.64834594726562,
+            177.8682861328125
+          ],
+          "note": "Rejected enclosure-veto experiment highlighted only the partial-derivative symbol in an unrelated equation on PDF page 10. The long vector identity must not be assigned this fragment."
+        },
+        {
+          "index": 576,
+          "occurrence_id": "occ1:9b4a7ceee231bfb40235ebeaf0207d79c5dd8af5df11276eeb3c150a61819ae6",
+          "latex": "max(0,\\mathbf{x}) = \\begin{bmatrix}\n max(0,x_1)\\\\\n max(0,x_2)\\\\\n \\ldots\\\\\n max(0,x_n)\\\\\n\\end{bmatrix}",
+          "page": 24,
+          "bbox": [
+            117.67800903320312,
+            105.04414367675781,
+            179.18264770507812,
+            116.94715118408203
+          ],
+          "require_unverified": true,
+          "note": "Wrong equation or group with unexplained prose. Reviewed in completion patch.",
+          "reviewed_on": "2026-11-24"
+        },
+        {
+          "index": 476,
+          "occurrence_id": "occ1:2e4b09163c40b26fb16a9557725e7d69154b208b4862860e3087bf2f1e1d0898",
+          "latex": "\\begin{bmatrix}\n\t\\frac{\\partial f_1}{\\partial g_1}\\frac{\\partial g_1}{\\partial x} + \\frac{\\partial f_1}{\\partial g_2}\\frac{\\partial g_2}{\\partial x}\\\\\n\t\\frac{\\partial f_2}{\\partial g_1}\\frac{\\partial g_1}{\\partial x} + \\frac{\\partial f_2}{\\partial g_2}\\frac{\\partial g_2}{\\partial x}\\\\\n\\end{bmatrix}",
+          "page": 20,
+          "bbox": [
+            149.77099609375,
+            646.2200927734375,
+            161.43701171875,
+            654.970947265625
+          ],
+          "require_unverified": true,
+          "note": "Wrong equation or group with unexplained prose. Reviewed in completion patch.",
+          "reviewed_on": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "paper": "2307.09288v2",
+      "pdf_path": "testdata/benchmarks/artifacts/2307.09288v2.pdf",
+      "source_path": "testdata/benchmarks/artifacts/2307.09288v2.tar.gz",
+      "hashes": {
+        "pdf": "1df284ce95f783002074bfe8f21d47c646b396ceb1736ea3ec0ea212fc070d91",
+        "source": "0a0a39ea6a6ec13474bca12d84badb5d142a6ce5d98824c4167ed13aa9254c0a"
+      },
+      "locations": [
+        {
+          "index": 23,
+          "occurrence_id": "occ1:8c982afa19209998e9440f28a5f18c5e43b376861dde419689eed308a912f249",
+          "latex": "5\\times10^{-6}",
+          "source_file": "templateArxiv.tex",
+          "source_line": 493,
+          "page": 11,
+          "bbox": [
+            192.3679962158203,
+            173.94137573242188,
+            230.71408081054688,
+            185.27349853515625
+          ]
+        },
+        {
+          "index": 58,
+          "occurrence_id": "occ1:4cffb3ea7c77c9503f4ff9868319fd553a6272199502cfb2952413f271c26465",
+          "latex": "4,000",
+          "source_file": "templateArxiv.tex",
+          "source_line": 731,
+          "page": 17,
+          "bbox": [
+            321.2799987792969,
+            604.7369384765625,
+            345.63287353515625,
+            614.6995239257812
+          ]
+        }
+      ]
+    },
+    {
+      "paper": "2506.01320",
+      "pdf_path": "testdata/papers/2506.01320.pdf",
+      "source_path": "testdata/papers/arXiv-2506.01320.tar.gz",
+      "hashes": {
+        "pdf": "eb6cf0ba56f2319b8aac8b194e1376c08a4e4d29a8f0295c4f415c48becf5020",
+        "source": "fcd82d3ef01896f2ff3ea087a1d1b7f3a2d4b33f60e478da5681908e918de4c4"
+      },
+      "locations": [
+        {
+          "index": 9,
+          "occurrence_id": "occ1:ec83bee00008f98e195155a0e6a4685ecdea0d4e0a48324b7f36817bc0dd2938",
+          "latex": "p_1=\\mathcal{N}(\\mathbf{0}, \\mathbf{I})",
+          "source_file": "Section/3_Problem_Definition_Background.tex",
+          "source_line": 5,
+          "page": 2,
+          "bbox": [
+            261.4800109863281,
+            367.4518127441406,
+            316.1497497558594,
+            378.3845520019531
+          ]
+        },
+        {
+          "index": 19,
+          "occurrence_id": "occ1:e180156adb9f631f38dc0aa4edde98304e7aac9739bc3a88fe97fbd3c648c6a7",
+          "latex": "\\mathbf{u}(\\mathbf{x_t, t})",
+          "source_file": "Section/3_Problem_Definition_Background.tex",
+          "source_line": 12,
+          "page": 2,
+          "bbox": [
+            321.6780090332031,
+            476.6219177246094,
+            354.7471008300781,
+            487.425537109375
+          ]
+        },
+        {
+          "index": 25,
+          "occurrence_id": "occ1:a76725e42d4a73dcce1aad4744370ffdf6cad0ff6dc0a3b9c7ac9e5bdc8e16f0",
+          "latex": "\\mathbf{u}(\\mathbf{x}_t, t)",
+          "source_file": "Section/3_Problem_Definition_Background.tex",
+          "source_line": 14,
+          "page": 2,
+          "bbox": [
+            176.7100067138672,
+            574.8038940429688,
+            208.40931701660156,
+            585.6075439453125
+          ]
+        },
+        {
+          "index": 33,
+          "occurrence_id": "occ1:defca903f1dc316370a1023ac89eccb4f4939a91fb55ab8c1bc70baf8688498a",
+          "latex": "\\alpha\\in \\mathbb{R}_{+}",
+          "source_file": "Section/3_Problem_Definition_Background.tex",
+          "source_line": 25,
+          "page": 3,
+          "bbox": [
+            108.0,
+            145.7974090576172,
+            139.8980255126953,
+            158.777587890625
+          ]
+        },
+        {
+          "index": 34,
+          "occurrence_id": "occ1:54e0f28e75ea877f43c0046acd4f07341e940db8d3d3e68decdfc64bf8f22cb5",
+          "latex": "\\alpha",
+          "source_file": "Section/3_Problem_Definition_Background.tex",
+          "source_line": 25,
+          "page": 3,
+          "bbox": [
+            379.8370056152344,
+            147.9739227294922,
+            386.21307373046875,
+            157.9365234375
+          ]
+        },
+        {
+          "index": 44,
+          "occurrence_id": "occ1:a98017b22ce2571c230a542e7e026645bd27d94c3f23e04d4ad0911980ef8501",
+          "latex": "i.i.d.",
+          "source_file": "Section/3_Problem_Definition_Background.tex",
+          "source_line": 66,
+          "page": 3,
+          "bbox": [
+            297.0069885253906,
+            690.3959350585938,
+            317.3804931640625,
+            700.3585205078125
+          ]
+        },
+        {
+          "index": 57,
+          "occurrence_id": "occ1:6fab029c290fa81142d9f2f4050e6a03880e3172f5471f4d09a513b11a6ad901",
+          "latex": "g^2(t)",
+          "source_file": "Section/3_Problem_Definition_Background.tex",
+          "source_line": 91,
+          "page": 4,
+          "bbox": [
+            418.5690002441406,
+            371.92974853515625,
+            439.49542236328125,
+            383.1715087890625
+          ]
+        },
+        {
+          "index": 80,
+          "occurrence_id": "occ1:5e4b26035a11e1a809621453ba2e1e71a2910a9e9948a612f50586c93d85489f",
+          "latex": "\\mathcal{N}(\\mathbf{0}, \\mathbf{I})",
+          "source_file": "Section/4_Methods.tex",
+          "source_line": 40,
+          "page": 5,
+          "bbox": [
+            177.6959991455078,
+            550.6807861328125,
+            209.5962677001953,
+            560.7725219726562
+          ]
+        },
+        {
+          "index": 169,
+          "occurrence_id": "occ1:d8792618161c86c14dd1fd4cf07842f6b8517da6c6f747856274b05e6506ddc8",
+          "latex": "\\psi^*",
+          "source_file": "Section/appendix_section/SOC.tex",
+          "source_line": 22,
+          "page": 15,
+          "bbox": [
+            192.91700744628906,
+            386.14239501953125,
+            203.8436737060547,
+            397.47552490234375
+          ]
+        },
+        {
+          "index": 179,
+          "occurrence_id": "occ1:e5b51e4b20d8fa5494c7be65ff2f5e5b7d9d4bc9f7c68f0cf5472836de89112d",
+          "latex": "\\psi^*",
+          "source_file": "Section/appendix_section/SOC.tex",
+          "source_line": 41,
+          "page": 15,
+          "bbox": [
+            189.906005859375,
+            607.4143676757812,
+            200.83267211914062,
+            618.7465209960938
+          ]
+        },
+        {
+          "index": 183,
+          "occurrence_id": "occ1:8090816bb46279beae576e24539934d28588e9d4f32eb22a8f3266729fc10745",
+          "latex": "\\psi^*",
+          "source_file": "Section/appendix_section/SOC.tex",
+          "source_line": 52,
+          "page": 16,
+          "bbox": [
+            259.3717346191406,
+            94.62435150146484,
+            270.2976989746094,
+            105.95751953125
+          ]
+        },
+        {
+          "index": 231,
+          "occurrence_id": "occ1:a43f7ad1bb7875b9dea4fd2706021e384bcdd882d9a357dd5a1f0d31ede3248a",
+          "latex": "q(\\mathbf{x}'|\\mathbf{x})",
+          "source_file": "Section/appendix_section/acceptance_compare.tex",
+          "source_line": 10,
+          "page": 17,
+          "bbox": [
+            193.70899963378906,
+            699.9353637695312,
+            223.92337036132812,
+            711.2675170898438
+          ]
+        },
+        {
+          "index": 232,
+          "occurrence_id": "occ1:9e92e42528861651ce20ccaee4ad2396f02ca97fc50ff2ab76e2862b671c7827",
+          "latex": "\\mathcal{N}(\\mathbf{0}, \\mathbf{I})",
+          "source_file": "Section/appendix_section/acceptance_compare.tex",
+          "source_line": 14,
+          "page": 18,
+          "bbox": [
+            451.177001953125,
+            134.07276916503906,
+            483.0772399902344,
+            144.16448974609375
+          ]
+        },
+        {
+          "index": 236,
+          "occurrence_id": "occ1:1cbdb96230fb5dd881e6c5e4f383a452c4edf886a668d01474c5cdf226b0389a",
+          "latex": "\\mathcal{N}(\\mathbf{0}, \\mathbf{I})",
+          "source_file": "Section/appendix_section/acceptance_compare.tex",
+          "source_line": 21,
+          "page": 18,
+          "bbox": [
+            290.2699890136719,
+            195.8708038330078,
+            322.17022705078125,
+            205.9625244140625
+          ]
+        },
+        {
+          "index": 253,
+          "occurrence_id": "occ1:2760a0a44cdb64e6f4bdd11ca9cd88bbb085e78d1d9b59488171798306f99175",
+          "latex": "p_1(\\mathbf{x})q_0(\\mathbf{x}'|\\mathbf{x})",
+          "source_file": "Section/appendix_section/acceptance_compare.tex",
+          "source_line": 33,
+          "page": 18,
+          "bbox": [
+            257.6440124511719,
+            354.1593933105469,
+            315.2463684082031,
+            366.33355712890625
+          ]
+        },
+        {
+          "index": 294,
+          "occurrence_id": "occ1:888186ecf04164f5791fcef6b06eac43c7285af0842865c8c1b68d9d4750c4e1",
+          "latex": "\\varphi_M(\\mathbf{x}', \\mathbf{x})",
+          "source_file": "Section/appendix_section/acceptance_compare.tex",
+          "source_line": 116,
+          "page": 19,
+          "bbox": [
+            172.6999969482422,
+            694.4053344726562,
+            215.1331329345703,
+            706.57958984375
+          ]
+        }
+      ]
+    },
+    {
+      "paper": "attention",
+      "pdf_path": "testdata/papers/1706.03762v7.pdf",
+      "source_path": "testdata/papers/arXiv-1706.03762v7.tar.gz",
+      "hashes": {
+        "pdf": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+        "source": "2e7a7d9ee2520d22eb23dae0cb148e167be02a30d6cb3f11b1c67723194339c6"
+      },
+      "locations": [
+        {
+          "index": 1,
+          "occurrence_id": "occ1:a7f3cf565eae7b0a942b5901f8efa9c609607f295b6b0874a77f6c271bea2439",
+          "latex": "h_{t-1}",
+          "source_file": "introduction.tex",
+          "source_line": 3,
+          "page": 1,
+          "bbox": [
+            310.9209899902344,
+            180.7029266357422,
+            329.8720397949219,
+            191.506591796875
+          ]
+        },
+        {
+          "index": 83,
+          "occurrence_id": "occ1:3a19d6531e8db637836881108f14ba770193e7b07e438baa6c461998b787b17d",
+          "latex": "O(n/k)",
+          "source_file": "why_self_attention.tex",
+          "source_line": 88,
+          "page": 6,
+          "bbox": [
+            259.9930114746094,
+            156.0199432373047,
+            292.0804748535156,
+            165.9825439453125
+          ]
+        }
+      ]
+    },
+    {
+      "paper": "gan_tutorial",
+      "pdf_path": "testdata/papers/1701.00160.pdf",
+      "source_path": "testdata/papers/arXiv-1701.00160.tar.gz",
+      "hashes": {
+        "pdf": "91546ebce8df19a43eb2ad314ec6943576dde925c00b3779186cb073571be4ca",
+        "source": "8749629bead65f6b2ac049baa4220cf4d973dc170b1d41cd841abbbc7f2a0eb7"
+      },
+      "locations": [
+        {
+          "index": 129,
+          "occurrence_id": "occ1:a45260e52eee52347087aeb934328f6dd264bb824786d2db76c8440e2a558fa3",
+          "latex": "{\\boldsymbol{\\theta}}^{(G)}",
+          "source_file": "gan.tex",
+          "source_line": 121,
+          "page": 19,
+          "bbox": [
+            274.94403076171875,
+            601.37158203125,
+            293.286376953125,
+            612.7085571289062
+          ]
+        },
+        {
+          "index": 162,
+          "occurrence_id": "occ1:786e6938c9a2a42bc7a2efe67232337dd1196d967448588a0aa1adaac50a28e8",
+          "latex": "D(G({\\boldsymbol{z}}))",
+          "source_file": "gan.tex",
+          "source_line": 412,
+          "page": 25,
+          "bbox": [
+            398.625,
+            526.4468994140625,
+            436.4319152832031,
+            536.4094848632812
+          ]
+        },
+        {
+          "index": 197,
+          "occurrence_id": "occ1:4bd29ef486902d4eba6932316843049a753eca0015618bf71fdff73fa5db9470",
+          "latex": "128 \\times 128",
+          "source_file": "research.tex",
+          "source_line": 177,
+          "page": 38,
+          "bbox": [
+            337.1798095703125,
+            334.6042785644531,
+            372.67120361328125,
+            343.9696044921875
+          ]
+        },
+        {
+          "index": 199,
+          "occurrence_id": "occ1:d3beb2b188f4834e93e06d8291c5d14b0f8bbd5ebcdaa318bdb0aac20febbc3a",
+          "latex": "128\\times 128",
+          "source_file": "research.tex",
+          "source_line": 205,
+          "page": 39,
+          "bbox": [
+            221.3428497314453,
+            345.1292724609375,
+            260.7792053222656,
+            354.4945983886719
+          ]
+        },
+        {
+          "index": 200,
+          "occurrence_id": "occ1:81de572d6e38539e10a451a536db8a7749cacf743dd40442e58f55f70c97dbd4",
+          "latex": "128\\times 128",
+          "source_file": "research.tex",
+          "source_line": 215,
+          "page": 39,
+          "bbox": [
+            218.68881225585938,
+            607.4812622070312,
+            256.8912048339844,
+            616.8465576171875
+          ]
+        },
+        {
+          "index": 201,
+          "occurrence_id": "occ1:64cf27319eb2dfc4f70cc1186922d3a88773afec7316cdfcb37818061981e71c",
+          "latex": "128\\times 128",
+          "source_file": "research.tex",
+          "source_line": 226,
+          "page": 40,
+          "bbox": [
+            222.9657745361328,
+            381.9272766113281,
+            262.8371887207031,
+            391.2926025390625
+          ]
+        },
+        {
+          "index": 203,
+          "occurrence_id": "occ1:062c7414f548ce7a046784e867b3812ab39b5e6d3c567f02250c20b1651997e2",
+          "latex": "V(G, D)",
+          "source_file": "research.tex",
+          "source_line": 234,
+          "page": 37,
+          "bbox": [
+            400.219970703125,
+            475.6888732910156,
+            436.78143310546875,
+            485.6514892578125
+          ]
+        },
+        {
+          "index": 206,
+          "occurrence_id": "occ1:83ed1e39748a30446c1fcf94e163fbb53410815cfb211d5198c10db688c2a9bf",
+          "latex": "\\max_D V(G,D)",
+          "source_file": "research.tex",
+          "source_line": 236,
+          "page": 37,
+          "bbox": [
+            286.45806884765625,
+            499.5988464355469,
+            350.4334411621094,
+            510.3092346191406
+          ]
+        }
+      ],
+      "forbidden_locations": [
+        {
+          "index": 260,
+          "occurrence_id": "occ1:e1da3daee78bb6415a64661840874875d79988b42a87b05da78799240e72eccc",
+          "latex": "\\frac{\\partial x}{\\partial t} = - y(t) \\\\\n  \\frac{\\partial y}{\\partial t} = x(t).",
+          "page": 45,
+          "bbox": [
+            268.1319885253906,
+            289.0330505371094,
+            310.1800842285156,
+            312.80908203125
+          ],
+          "require_unverified": true,
+          "note": "Wrong equation or group with unexplained prose. Reviewed in completion patch.",
+          "reviewed_on": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "paper": "logz",
+      "pdf_path": "testdata/papers/1810.01382v1.pdf",
+      "source_path": "testdata/papers/arXiv-1810.01382v1.tar.gz",
+      "hashes": {
+        "pdf": "fad385f9c93dd8b153fd11d68caf6128b3264e45fa32a44ec4f0caadc908d58f",
+        "source": "73a16020c022c10926c830475288860a02f174c052c70701662a3f3c500f3c10"
+      },
+      "locations": [
+        {
+          "index": 68,
+          "occurrence_id": "occ1:2cff07eec8669ac432ebad9c46dad6a2db5bb8f0591f65902672f991908c8cc1",
+          "latex": "E(\\lambda)",
+          "source_file": "techreportv1.tex",
+          "source_line": 414,
+          "page": 2,
+          "bbox": [
+            187.1739501953125,
+            203.29197692871094,
+            208.6634063720703,
+            213.26690673828125
+          ]
+        },
+        {
+          "index": 77,
+          "occurrence_id": "occ1:54e5a696749519c9d9b65755d9736e0b6e1c57ca1e6155b62ccf0b669bd9d31e",
+          "latex": "\\hat{r}_{01}",
+          "source_file": "techreportv1.tex",
+          "source_line": 422,
+          "page": 2,
+          "bbox": [
+            167.56484985351562,
+            321.24993896484375,
+            179.99603271484375,
+            332.06219482421875
+          ]
+        },
+        {
+          "index": 78,
+          "occurrence_id": "occ1:1e0d0f9d6a4230482d69ed434dc24f4be21bb9adba2ce9c4544e7e21c989ca31",
+          "latex": "r_{01}",
+          "source_file": "techreportv1.tex",
+          "source_line": 422,
+          "page": 2,
+          "bbox": [
+            256.4178466796875,
+            321.24993896484375,
+            268.8479919433594,
+            332.06219482421875
+          ]
+        },
+        {
+          "index": 185,
+          "occurrence_id": "occ1:7635f3917ee71e97f5889f73d465126dd79bfe168fbd568bb692df6143913c90",
+          "latex": "(X_{n+1},\\tilde{X}_{n})",
+          "source_file": "techreportv1.tex",
+          "source_line": 526,
+          "page": 3,
+          "bbox": [
+            218.1165313720703,
+            598.9434814453125,
+            267.7350158691406,
+            612.2623901367188
+          ]
+        },
+        {
+          "index": 215,
+          "occurrence_id": "occ1:f884938b776c38dc6ea2ec691c24f3061af9d7dd60d6852813a5a51e2b4afe57",
+          "latex": "(m-\\tau)",
+          "source_file": "techreportv1.tex",
+          "source_line": 584,
+          "page": 4,
+          "bbox": [
+            180.08609008789062,
+            418.4579162597656,
+            215.6735382080078,
+            428.56195068359375
+          ]
+        },
+        {
+          "index": 227,
+          "occurrence_id": "occ1:5fa8330868c0d42b38b0bb6776b79cfe4e259e030af1e326b6238a9df31f7019",
+          "latex": "\\{\\tau > k\\}",
+          "source_file": "techreportv1.tex",
+          "source_line": 590,
+          "page": 4,
+          "bbox": [
+            247.11703491210938,
+            475.8419494628906,
+            281.3463439941406,
+            485.93365478515625
+          ]
+        },
+        {
+          "index": 246,
+          "occurrence_id": "occ1:1670cb834ec348a9a4f103e992ca34b454523cb5e1a774e1397104b1eb82ede3",
+          "latex": "\\hat{E}(\\lambda)",
+          "source_file": "techreportv1.tex",
+          "source_line": 601,
+          "page": 4,
+          "bbox": [
+            279.5300598144531,
+            588.2344360351562,
+            301.0205078125,
+            600.7160034179688
+          ]
+        },
+        {
+          "index": 257,
+          "occurrence_id": "occ1:fc9ab166609feb195e0e87e029611018844dc76cb6380a161db3dd289007ce2d",
+          "latex": "m_2(\\lambda)",
+          "source_file": "techreportv1.tex",
+          "source_line": 607,
+          "page": 4,
+          "bbox": [
+            249.83303833007812,
+            648.1250610351562,
+            276.6105041503906,
+            658.9382934570312
+          ]
+        },
+        {
+          "index": 270,
+          "occurrence_id": "occ1:8c8f19df0e994da162644a7e96a838b52464c60908f9a901935c0819f4c89331",
+          "latex": "\\operatorname{\\mathbb{V}}[\\hat{r}_{01}]",
+          "source_file": "techreportv1.tex",
+          "source_line": 620,
+          "page": 5,
+          "bbox": [
+            280.95001220703125,
+            72.00041198730469,
+            306.6676025390625,
+            84.98921203613281
+          ]
+        },
+        {
+          "index": 281,
+          "occurrence_id": "occ1:976caaad50a7be4746aa0520ea7307b42938b1f1c84a26b7b258bdc646c8633f",
+          "latex": "m_\\lambda",
+          "source_file": "techreportv1.tex",
+          "source_line": 639,
+          "page": 5,
+          "bbox": [
+            453.54901123046875,
+            202.0089569091797,
+            467.0252380371094,
+            212.8126220703125
+          ]
+        },
+        {
+          "index": 297,
+          "occurrence_id": "occ1:84df530063fc97decada474a1cbe6a64c409d16702c1fe02438ba282d1977d9b",
+          "latex": "\\varepsilon",
+          "source_file": "techreportv1.tex",
+          "source_line": 654,
+          "page": 5,
+          "bbox": [
+            140.990966796875,
+            358.65496826171875,
+            145.633544921875,
+            368.6175537109375
+          ]
+        },
+        {
+          "index": 320,
+          "occurrence_id": "occ1:53e18db2fe34f350e4de7f5d7c06f58e5298d621d06efbe1c84c174a48930125",
+          "latex": "m_\\lambda",
+          "source_file": "techreportv1.tex",
+          "source_line": 683,
+          "page": 5,
+          "bbox": [
+            315.8877868652344,
+            675.5748901367188,
+            329.363037109375,
+            686.3795166015625
+          ]
+        },
+        {
+          "index": 323,
+          "occurrence_id": "occ1:f348250c4267dd14f8ccb68dcbeea93c2f3f31dd0af6059be05a545866b9f2b6",
+          "latex": "\\hat{E}(\\lambda)",
+          "source_file": "techreportv1.tex",
+          "source_line": 686,
+          "page": 5,
+          "bbox": [
+            225.72378540039062,
+            709.1602172851562,
+            247.2142333984375,
+            721.6408081054688
+          ]
+        },
+        {
+          "index": 330,
+          "occurrence_id": "occ1:763b122b6cc9c9baa1bdf831e423df0c865c40ec9cb474aa4e741c9980b62abb",
+          "latex": "q(\\lambda)",
+          "source_file": "techreportv1.tex",
+          "source_line": 689,
+          "page": 5,
+          "bbox": [
+            360.6087341308594,
+            747.7579345703125,
+            378.9751892089844,
+            757.7328491210938
+          ]
+        },
+        {
+          "index": 346,
+          "occurrence_id": "occ1:63ac64c7c101621c5d497efb2e930c298dc8ce736e18528e6c4b85bc9461a25c",
+          "latex": "q(\\mathop{d \\lambda})",
+          "source_file": "techreportv1.tex",
+          "source_line": 719,
+          "page": 6,
+          "bbox": [
+            265.3070068359375,
+            210.13597106933594,
+            288.85845947265625,
+            220.11090087890625
+          ]
+        },
+        {
+          "index": 403,
+          "occurrence_id": "occ1:d1feac9c40372537a7f7a4e94301069f3bd09d3e3a4918223ab6fd8fc299b3b6",
+          "latex": "\\lambda^{[l]}",
+          "source_file": "techreportv1.tex",
+          "source_line": 811,
+          "page": 7,
+          "bbox": [
+            248.07199096679688,
+            305.78277587890625,
+            260.9515380859375,
+            317.0245361328125
+          ]
+        },
+        {
+          "index": 411,
+          "occurrence_id": "occ1:e2fdf98920d2331fa74306446d3ed7933d072a8dfaba7c42656f4011874b2447",
+          "latex": "\\lambda^{[l]}",
+          "source_file": "techreportv1.tex",
+          "source_line": 817,
+          "page": 7,
+          "bbox": [
+            260.82098388671875,
+            377.5137634277344,
+            273.7005310058594,
+            388.7555236816406
+          ]
+        },
+        {
+          "index": 417,
+          "occurrence_id": "occ1:3ac8e4f93ea5630110e6bf3305cabdb42b62f88cc35c2563ee02d04de0969689",
+          "latex": "5,000",
+          "source_file": "techreportv1.tex",
+          "source_line": 824,
+          "page": 7,
+          "bbox": [
+            307.44097900390625,
+            421.8309631347656,
+            331.7938537597656,
+            431.8058776855469
+          ]
+        },
+        {
+          "index": 419,
+          "occurrence_id": "occ1:99b31620b6cba6480d9d7cc6b63c9267f4db197ebbe582a4f25dfa2a080ec392",
+          "latex": "r_{01}=0",
+          "source_file": "techreportv1.tex",
+          "source_line": 826,
+          "page": 7,
+          "bbox": [
+            304.89898681640625,
+            436.177978515625,
+            336.102783203125,
+            446.990234375
+          ]
+        },
+        {
+          "index": 434,
+          "occurrence_id": "occ1:a6b05c65912a50a315de8d54208af688c26282f0a123d4934d4f77b4d3ece1c6",
+          "latex": "1,000",
+          "source_file": "techreportv1.tex",
+          "source_line": 842,
+          "page": 7,
+          "bbox": [
+            130.16400146484375,
+            600.0140991210938,
+            154.51687622070312,
+            609.989013671875
+          ]
+        },
+        {
+          "index": 442,
+          "occurrence_id": "occ1:d492824cf378be9eee2977c3e805713bd0022ea4069e56e1f2fe6808ee34b9d2",
+          "latex": "\\lambda^{[l]}",
+          "source_file": "techreportv1.tex",
+          "source_line": 853,
+          "page": 7,
+          "bbox": [
+            479.6809997558594,
+            684.811767578125,
+            492.560546875,
+            696.0535278320312
+          ]
+        },
+        {
+          "index": 536,
+          "occurrence_id": "occ1:39bedc626d748591842a3856b5f93484e1bed927e7ee38f9c817313056d60021",
+          "latex": "\\beta",
+          "source_file": "techreportv1.tex",
+          "source_line": 1058,
+          "page": 9,
+          "bbox": [
+            123.54000091552734,
+            555.544921875,
+            129.1788330078125,
+            565.5075073242188
+          ]
+        },
+        {
+          "index": 554,
+          "occurrence_id": "occ1:b13c4909bf18e62facae67c664e5793b94af5f48610f3547773dd8df211aecca",
+          "latex": "\\hat{E}(\\lambda)",
+          "source_file": "techreportv1.tex",
+          "source_line": 1072,
+          "page": 9,
+          "bbox": [
+            330.6949768066406,
+            696.5011596679688,
+            352.1844482421875,
+            708.9817504882812
+          ]
+        },
+        {
+          "index": 557,
+          "occurrence_id": "occ1:afbfb0359b50216f55786db176a6a9cb9e373a97ea97963d602018c1b60c9393",
+          "latex": "1,000",
+          "source_file": "techreportv1.tex",
+          "source_line": 1075,
+          "page": 9,
+          "bbox": [
+            152.3300018310547,
+            727.6988525390625,
+            176.68287658691406,
+            737.6737670898438
+          ]
+        },
+        {
+          "index": 589,
+          "occurrence_id": "occ1:e4c2d87fde25b449ec99518ebdeaaf5149a34cc0ea3679889fc7ce5e5a346d5d",
+          "latex": "\\lambda",
+          "source_file": "techreportv1.tex",
+          "source_line": 1112,
+          "page": 10,
+          "bbox": [
+            385.17498779296875,
+            284.8699951171875,
+            390.9831848144531,
+            294.83258056640625
+          ]
+        },
+        {
+          "index": 595,
+          "occurrence_id": "occ1:035e3f737039c573d813e37e306e99201cfbea963dbf247d49f7558c4854523f",
+          "latex": "(\\pi_\\lambda)",
+          "source_file": "techreportv1.tex",
+          "source_line": 1125,
+          "page": 10,
+          "bbox": [
+            192.8890380859375,
+            516.800048828125,
+            211.54150390625,
+            527.6046752929688
+          ]
+        },
+        {
+          "index": 596,
+          "occurrence_id": "occ1:391673b5badd4d8fee75a1b3001f454c9179741f276469dca703c0164892bce7",
+          "latex": "\\pi_\\lambda",
+          "source_file": "techreportv1.tex",
+          "source_line": 1127,
+          "page": 10,
+          "bbox": [
+            260.90203857421875,
+            531.1460571289062,
+            271.30926513671875,
+            541.95068359375
+          ]
+        },
+        {
+          "index": 601,
+          "occurrence_id": "occ1:8cfbdc49f5b887bbbc11f314b13c6f40aa414400419513ea997009e933fd08b4",
+          "latex": "k=127",
+          "source_file": "techreportv1.tex",
+          "source_line": 1133,
+          "page": 10,
+          "bbox": [
+            388.6080627441406,
+            574.18505859375,
+            422.5051574707031,
+            584.1599731445312
+          ]
+        },
+        {
+          "index": 639,
+          "occurrence_id": "occ1:c0539f3d56c03244e0fe189de850cd23e5bb66a65e7355504a3df498606d679e",
+          "latex": "k=135",
+          "source_file": "techreportv1.tex",
+          "source_line": 1224,
+          "page": 12,
+          "bbox": [
+            198.6669921875,
+            315.16497802734375,
+            233.59812927246094,
+            325.139892578125
+          ]
+        },
+        {
+          "index": 673,
+          "occurrence_id": "occ1:fe883044ce158c4d1005a8fabe9299f426cb215a78ffe63697266d329bd0f856",
+          "latex": "\\hat{\\beta}",
+          "source_file": "techreportv1.tex",
+          "source_line": 1328,
+          "page": 13,
+          "bbox": [
+            447.9568786621094,
+            433.197265625,
+            454.3581848144531,
+            445.77655029296875
+          ]
+        },
+        {
+          "index": 700,
+          "occurrence_id": "occ1:4f9081efade2a335e12273ef13bc03572ef6d87b3b5e6b872bec41afa569030c",
+          "latex": "1,000",
+          "source_file": "techreportv1.tex",
+          "source_line": 1367,
+          "page": 13,
+          "bbox": [
+            258.972900390625,
+            757.68994140625,
+            283.3257751464844,
+            767.6648559570312
+          ]
+        },
+        {
+          "index": 703,
+          "occurrence_id": "occ1:abdea57b8a68445ff74561f65c0e73b2c2de01c0f73aa9f44a5f829f43e65a9c",
+          "latex": "1,000",
+          "source_file": "techreportv1.tex",
+          "source_line": 1369,
+          "page": 14,
+          "bbox": [
+            338.4259948730469,
+            74.17692565917969,
+            362.77886962890625,
+            84.15184783935547
+          ]
+        },
+        {
+          "index": 730,
+          "occurrence_id": "occ1:b4d4325f448bea8705727342585655e8ef50db32409186a4375df769a9fa0426",
+          "latex": "\\pi_\\lambda",
+          "source_file": "techreportv1.tex",
+          "source_line": 1421,
+          "page": 14,
+          "bbox": [
+            435.21478271484375,
+            552.0647583007812,
+            445.62200927734375,
+            562.868408203125
+          ]
+        },
+        {
+          "index": 741,
+          "occurrence_id": "occ1:edfe5586685249dba1818a58f9f40b3331c32c6dad9f776818bb931dd9adf9c8",
+          "latex": "10,000",
+          "source_file": "techreportv1.tex",
+          "source_line": 1442,
+          "page": 15,
+          "bbox": [
+            160.6870574951172,
+            319.94696044921875,
+            190.02093505859375,
+            329.921875
+          ]
+        },
+        {
+          "index": 748,
+          "occurrence_id": "occ1:9fdb49f218dd7647f5d2812c8e6f339e2c9d501ffcd306b89da4f00e6c5fd021",
+          "latex": "(x,\\lambda)",
+          "source_file": "techreportv1.tex",
+          "source_line": 1506,
+          "page": 15,
+          "bbox": [
+            307.8070373535156,
+            761.3619995117188,
+            331.490478515625,
+            771.3369140625
+          ]
+        },
+        {
+          "index": 749,
+          "occurrence_id": "occ1:6cfdd68365c2a78524f6516ce067e17c20c4d3a915b7cb58287693307031a948",
+          "latex": "I = r_{01}",
+          "source_file": "techreportv1.tex",
+          "source_line": 1507,
+          "page": 16,
+          "bbox": [
+            197.1409912109375,
+            74.17692565917969,
+            228.01718139648438,
+            84.98921203613281
+          ]
+        },
+        {
+          "index": 758,
+          "occurrence_id": "occ1:b7364c65734818b7f967bab93f2bed22790ca3260aa78c31643ba14295bb8a7e",
+          "latex": "\\hat{E}(\\lambda)",
+          "source_file": "techreportv1.tex",
+          "source_line": 1525,
+          "page": 16,
+          "bbox": [
+            423.2959289550781,
+            216.3723602294922,
+            444.785400390625,
+            228.85296630859375
+          ]
+        }
+      ]
+    },
+    {
+      "paper": "smc_sd",
+      "pdf_path": "testdata/papers/2604.15672v1.pdf",
+      "source_path": "testdata/papers/arXiv-2604.15672v1.tar.gz",
+      "hashes": {
+        "pdf": "b0eb5926356996512f4bcd9f32961f277c6f10fc6f52f95c98889054c07deb16",
+        "source": "651d532b85fb6ce820fddd8f0f1e7c408d596868fb8f8b0972d2920904ca6523"
+      },
+      "locations": [
+        {
+          "index": 124,
+          "occurrence_id": "occ1:f555c869e410768be4ca805da21e1846c802fd01123783a5a604317f9a3e96f0",
+          "latex": "BN(K{+}1)",
+          "source_file": "colm2026_conference.tex",
+          "source_line": 674,
+          "page": 4,
+          "bbox": [
+            304.20098876953125,
+            322.3418273925781,
+            347.9702453613281,
+            333.3009338378906
+          ]
+        },
+        {
+          "index": 131,
+          "occurrence_id": "occ1:6773ae8e14e55d1e78f81f7dc311928f2127970100da0a98e05bd5b5ae730d84",
+          "latex": "BN(K{+}1)",
+          "source_file": "colm2026_conference.tex",
+          "source_line": 680,
+          "page": 4,
+          "bbox": [
+            406.7650146484375,
+            419.9638366699219,
+            450.53424072265625,
+            430.9229431152344
+          ]
+        },
+        {
+          "index": 194,
+          "occurrence_id": "occ1:4a473ab7ace0ba4d670b5bae1cdaca3b097999c29ee7a45f3a35dd3973991301",
+          "latex": "O(1/N)",
+          "source_file": "colm2026_conference.tex",
+          "source_line": 770,
+          "page": 6,
+          "bbox": [
+            353.6940002441406,
+            107.26385498046875,
+            389.8348083496094,
+            118.1949234008789
+          ]
+        },
+        {
+          "index": 203,
+          "occurrence_id": "occ1:49bf68798a85a6723e4babf1df24aec201e6cd987894fe71a093730260f133a5",
+          "latex": "N(K{+}1)",
+          "source_file": "colm2026_conference.tex",
+          "source_line": 786,
+          "page": 6,
+          "bbox": [
+            371.9620056152344,
+            450.3938293457031,
+            408.96624755859375,
+            461.3305358886719
+          ]
+        },
+        {
+          "index": 232,
+          "occurrence_id": "occ1:88e0a60e31326d37e411a5e68c45fd990a6d922a3a770c4b823696db906b6d5f",
+          "latex": "2.36\\times",
+          "source_file": "colm2026_conference.tex",
+          "source_line": 1138,
+          "page": 9,
+          "bbox": [
+            258.1082763671875,
+            244.47227478027344,
+            283.4095153808594,
+            255.510986328125
+          ]
+        },
+        {
+          "index": 366,
+          "occurrence_id": "occ1:b74571f103fc9362e785d00b87092a02c1087e6ff7a1694edad8a8e05c3819a5",
+          "latex": "R_N({\\boldsymbol{x}})",
+          "source_file": "colm2026_conference.tex",
+          "source_line": 1391,
+          "page": 17,
+          "bbox": [
+            354.0199890136719,
+            501.73382568359375,
+            381.7073669433594,
+            513.6653442382812
+          ]
+        },
+        {
+          "index": 371,
+          "occurrence_id": "occ1:ec80c47b19ed08d47fff728374a749bd5edbeb7bb10f75d51369048548f2d404",
+          "latex": "\\mathop{\\mathbb{E}}[U^2 V]",
+          "source_file": "colm2026_conference.tex",
+          "source_line": 1391,
+          "page": 17,
+          "bbox": [
+            300.4949951171875,
+            545.739990234375,
+            334.3173522949219,
+            557.7205200195312
+          ]
+        },
+        {
+          "index": 498,
+          "occurrence_id": "occ1:3320454153ebaffb951b861db076d725b20159e9d4302cd8b16b59c8c3744b40",
+          "latex": "BN(K{+}1)",
+          "source_file": "colm2026_conference.tex",
+          "source_line": 1641,
+          "page": 21,
+          "bbox": [
+            206.8780059814453,
+            628.517822265625,
+            250.64724731445312,
+            639.4769287109375
+          ]
+        },
+        {
+          "index": 505,
+          "occurrence_id": "occ1:2bbefbd58c0ee2b60bc2063e225f530a508f667968e79ffeddd7f4f822a4471a",
+          "latex": "c \\cdot BN/R",
+          "source_file": "colm2026_conference.tex",
+          "source_line": 1643,
+          "page": 21,
+          "bbox": [
+            146.71099853515625,
+            677.6063232421875,
+            185.94073486328125,
+            688.6719360351562
+          ]
+        }
+      ]
+    },
+    {
+      "paper": "vae_tutorial",
+      "pdf_path": "testdata/papers/1606.05908.pdf",
+      "source_path": "testdata/papers/arXiv-1606.05908.tar.gz",
+      "hashes": {
+        "pdf": "e40708ee9b5f7e92937c3e3861fc9ecaee360757951a4d885ddbac5c0a34bd21",
+        "source": "693cb7f829e84c19315545396fe365fec43218a0233de3650362c13f0ece5857"
+      },
+      "locations": [
+        {
+          "index": 40,
+          "occurrence_id": "occ1:d896f70e389dbaa08faa14af5d3bc9e41ab6642c5b22f2dcc78cadf1e0bb9197",
+          "latex": "f(z;\\theta)",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 186,
+          "page": 2,
+          "bbox": [
+            372.7690124511719,
+            672.89013671875,
+            401.7138671875,
+            685.7462158203125
+          ]
+        },
+        {
+          "index": 55,
+          "occurrence_id": "occ1:33a9a350e2a9822165b3480c17527c7414b102ca52f0083c5c7ab04602e862f8",
+          "latex": "P(X|z)",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 193,
+          "page": 3,
+          "bbox": [
+            336.4440002441406,
+            515.7937622070312,
+            369.578857421875,
+            527.7215576171875
+          ]
+        },
+        {
+          "index": 117,
+          "occurrence_id": "occ1:b3fc5123da214f64adffcd0f7ccd87b2ecc9b290e629207262a03887d97edef0",
+          "latex": "Q(z|X)",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 299,
+          "page": 6,
+          "bbox": [
+            183.39300537109375,
+            651.3777465820312,
+            218.348876953125,
+            663.3055419921875
+          ]
+        },
+        {
+          "index": 170,
+          "occurrence_id": "occ1:1e6a4e98a39620223ec351c6cb460be4ca9622283e882a9b2d3f44813dfc942e",
+          "latex": "\\log P(X)",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 358,
+          "page": 8,
+          "bbox": [
+            208.70399475097656,
+            143.09613037109375,
+            250.66586303710938,
+            155.06565856933594
+          ]
+        },
+        {
+          "index": 175,
+          "occurrence_id": "occ1:29859b73824a5a0fe7b4a4d21bfbb434b186c3ece53056339daae48c26e267cb",
+          "latex": "Q(z|x)",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 360,
+          "page": 8,
+          "bbox": [
+            398.2239990234375,
+            185.62881469726562,
+            430.6498718261719,
+            197.55654907226562
+          ]
+        },
+        {
+          "index": 182,
+          "occurrence_id": "occ1:90e03e05ed06b7053e4e4a459991936cca4e0232ff56f7b9c8049b33fd352a04",
+          "latex": "Q(z|x)",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 362,
+          "page": 8,
+          "bbox": [
+            157.26901245117188,
+            256.7627868652344,
+            189.69488525390625,
+            268.6905212402344
+          ]
+        },
+        {
+          "index": 183,
+          "occurrence_id": "occ1:d9b836291adc85e72adb2193945d74f5524a45fe42d936fc136f3ed98d74acac",
+          "latex": "Q(z|X)",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 367,
+          "page": 8,
+          "bbox": [
+            170.19500732421875,
+            338.39080810546875,
+            205.15087890625,
+            350.31854248046875
+          ]
+        },
+        {
+          "index": 187,
+          "occurrence_id": "occ1:542d6ea07d93aa70b2333495fcb6a1cd2b2b69bf2a5bfad1cd2da20dcf3a93fb",
+          "latex": "\\vartheta",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 368,
+          "page": 8,
+          "bbox": [
+            202.20199584960938,
+            368.9380798339844,
+            208.16928100585938,
+            379.84716796875
+          ]
+        },
+        {
+          "index": 188,
+          "occurrence_id": "occ1:b49f5ad91612411666d56b068508560ef5bc916ca0816044c71a9aba1468c81b",
+          "latex": "\\vartheta",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 368,
+          "page": 8,
+          "bbox": [
+            432.0249938964844,
+            368.9380798339844,
+            437.9922790527344,
+            379.84716796875
+          ]
+        },
+        {
+          "index": 201,
+          "occurrence_id": "occ1:9d969455efabd333291c163fbfd14f02c8218bad514af932e9a2b69d3c25c009",
+          "latex": "\\log P(X|z)",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 398,
+          "page": 8,
+          "bbox": [
+            271.6029968261719,
+            661.6517333984375,
+            322.1058349609375,
+            673.7686157226562
+          ]
+        },
+        {
+          "index": 234,
+          "occurrence_id": "occ1:4ddd8450a4d8da09b4cd7a093fd134c955ac702fcd0a5a5cf136c50082cf4252",
+          "latex": "Q(z|X)",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 434,
+          "page": 10,
+          "bbox": [
+            180.1300048828125,
+            552.80078125,
+            215.08587646484375,
+            564.7285766601562
+          ]
+        },
+        {
+          "index": 257,
+          "occurrence_id": "occ1:c2075fc20fad662f46546e0404eec6b24c8375159f8fea2409654b497c406a9a",
+          "latex": "\\log P(X)",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 462,
+          "page": 11,
+          "bbox": [
+            287.8659973144531,
+            338.5381164550781,
+            329.8278503417969,
+            350.5076599121094
+          ]
+        },
+        {
+          "index": 262,
+          "occurrence_id": "occ1:e4cd218aeab9ed123bc039d42d6213e81e88f55ce9303d231ded9d3b72de4cb2",
+          "latex": "Q(z|X)",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 470,
+          "page": 11,
+          "bbox": [
+            407.6159973144531,
+            504.9598083496094,
+            442.5728759765625,
+            516.8875732421875
+          ]
+        },
+        {
+          "index": 263,
+          "occurrence_id": "occ1:3a49564d2d0127514228b37be5becf7972bca84f1aaa69d7f1dd9707c4d8803c",
+          "latex": "\\mu(X)",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 470,
+          "page": 11,
+          "bbox": [
+            308.79901123046875,
+            519.3341064453125,
+            333.08587646484375,
+            532.190185546875
+          ]
+        },
+        {
+          "index": 278,
+          "occurrence_id": "occ1:74431867f0b5073756e8e7bcb066401b269313f7612387856bb28922de755ba5",
+          "latex": "P(z|X)",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 477,
+          "page": 11,
+          "bbox": [
+            309.50799560546875,
+            661.4527587890625,
+            342.6428527832031,
+            673.3805541992188
+          ]
+        },
+        {
+          "index": 318,
+          "occurrence_id": "occ1:e9070a7f08d1c8eb7f4fdea8e16713f0679c6cb8504d22e535d471c4df9c2fa5",
+          "latex": "\\sigma",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 519,
+          "page": 13,
+          "bbox": [
+            362.1239929199219,
+            358.444091796875,
+            368.26580810546875,
+            369.3531799316406
+          ]
+        },
+        {
+          "index": 348,
+          "occurrence_id": "occ1:9a031eb94a09389bbbf803a491b654299da5fdc67e68f58c82294fa11bf78c08",
+          "latex": "P(z|X)",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 584,
+          "page": 15,
+          "bbox": [
+            167.71800231933594,
+            439.3738098144531,
+            200.85186767578125,
+            451.3015441894531
+          ]
+        },
+        {
+          "index": 349,
+          "occurrence_id": "occ1:16cf037b5c6e86af37eece9509946a492800f3207c09380f8e5d7d33c99dc13b",
+          "latex": "\\mathcal{N}(0,I)",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 584,
+          "page": 15,
+          "bbox": [
+            236.06700134277344,
+            439.3738098144531,
+            271.4888610839844,
+            451.5213623046875
+          ]
+        },
+        {
+          "index": 352,
+          "occurrence_id": "occ1:220ac2c9c50fa6d68f5d6539e71f5b4491f4a079846f60950070259810ac1d48",
+          "latex": "P(Y|X)",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 587,
+          "page": 15,
+          "bbox": [
+            387.59600830078125,
+            482.0548095703125,
+            423.140869140625,
+            493.9825439453125
+          ]
+        },
+        {
+          "index": 369,
+          "occurrence_id": "occ1:646ee7a223b90aa2184103e5e17945f0b33206b4b1a47186afd4e6b06f3c2d13",
+          "latex": "\\mathcal{D}[Q(z|X)||P(z)]",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 623,
+          "page": 17,
+          "bbox": [
+            280.97601318359375,
+            640.8307495117188,
+            360.7104187011719,
+            652.758544921875
+          ]
+        },
+        {
+          "index": 195,
+          "latex": "\\begin{array}{c}\n \\mathcal{D}[\\mathcal{N}(\\mu(X),\\Sigma(X)) \\| \\mathcal{N}(0,I)] = \\hspace{20em}\\\\\n\\hspace{6em}\\frac{ 1 }{ 2 } \\left( \\mathrm{tr} \\left( \\Sigma(X) \\right) + \\left( \\mu(X)\\right)^\\top ( \\mu(X) ) - k - \\log\\det\\left(  \\Sigma(X)  \\right)  \\right).\n\\end{array}",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 380,
+          "occurrence_id": "occ1:81116c08039caaf107e2d37d169b40b903d80ee71413e63681c34834eb7cd7ee",
+          "page": 8,
+          "bbox": [
+            122.94599914550781,
+            557.7357788085938,
+            456.6227722167969,
+            589.5933227539062
+          ],
+          "reviewed_on": "2026-11-24"
+        },
+        {
+          "index": 346,
+          "latex": "\\begin{array}{c}\n    \\mathcal{D}\\left[Q(z|Y,X)\\|P(z|Y,X)\\right]=\\hspace{20em}\\\\\n    \\hspace{1.5em}E_{z\\sim Q(\\cdot|Y,X)}\\left[\\log Q(z|Y,X) - \\log P(Y|z,X) - \\log P(z|X) \\right] + \\log P(Y|X)\n\\end{array}",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 571,
+          "occurrence_id": "occ1:8138db174ef9bf3d1d74e5ef2dc52b9d3dac4ad296fe2a37303c710f8babc21a",
+          "page": 15,
+          "bbox": [
+            123.60995483398438,
+            334.9257507324219,
+            469.853759765625,
+            363.1473693847656
+          ],
+          "reviewed_on": "2026-11-24"
+        },
+        {
+          "index": 347,
+          "latex": "\\begin{array}{c}\n    \\log P(Y|X) - \\mathcal{D}\\left[Q(z|Y,X)\\|P(z|Y,X)\\right]=\\hspace{15em}\\\\\n\\hspace{8em}E_{z\\sim Q(\\cdot|Y,X)}\\left[\\log P(Y|z,X)  \\right] - \\mathcal{D}\\left[Q(z|Y,X)\\|P(z|X)\\right]\n\\end{array}",
+          "source_file": "vae_tutorial.tex",
+          "source_line": 577,
+          "occurrence_id": "occ1:92a3bcedff70b7962d81009dff46e966ee3d4e1afe5c63b0335dc9bf977bdc83",
+          "page": 15,
+          "bbox": [
+            122.80889892578125,
+            397.47174072265625,
+            465.6559753417969,
+            425.693359375
+          ],
+          "reviewed_on": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "paper": "2312.00752v2",
+      "pdf_path": "testdata/benchmarks/artifacts/2312.00752v2.pdf",
+      "source_path": "testdata/benchmarks/artifacts/2312.00752v2.tar.gz",
+      "hashes": {
+        "pdf": "adf70ed1803c85b1899dec3e21f3af0b124411439e8654b840ea65f7b9f52b2e",
+        "source": "e44586835a0845a837bff72905a6c2d9d5e8702f5f473ea299785064d80c5301"
+      },
+      "locations": [
+        {
+          "index": 99,
+          "latex": "\\begin{aligned}\n        g_t &= \\sigma(\\mathsf{Linear}(x_t)) \\\\\n        h_{t} &= (1-g_t) h_{t-1} + g_t x_t\n        .\n      \\end{aligned}",
+          "source_file": "src/method.tex",
+          "source_line": 281,
+          "occurrence_id": "occ1:0ea6c5f8d9082487ed7e0dc2713209e4e243442c2ad513f72e97e6f8279f2d7d",
+          "page": 7,
+          "bbox": [
+            267.4229736328125,
+            450.1679992675781,
+            365.5587463378906,
+            478.08685302734375
+          ],
+          "reviewed_on": "2026-11-24"
+        },
+        {
+          "index": 262,
+          "latex": "g_t &= \\sigma(\\mathsf{Linear}(x_t)) \\\\\n  h_{t} &= (1-g_t) h_{t-1} + g_t x_t",
+          "source_file": "src/appendix.tex",
+          "source_line": 34,
+          "occurrence_id": "occ1:bb83aa8cfae91a085f73a789217026c4064ecac080647a3765f6591bc7a2720b",
+          "page": 27,
+          "bbox": [
+            268.68402099609375,
+            95.02396392822266,
+            363.2317199707031,
+            122.94378662109375
+          ],
+          "reviewed_on": "2026-11-24"
+        },
+        {
+          "index": 260,
+          "latex": "\\Delta_t &= \\tau_\\Delta(\\mathsf{Parameter} + s_\\Delta(x_t)) \\\\\n      &= \\mathsf{softplus}(\\mathsf{Parameter} + \\mathsf{Linear}(x_t)) \\\\\n      &= \\mathsf{softplus}(\\mathsf{Linear}(x_t))",
+          "source_file": "src/appendix.tex",
+          "source_line": 16,
+          "occurrence_id": "occ1:76f7dcc2d618c75a89e38d053ff11a6302841dcfac9c1f200162e956f86e95d0",
+          "page": 26,
+          "bbox": [
+            238.4410858154297,
+            544.5980834960938,
+            394.76031494140625,
+            586.7620849609375
+          ],
+          "reviewed_on": "2026-11-24"
+        }
+      ],
+      "forbidden_locations": [
+        {
+          "index": 262,
+          "occurrence_id": "occ1:bb83aa8cfae91a085f73a789217026c4064ecac080647a3765f6591bc7a2720b",
+          "latex": "g_t &= \\sigma(\\mathsf{Linear}(x_t)) \\\\\n  h_{t} &= (1-g_t) h_{t-1} + g_t x_t",
+          "source_file": "src/appendix.tex",
+          "source_line": 34,
+          "query": "x",
+          "page": 26,
+          "bbox": [
+            205.0,
+            692.0,
+            278.0,
+            708.0
+          ],
+          "reason": "The final recurrence is on PDF page index 27. This visually reviewed rectangle belongs to the preceding discretization equation, even though it also contains sigma(Linear(x_t))."
+        },
+        {
+          "index": 262,
+          "occurrence_id": "occ1:bb83aa8cfae91a085f73a789217026c4064ecac080647a3765f6591bc7a2720b",
+          "latex": "g_t &= \\sigma(\\mathsf{Linear}(x_t)) \\\\\n  h_{t} &= (1-g_t) h_{t-1} + g_t x_t",
+          "source_file": "src/appendix.tex",
+          "source_line": 34,
+          "query": "\\sigma",
+          "page": 26,
+          "bbox": [
+            205.0,
+            692.0,
+            278.0,
+            708.0
+          ],
+          "reason": "The final recurrence is on PDF page index 27. This visually reviewed rectangle belongs to the preceding discretization equation, even though it also contains sigma(Linear(x_t))."
+        },
+        {
+          "index": 262,
+          "occurrence_id": "occ1:bb83aa8cfae91a085f73a789217026c4064ecac080647a3765f6591bc7a2720b",
+          "latex": "g_t &= \\sigma(\\mathsf{Linear}(x_t)) \\\\\n  h_{t} &= (1-g_t) h_{t-1} + g_t x_t",
+          "source_file": "src/appendix.tex",
+          "source_line": 34,
+          "query": "x_t",
+          "page": 26,
+          "bbox": [
+            205.0,
+            692.0,
+            278.0,
+            708.0
+          ],
+          "reason": "The final recurrence is on PDF page index 27. This visually reviewed rectangle belongs to the preceding discretization equation, even though it also contains sigma(Linear(x_t))."
+        }
+      ]
+    }
+  ]
+}

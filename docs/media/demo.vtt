@@ -1,0 +1,22 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.000
+The squared weight appears in more than one equation in the original example PDF.
+
+00:00:04.000 --> 00:00:07.500
+Search w^2 with Contains this notation. Two occurrences appear on pages 1 and 2.
+
+00:00:07.500 --> 00:00:11.000
+Filter the results to page 2.
+
+00:00:11.000 --> 00:00:13.300
+Save the page-2 occurrence as a bookmark.
+
+00:00:13.300 --> 00:00:20.000
+Inspect the original PDF excerpt. Chrome navigates to page 2.
+
+00:00:20.000 --> 00:00:26.000
+A closer look at the actual result cards and the saved occurrence.
+
+00:00:26.000 --> 00:00:32.000
+Formula Search: a Chrome extension with a local Python backend. Start with the example PDF and README setup.

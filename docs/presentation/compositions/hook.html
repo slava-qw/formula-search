@@ -1,0 +1,23 @@
+<template>
+<style>
+#root{position:absolute;inset:0;background:#eef4f2;overflow:hidden}
+#hook-copy{position:absolute;left:112px;top:164px;width:1420px}#hook-title{margin-top:34px;font-size:112px;line-height:1.06;letter-spacing:-5px}#hook-title span{color:#086f64}
+#hook-equation{position:absolute;left:104px;top:574px;width:1030px;mix-blend-mode:multiply}#hook-query{position:absolute;left:1360px;top:610px;font-family:Inter,sans-serif;font-size:116px;font-weight:700;color:#086f64;letter-spacing:-5px}#hook-line{position:absolute;left:1200px;top:690px;width:100px;height:2px;background:#86a89b;transform-origin:left center}
+#hook-note{position:absolute;left:140px;top:822px;font-size:28px;color:#526961}
+</style>
+<div id="root" data-composition-id="hook" data-width="1920" data-height="1080">
+ <div id="hook-copy" class="clip" data-start="0" data-duration="4" data-track-index="0"><div class="film-label">In the paper you are reading</div><h1 id="hook-title">One notation.<br><span>More than one place.</span></h1></div>
+ <img id="hook-equation" class="clip" data-start="0" data-duration="4" data-track-index="1" src="assets/equation-objective.png" alt="Squared error equation from the original example PDF">
+ <div id="hook-query" class="clip" data-start=".55" data-duration="3.45" data-track-index="2">w²</div>
+ <div id="hook-line" class="clip" data-start=".6" data-duration="3.4" data-track-index="3" aria-hidden="true"></div>
+ <p id="hook-note" class="clip" data-start="1" data-duration="3" data-track-index="4">Original example PDF · page 1</p>
+</div>
+<script>
+const tl=gsap.timeline({paused:true});
+tl.fromTo('#hook-equation',{x:-28,opacity:.65},{x:0,opacity:1,duration:.6,ease:'power4.out'},0);
+tl.fromTo('#hook-query',{scale:.85,opacity:0},{scale:1,opacity:1,duration:.6,ease:'power4.out'},.55);
+tl.fromTo('#hook-line',{scaleX:0},{scaleX:1,duration:.5,ease:'power2.out'},.6);
+tl.fromTo('#hook-note',{opacity:0},{opacity:1,duration:.3},1);
+window.__timelines.hook=tl;
+</script>
+</template>

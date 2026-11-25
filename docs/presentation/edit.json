@@ -1,0 +1,42 @@
+{
+  "source": "assets/demo.mp4",
+  "source_sha256": "65fd51eb886060d6f7f9f20e9a7bcee39093d768a07313652de949f0c70ec845",
+  "capture_report": "assets/capture.json",
+  "retiming": false,
+  "shots": [
+    {
+      "timeline_start": 0,
+      "duration": 4,
+      "type": "original PDF render with editorial type"
+    },
+    {
+      "timeline_start": 4,
+      "duration": 7,
+      "type": "normal-speed product recording",
+      "source_start": 7.826,
+      "trimmed_asset": "assets/search.mp4"
+    },
+    {
+      "timeline_start": 11,
+      "duration": 9,
+      "type": "normal-speed product recording",
+      "source_start": 13.878,
+      "trimmed_asset": "assets/save.mp4",
+      "source_duration": 5.4,
+      "tail_hold_seconds": 3.6
+    },
+    {
+      "timeline_start": 20,
+      "duration": 6,
+      "type": "editorial close-ups of captured result and bookmark"
+    },
+    {
+      "timeline_start": 26,
+      "duration": 6,
+      "type": "actual dark capture with project end card"
+    }
+  ],
+  "stills_capture_report": "assets/stills-capture.json",
+  "video_capture_pixel_density": 1,
+  "stills_pixel_density": 2
+}

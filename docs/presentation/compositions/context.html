@@ -1,0 +1,23 @@
+<template>
+<style>
+#root{position:absolute;inset:0;background:#142d29;color:#f0f7f3;overflow:hidden}
+#context-title{position:absolute;left:112px;top:110px;width:1600px}#context-title .film-label{color:#a5edcf}#context-title h2{font-size:88px;letter-spacing:-4px;margin-top:28px}
+#context-cards{position:absolute;left:112px;top:372px;width:852px;height:600px;overflow:hidden;background:#fff;border-radius:16px;padding:20px}#context-cards img{width:790px;display:block;margin:0 auto}
+#context-bookmark{position:absolute;left:1040px;top:372px;width:768px;height:600px;background:white;border-radius:16px;overflow:hidden}#context-bookmark img{position:absolute;width:768px;top:-650px;left:0}
+#context-foot{left:116px;bottom:58px;color:#b6cec2}#context-rule{position:absolute;left:112px;top:318px;width:1696px;height:1px;background:#456358;transform-origin:left center}
+</style>
+<div id="root" data-composition-id="context" data-width="1920" data-height="1080">
+ <div id="context-title" class="clip" data-start="0" data-duration="6" data-track-index="0"><div class="film-label">A closer look at the same results</div><h2>Keep the occurrence. Keep the source.</h2></div>
+ <div id="context-rule" class="clip" data-start="0" data-duration="6" data-track-index="1" aria-hidden="true"></div>
+ <figure id="context-cards" class="clip" data-start="0" data-duration="6" data-track-index="2"><img src="assets/two-page-results.png" data-layout-allow-overflow alt="Actual result cards on pages 1 and 2"></figure>
+ <figure id="context-bookmark" class="clip" data-start=".6" data-duration="5.4" data-track-index="3"><img src="assets/bookmarks.png" data-layout-allow-overflow alt="The saved occurrence on page 2"></figure>
+ <p id="context-foot" class="film-footer clip" data-start="0" data-duration="6" data-track-index="4">Actual extension captures · editorial close-ups · local storage</p>
+</div>
+<script>
+const tl=gsap.timeline({paused:true});
+tl.fromTo('#context-rule',{scaleX:0},{scaleX:1,duration:.6,ease:'power2.out'},0);
+tl.fromTo('#context-cards',{x:-45,opacity:0},{x:0,opacity:1,duration:.65,ease:'power4.out'},0);
+tl.fromTo('#context-bookmark',{x:45,opacity:0},{x:0,opacity:1,duration:.65,ease:'power4.out'},.6);
+window.__timelines.context=tl;
+</script>
+</template>

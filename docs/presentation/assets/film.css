@@ -1,0 +1,9 @@
+@font-face{font-family:Inter;src:url('fonts/Inter-400.woff2');font-weight:400}
+@font-face{font-family:Inter;src:url('fonts/Inter-700.woff2');font-weight:700}
+*{box-sizing:border-box}html,body{width:1920px;height:1080px;overflow:hidden;margin:0;background:#eef4f2;color:#142d29;font-family:Inter,Arial,sans-serif}
+h1,h2,h3,p,figure{margin:0}.film-label{font-size:28px;color:#086f64;font-weight:700;letter-spacing:1px}
+.film-title{font-size:88px;line-height:1.08;letter-spacing:-4px;font-weight:700}.film-copy{font-size:32px;line-height:1.45;color:#4b625c}.film-small{font-size:28px;line-height:1.4;color:#526961}.film-footer{position:absolute;left:112px;bottom:58px;font-size:28px;color:#526961}
+.film-stage{position:absolute;overflow:hidden;background:white;border:1px solid #c8d8d1;border-radius:18px;box-shadow:0 24px 60px #142d2917}
+.film-bar{position:absolute;left:0;right:0;top:0;height:58px;background:#f5f8f6;border-bottom:1px solid #dce5df;padding:12px 24px;color:#526961;font-size:28px;z-index:2}
+.film-stage .film-screen{position:absolute;left:0;top:58px;width:100%;height:calc(100% - 58px);overflow:hidden}.film-video{display:block;position:absolute;width:788px;height:1613.524px;object-fit:fill}
+.film-brand{display:flex;gap:18px;align-items:center;font-size:34px;font-weight:700;letter-spacing:-.8px}.film-brand img{width:64px;height:64px}

@@ -1,0 +1,85 @@
+{
+  "version": "0.11.1",
+  "prepared_utc": "2026-11-24T23:11:34.815161+00:00",
+  "status": "verified locally",
+  "production_sha256": "fffb06546636a9d75ba2c90d76840a6dfd8e2b3cb92c348b659e2c3a24764475",
+  "full_installed_corpus_python": {
+    "passed": 797,
+    "skipped": 2
+  },
+  "clean_export_python": {
+    "passed": 713,
+    "skipped": 86,
+    "reason_for_skips": "External papers/model and opt-in historical reports are not bundled."
+  },
+  "javascript": {
+    "node_tests_passed": 204,
+    "source_assertions_passed": 265
+  },
+  "browsers": [
+    {
+      "version": "158.0.8127.37",
+      "checks": 37,
+      "page_errors": 0,
+      "unexpected_console_warnings": 0,
+      "expected_injected_503_messages": 2
+    },
+    {
+      "version": "151.0.7922.34",
+      "checks": 37,
+      "page_errors": 0,
+      "unexpected_console_warnings": 0,
+      "expected_injected_503_messages": 2
+    }
+  ],
+  "advisory_inventory": {
+    "core": {
+      "pins": 31,
+      "advisory_matches": 0,
+      "lookup_errors": 0,
+      "checked_utc": "2026-11-24T22:52:42.743964+00:00"
+    },
+    "ocr": {
+      "pins": 68,
+      "advisory_matches": 0,
+      "lookup_errors": 0,
+      "checked_utc": "2026-11-24T23:09:16.930310+00:00"
+    }
+  },
+  "core_environment": "Isolated Python 3.14 Windows environment: pip check and health imports passed; exact resolved core lock recorded.",
+  "real_ocr": {
+    "required_notation_checks_passed": 2,
+    "retained_failure_diagnostic": 1,
+    "crop_coordinate_checks_passed": 3,
+    "torch": "2.13.0+cpu",
+    "torchvision": "0.28.0+cpu",
+    "transformers": "5.24.1",
+    "pillow": "13.0.0"
+  },
+  "benchmark": {
+    "papers": 4,
+    "complete_match_parity_across_cold_resident_restart": true,
+    "complete_match_parity_with_0_11_0": true,
+    "details": "http-restart.json"
+  },
+  "fixture_manifest": {
+    "external_files": 18,
+    "all_existing_hashes_verified": true
+  },
+  "media": {
+    "browser": "Chrome 158.0.8127.37",
+    "mocked_product_responses": false,
+    "panel_surface": "Extension tab with panel URL; no toolbar-opening gesture demonstrated."
+  },
+  "limits": [
+    "Local test results; GitHub Actions have not run remotely.",
+    "Package advisory metadata is not an exploitability audit.",
+    "Selected paper and OCR gates are not global accuracy measurements.",
+    "Native overlays are unavailable on verified Chrome 158; page/excerpt fallback is supported."
+  ],
+  "chrome_repeated_navigation": {
+    "alternating_page_jumps": 12,
+    "all_verified": true,
+    "readback": "Committed Chrome tab URL and independently observed visible PDF page."
+  }
+}

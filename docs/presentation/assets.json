@@ -1,0 +1,202 @@
+{
+  "generated_ui": false,
+  "source_pdf": "examples/formula-playground.pdf",
+  "files": [
+    {
+      "path": "assets/bookmarks.png",
+      "bytes": 74884,
+      "sha256": "9acbbf6ad72fbbc1e4c9e97f4c070fb701d4e3ae9dff616e3402f731b1586942",
+      "origin": "Real Chrome extension/backend capture; see assets/capture.json and edit.json",
+      "license": "Project MIT"
+    },
+    {
+      "path": "assets/capture.json",
+      "bytes": 2372,
+      "sha256": "c77c9878ef6b91812a4f50a1b7581897afbd20e298fbd74b8fe71b66766a78b6",
+      "origin": "Real Chrome extension/backend capture; see assets/capture.json and edit.json",
+      "license": "Project MIT"
+    },
+    {
+      "path": "assets/demo.mp4",
+      "bytes": 265086,
+      "sha256": "65fd51eb886060d6f7f9f20e9a7bcee39093d768a07313652de949f0c70ec845",
+      "origin": "Real Chrome extension/backend capture; see assets/capture.json and edit.json",
+      "license": "Project MIT"
+    },
+    {
+      "path": "assets/demo.vtt",
+      "bytes": 493,
+      "sha256": "f159e6243cac03e7c4b429076ae829e26c9be4c144b32e8fc88fd8445ed2dabe",
+      "origin": "Real Chrome extension/backend capture; see assets/capture.json and edit.json",
+      "license": "Project MIT"
+    },
+    {
+      "path": "assets/equation-objective.png",
+      "bytes": 12061,
+      "sha256": "2417210f25a695cb95a4ffacb8349a59a88b1ccb774f76d7924f81851ca9f5b6",
+      "origin": "Direct PyMuPDF render of examples/formula-playground.pdf",
+      "license": "Project MIT; renderer has separate dependency terms"
+    },
+    {
+      "path": "assets/equation-score.png",
+      "bytes": 13973,
+      "sha256": "759b0132e2e0bfb1c310ce2bc6a3c5540f152354ef7e7edbf5f4faa27dde1b29",
+      "origin": "Direct PyMuPDF render of examples/formula-playground.pdf",
+      "license": "Project MIT; renderer has separate dependency terms"
+    },
+    {
+      "path": "assets/film.css",
+      "bytes": 1353,
+      "sha256": "2967cbe01b87bdcb86fca0cc323ad3ca5e17bd59a3a429fd1655a5dccd1d040e",
+      "origin": "Original presentation source",
+      "license": "Project MIT"
+    },
+    {
+      "path": "assets/filtered-page.png",
+      "bytes": 77756,
+      "sha256": "369752b8a4c1a9fbc7d8069850d2dd00d573f5f691f81c2eb272107c79ef75dc",
+      "origin": "Real Chrome extension/backend capture; see assets/capture.json and edit.json",
+      "license": "Project MIT"
+    },
+    {
+      "path": "assets/fonts/Inter-400.woff2",
+      "bytes": 23664,
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc",
+      "origin": "Inter project; supplied authoring-tool font bundle",
+      "license": "SIL OFL 1.1 (assets/fonts/OFL-inter.txt)"
+    },
+    {
+      "path": "assets/fonts/Inter-700.woff2",
+      "bytes": 24356,
+      "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491",
+      "origin": "Inter project; supplied authoring-tool font bundle",
+      "license": "SIL OFL 1.1 (assets/fonts/OFL-inter.txt)"
+    },
+    {
+      "path": "assets/fonts/OFL-inter.txt",
+      "bytes": 4477,
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345",
+      "origin": "Inter project; supplied authoring-tool font bundle",
+      "license": "SIL OFL 1.1 (assets/fonts/OFL-inter.txt)"
+    },
+    {
+      "path": "assets/icon.png",
+      "bytes": 13667,
+      "sha256": "c13512fc53ff1a2401ab50e4b822d8211cb61b3c1703385518d4fce3ed38fe12",
+      "origin": "Existing extension/images/icon.png",
+      "license": "Project MIT"
+    },
+    {
+      "path": "assets/native-pdf-page1.png",
+      "bytes": 313600,
+      "sha256": "a1d87b6ebea2cbb508f471c9a9d5132724035ce602519bb7aed242455fd04e74",
+      "origin": "Real Chrome extension/backend capture; see assets/capture.json and edit.json",
+      "license": "Project MIT"
+    },
+    {
+      "path": "assets/native-pdf.png",
+      "bytes": 344617,
+      "sha256": "f5f8732027aa9af9d66668ed5a8a697a5688b689092c65bfd1e22058b8bc9d61",
+      "origin": "Real Chrome extension/backend capture; see assets/capture.json and edit.json",
+      "license": "Project MIT"
+    },
+    {
+      "path": "assets/numerator-crop.png",
+      "bytes": 9073,
+      "sha256": "433fe6941942ded0cb15de87a914f7ce05f50790255d67858fcc438ec2dc544a",
+      "origin": "Real Chrome extension/backend capture; see assets/capture.json and edit.json",
+      "license": "Project MIT"
+    },
+    {
+      "path": "assets/numerator-excerpt.png",
+      "bytes": 65159,
+      "sha256": "4b7ed9a5217e38ebc157b64491af58898f8ecd9a395ef9534732686d347fa214",
+      "origin": "Real Chrome extension/backend capture; see assets/capture.json and edit.json",
+      "license": "Project MIT"
+    },
+    {
+      "path": "assets/numerator-results.png",
+      "bytes": 20575,
+      "sha256": "efe52c028518db205f094ea87360d54825d032ad05c106aa3e49d509e0cb542b",
+      "origin": "Real Chrome extension/backend capture; see assets/capture.json and edit.json",
+      "license": "Project MIT"
+    },
+    {
+      "path": "assets/paper-page1.png",
+      "bytes": 106980,
+      "sha256": "9e20804b94a183d8b8004a8ce2a2d1b82d389dc6df21401fe3f0a3f12ace614e",
+      "origin": "Direct PyMuPDF render of examples/formula-playground.pdf",
+      "license": "Project MIT; renderer has separate dependency terms"
+    },
+    {
+      "path": "assets/paper-page2.png",
+      "bytes": 132902,
+      "sha256": "93c0b1eec1fdf386504cf38e311d66ff5ac6d3d2870c79472da0268a391e7b11",
+      "origin": "Direct PyMuPDF render of examples/formula-playground.pdf",
+      "license": "Project MIT; renderer has separate dependency terms"
+    },
+    {
+      "path": "assets/pdf-excerpt.png",
+      "bytes": 71409,
+      "sha256": "ba259c10f98f118822c9f940ae6a11cf335c52426658ccfabd84e7e5879c8a72",
+      "origin": "Real Chrome extension/backend capture; see assets/capture.json and edit.json",
+      "license": "Project MIT"
+    },
+    {
+      "path": "assets/save.mp4",
+      "bytes": 211661,
+      "sha256": "51e4db20fc8a80a5604e880298f62d09a99d8f3eb9484d03acc53cb9febe7a82",
+      "origin": "Real Chrome extension/backend capture; see assets/capture.json and edit.json",
+      "license": "Project MIT"
+    },
+    {
+      "path": "assets/search-dark.png",
+      "bytes": 92721,
+      "sha256": "22fe30bc630475a6a38ab7549fc3f43e9d4a1829a14dcab4d957890f3b547004",
+      "origin": "Real Chrome extension/backend capture; see assets/capture.json and edit.json",
+      "license": "Project MIT"
+    },
+    {
+      "path": "assets/search-light.png",
+      "bytes": 67223,
+      "sha256": "0080ccfa6bb817c04b7b07c690a21f6c916ad0131f59489aaf31cc2357adc663",
+      "origin": "Real Chrome extension/backend capture; see assets/capture.json and edit.json",
+      "license": "Project MIT"
+    },
+    {
+      "path": "assets/search.mp4",
+      "bytes": 212852,
+      "sha256": "f5955746aff48c6e903efc12c5098060a84b28796822b321c80b7b71aaed79c0",
+      "origin": "Real Chrome extension/backend capture; see assets/capture.json and edit.json",
+      "license": "Project MIT"
+    },
+    {
+      "path": "assets/stills-capture.json",
+      "bytes": 2373,
+      "sha256": "359d3e29b5eb341fd7f54872e539ccffa5f36672bf8b3af42d955ab42679eff4",
+      "origin": "Real Chrome extension/backend capture; see assets/capture.json and edit.json",
+      "license": "Project MIT"
+    },
+    {
+      "path": "assets/two-page-results.png",
+      "bytes": 35928,
+      "sha256": "e405a58bf0c225b747e6468bcfa06a5d955c6e5a3233acf9688b0eacb841d53e",
+      "origin": "Real Chrome extension/backend capture; see assets/capture.json and edit.json",
+      "license": "Project MIT"
+    },
+    {
+      "path": "assets/two-pages.png",
+      "bytes": 86838,
+      "sha256": "9792964dbf9d334d2c21aad28101f0c3bd5f3b0f001e8e752ceeedc68aaad30a",
+      "origin": "Real Chrome extension/backend capture; see assets/capture.json and edit.json",
+      "license": "Project MIT"
+    },
+    {
+      "path": "assets/weight-crop.png",
+      "bytes": 5077,
+      "sha256": "b9530889963bfeff241af2a777759ce35a3aaa42a0e54ca12ad0c0bc02ef7492",
+      "origin": "Real Chrome extension/backend capture; see assets/capture.json and edit.json",
+      "license": "Project MIT"
+    }
+  ]
+}

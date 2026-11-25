@@ -1,0 +1,23 @@
+name: Bug report
+description: Report an incorrect match, location, or browser behavior
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Include a public paper URL/version, query, matching mode, and expected PDF page. Do not upload private papers or caches.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Extension version, Chrome version, OS, Python version, and whether OCR was installed.
+    validations:
+      required: true

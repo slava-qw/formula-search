@@ -1,0 +1,26 @@
+{
+  "review": "Formula rectangles visually inspected against rendered local PDFs on 2026-11-22. Coordinates are PDF points, page numbers are zero-based. These are checked occurrences, not a corpus-wide accuracy estimate.",
+  "probes": [
+    {
+      "paper": "attention",
+      "query": "QK^T",
+      "page": 3,
+      "bbox": [355.6, 465.0, 377.4, 476.2],
+      "note": "Numerator in the scaled dot-product attention equation; verified in native Chromium."
+    },
+    {
+      "paper": "smc_sd",
+      "query": "N(K+1)",
+      "page": 4,
+      "bbox": [310.9, 322.3, 348.0, 333.3],
+      "note": "Inside BN(K+1) in Speed-up Analysis. Must include +1 and the closing parenthesis."
+    },
+    {
+      "paper": "logz",
+      "query": "\\hat r_{01}",
+      "page": 2,
+      "bbox": [130.8, 298.9, 143.3, 309.7],
+      "note": "Return value in the three-step Unbiased Path Sampling procedure."
+    }
+  ]
+}

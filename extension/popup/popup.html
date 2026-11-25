@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="lib/katex.min.css">
+  <link rel="stylesheet" href="popup.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formula Search</title>
+</head>
+<body>
+  <header id="app-header">
+    <div class="app-name"><span class="app-mark" aria-hidden="true">ƒ</span> Formula Search</div>
+    <button id="open-panel-btn" type="button" title="Keep search open beside your paper">Keep open ↗</button>
+  </header>
+  <div id="paper-context" title="Current document">Finding your paper…</div>
+  <button id="retry-paper-btn" type="button" title="Retry loading or preparing the current paper">Reload paper</button>
+  <label id="query-label" for="query">Find a formula</label>
+  <div id="search-row">
+    <input id="query" type="text" placeholder="e.g. QK^T or \frac{a}{b}" autocomplete="off" spellcheck="false" maxlength="2048" autofocus>
+    <button id="search-btn">Search</button>
+    <ul id="query-history-dropdown" class="hidden"></ul>
+  </div>
+  <div id="query-preview" class="hidden" aria-hidden="true"></div>
+  <div id="status" role="status" aria-live="polite"></div>
+  <div id="search-options">
+    <label for="search-mode">Match</label>
+    <select id="search-mode" aria-label="Formula matching mode">
+      <option value="contains">Contains this notation</option>
+      <option value="exact">Same notation only</option>
+      <option value="algebraic">Algebraically equal (scalars)</option>
+    </select>
+  </div>
+  <details id="ocr-details">
+    <summary>Recognize formulas from an image</summary>
+    <p class="helper-text">Select one equation in a page preview. Recognition requires the optional local model.</p>
+    <div id="ocr-controls">
+      <input id="ocr-page-input" type="number" min="1" placeholder="Page #" aria-label="Page to recognize" disabled>
+      <button id="ocr-run-btn" type="button" disabled>Select equation</button>
+    </div>
+  </details>
+  <div id="recent-papers" class="hidden"></div>
+  <div id="results-toolbar">
+    <div id="step-nav" class="hidden">
+      <button id="step-up-btn" type="button" class="step-btn" title="Previous result" aria-label="Previous result">▲</button>
+      <span id="step-index-label">0 / 0</span>
+      <button id="step-down-btn" type="button" class="step-btn" title="Next result" aria-label="Next result">▼</button>
+      <button id="step-ocr-btn" type="button" class="step-btn" title="OCR this page" aria-label="OCR this page">OCR</button>
+    </div>
+    <div id="toolbar-right">
+      <button id="export-btn" type="button" title="Export all search results as JSON" aria-label="Export all search results as JSON" disabled>⬇</button>
+      <button id="bookmarks-toggle-btn" type="button" title="Show bookmarked formulas">☆ Bookmarks</button>
+      <button id="chat-toggle-btn" type="button" title="Show your saved notes">✎ Notes<span id="chat-unread-badge" class="hidden"></span></button>
+      <button id="view-toggle-btn" type="button" title="Switch between list and step-through (Ctrl+F style) views">⇅ Step through</button>
+    </div>
+  </div>
+  <div id="export-status" role="status" aria-live="polite"></div>
+  <div id="result-filter" class="hidden">
+    <div id="result-section-row" class="result-filter-row">
+      <label for="result-section">Section</label>
+      <select id="result-section" aria-label="Filter results by paper section"></select>
+    </div>
+    <div id="result-page-row" class="result-filter-row">
+      <label for="result-page">Page</label>
+      <select id="result-page" aria-label="Filter results by PDF page"></select>
+    </div>
+    <div id="result-filter-summary" role="status" aria-live="polite"></div>
+    <button id="export-filtered-btn" type="button" class="hidden" title="Export every result in the selected section and page as JSON" disabled>Export filtered results</button>
+  </div>
+  <ul id="results"></ul>
+  <div id="chat-view" class="hidden">
+    <p class="helper-text">Your notes, saved on this device. No AI replies are generated.</p>
+    <div id="chat-messages"></div>
+    <div id="chat-actions" class="hidden">
+      <button id="chat-clear-btn" type="button">Clear notes</button>
+    </div>
+    <div id="note-save-status" role="alert"></div>
+    <div id="chat-input-bar">
+      <div id="chat-input-pill">
+        <textarea id="chat-input" rows="1" placeholder="Write a note…" aria-label="Write a note"></textarea>
+      </div>
+      <button id="chat-send-btn" type="button" aria-label="Save note" disabled>➤</button>
+    </div>
+  </div>
+  <div id="bookmarks-view" class="hidden">
+    <div id="bookmark-transfer">
+      <div id="bookmark-transfer-actions">
+        <span id="bookmark-count"></span>
+        <button id="bookmark-export-btn" type="button" aria-label="Back up bookmarks as JSON" disabled>Back up</button>
+        <button id="bookmark-import-btn" type="button" aria-label="Restore bookmarks from a backup">Restore</button>
+      </div>
+      <p class="helper-text">Restore adds missing bookmarks and keeps your saved ones.</p>
+      <input id="bookmark-import-file" type="file" accept="application/json,.json" aria-label="Choose a bookmark backup" hidden>
+      <div id="bookmark-transfer-status" role="status" aria-live="polite"></div>
+    </div>
+    <ul id="bookmarks-list"></ul>
+  </div>
+  <div class="legend">
+    <span><span class="dot" style="background:rgba(255,220,0,0.9)"></span>Exact</span>
+    <span><span class="dot" style="background:rgba(245,158,11,0.9)"></span>Partial</span>
+    <span><span class="dot" style="background:#8b5cf6"></span>Algebraic</span>
+  </div>
+  <script src="lib/katex.min.js"></script>
+  <script src="../native-viewer-state.js"></script>
+  <script src="../native-bridge.js"></script>
+  <script src="../document-session.js"></script>
+  <script src="../result-filter.js"></script>
+  <script src="../source-context.js"></script>
+  <script src="../preview-queue.js"></script>
+  <script src="../card-copy.js"></script>
+  <script src="../query-history.js"></script>
+  <script src="../document-identity.js"></script>
+  <script src="../bookmark-identity.js"></script>
+  <script src="../bookmark-backup.js"></script>
+  <script src="../bookmark-transfer.js"></script>
+  <script src="../store-client.js"></script>
+  <script src="../requests.js"></script>
+  <script src="../ocr-selection.js"></script>
+  <script src="../pdf-navigation.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,2458 @@
+{
+  "description": "Section/page/identity metadata for 490 reviewed matrix-calculus search occurrences; paper text and formulas omitted.",
+  "paper_url": "https://arxiv.org/abs/1802.01528v3",
+  "query": "x",
+  "source_snapshot_sha256": "5f7676a775ff94b106b4254716efd1d3d13c1e006d6283ef1b42125428b36515",
+  "results": [
+    {
+      "section": "Introduction",
+      "page": 2,
+      "occurrence_id": "occ1:f4b55181526b329342454c87e8552f2e9d747a16d337037a10da6867bdb43ea8"
+    },
+    {
+      "section": "Introduction",
+      "page": 2,
+      "occurrence_id": "occ1:4fb6fd47f12e535f8df1760d8ccfcb03e3da97eba9eb62e7827c2892dd307144"
+    },
+    {
+      "section": "Introduction",
+      "page": 2,
+      "occurrence_id": "occ1:679e801a5bf6bd41bdb9d00dd19aee716fb206b303cf719566eb25f7590a3a13"
+    },
+    {
+      "section": "Introduction",
+      "page": 2,
+      "occurrence_id": "occ1:525da7c863f71da7016473cfa34797ecee6ccaad7e9ef2155d2fd59c48c3dda9"
+    },
+    {
+      "section": "Introduction",
+      "page": 2,
+      "occurrence_id": "occ1:af9c9f71b68e191b4c89950f899d505e7bf747742b4f3d15100795be962885ad"
+    },
+    {
+      "section": "Introduction",
+      "page": 2,
+      "occurrence_id": "occ1:5bf8d54387caff202d2bd1c51accda0fb9af61d294e5b36be02612aaefefd5ca"
+    },
+    {
+      "section": "Introduction",
+      "page": 2,
+      "occurrence_id": "occ1:933bffc57f06228afeacdba400059b6fef8baa7e9cf46f10d449ec0ac4b3c091"
+    },
+    {
+      "section": "Introduction",
+      "page": 2,
+      "occurrence_id": "occ1:277cd26907bf888c48845b075adf9f033c71ca17cf02c310deb4014a5212c91c"
+    },
+    {
+      "section": "Introduction",
+      "page": 2,
+      "occurrence_id": "occ1:18308f8964bbbf3d4c1f1ef69400c954e9cf90b93e17a88a40983c445774e78b"
+    },
+    {
+      "section": "Introduction",
+      "page": 3,
+      "occurrence_id": "occ1:c204a3029f986c1349a6f8b03391cd4a10a142ce81369b42b778215d0c490297"
+    },
+    {
+      "section": "Introduction",
+      "page": 3,
+      "occurrence_id": "occ1:88c515a392d0ea3d2093eb3725e4be2ae81b54fe962320e0dac97cff9813fbc4"
+    },
+    {
+      "section": "Introduction",
+      "page": 3,
+      "occurrence_id": "occ1:027fb50aafeca0410d0053c093bdd1de96f46f42173ea5542b13ae09a845107f"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 3,
+      "occurrence_id": "occ1:3dc01fbd18fa1bc74fb483728a01fc6657f7cb3174691a993f992ea6309a9b75"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 3,
+      "occurrence_id": "occ1:7c5649587ed90b8cc2e8ac817ccd00b69f834b13f60115753571610dd82e26c3"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 3,
+      "occurrence_id": "occ1:273804ad1cc9c44f018e47541d8c14515a0bb2b0a70ff0fa2b5e2beb3a84d217"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 3,
+      "occurrence_id": "occ1:8ae1dee7dc6946c7caa6646ca2d79402289b5f54dfd47a957e196ff952651780"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 3,
+      "occurrence_id": "occ1:e0f270b374f18f1a2bf0dc297e0d92d18d4d89405b4572c28ba19c8e4b742774"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:21c3307cc4a9bae3a63101c98babd804d92163d7710d5423002218c6e20f8ff7"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:606ab206b10d9826d16dcf11abede6733e35f060a591e7b0324a734878c9735e"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 4,
+      "occurrence_id": "occ1:f69e79babeb511adaaec93918f4c6c4dc6dd9110bb01469d119b4aa2074c1fd1"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 4,
+      "occurrence_id": "occ1:cb235462bc8331fb7e567c56c8826b3162d074818cf0e3f195e4e605c93f16dd"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 4,
+      "occurrence_id": "occ1:971a1effa7b1025e5743b002a5b833b7cdbbd7d4b0eb107f8c5cdb4614a12167"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 4,
+      "occurrence_id": "occ1:7212bdd379f97d3d5da430727fc574b378fa52b48b4d1e1fdaf51a7af08880c7"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 4,
+      "occurrence_id": "occ1:01230d2280878f53d514b0df5b8fd3dbf382f169aa8b3ffbb538e266712edc15"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 4,
+      "occurrence_id": "occ1:919cc462118a335078ee777362e25c69cb5d79e684d65d74afe6cc347a708345"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:517611f0a34d3aaeb950d4355a70140261f61541be7967047508b1f2cbae436f"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:0e68e9f1a7569a45f4e058e1226812b5a22812ee8d64d6e8d2abc5f303e75e24"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:a004bf3be9d65a365af8dac39022438c564bbba5db47c57f1ac6917ff0b06532"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:7cfbae531d7785c12e7836995b50d0f0d0d3cb35f01ff9ef68a2ff15ea761fe8"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:51b343f0f9aaea1104231d95d2af88114f0ab24128f23cb3be48c3660d83f6e2"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:12b99e069a39acd72f898edcd6e82f9e3816336b1a672edd60bbf06fc6680060"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:eaf692420343e11fe48c4995d7c8e60669736d599bd6a40a056a063687c22c05"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 4,
+      "occurrence_id": "occ1:5c99bac1dfe3a2d7041563885696034db3cb58138b9ca112b07bb724b74bb13c"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 4,
+      "occurrence_id": "occ1:d2169a733e26f71647776f7becba323c697f454fcf9c6e975c52654d7baf2c6a"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 4,
+      "occurrence_id": "occ1:3aae6508f6ade1d4599143ec65e7d704ef3c303d4bb311321b8d73ce4406a994"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 4,
+      "occurrence_id": "occ1:bfa6513b6740ba53bd7234f787f69595d842b040cb8b227e63e1c64390019181"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 4,
+      "occurrence_id": "occ1:b429c5dba2dfa1d2c30503b11cbe0cc3bee01412aa5bc65656bf4ba54a925445"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:fc32f4c6dbc650a39d7dafa796788a3a65f374b2695bbf9a14fa47f867f09935"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:27bf885aa7ced6e9c175df4cda14612e0993298a43ff4a53f7bcca7a68aac58c"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:1072690d38ed6ce97a943eb9ca68696567cfc9b5f584e55be250aea37a432657"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:add16ac43193bad3c8969896f859dd324eecd39e492342f483a487b12129956e"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:7c01218c5bd4406ffa67f6a9f3a2930b4b53a548d8cf6e3e15035db03f76f5bc"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:105ca03d0170481ccd811119f5575bff052d8d267e71ed0af388837d86b4f368"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:d323934ddb0ef58c1dc1115fe5f85d5f0c6caf23913a438701cb443cb2e9c424"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 4,
+      "occurrence_id": "occ1:12d774c86d18bf9d8cdc26818d5f8ebdac7afe0c7740536e2b6da789b5d57cbb"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 4,
+      "occurrence_id": "occ1:c744be58e846a5cdcc04129d38842796d5017a4f0d9b8046e2444e502a5fc576"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:e88130709c6916417f068f7913b8d6ab00019b7ffec2094d07a75dc190f6d03c"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:958acfcaa74fccca011ab458d4d16785fe521752564dda39cdc69d14de83561b"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:6e2aba977f3246a1cdae2a03b12966d7860c51a224f10368168bc7992a84be46"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 4,
+      "occurrence_id": "occ1:30b5a65dc44f46bb212b95929df5b19b1d1fcbaee45d4ce9599a90d49dde96b7"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 4,
+      "occurrence_id": "occ1:762d83665260f249dc7a01c01759fc6e34644a0fac4f46e4f35ec509d5019f62"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:6311b85be6733551d1d381ecbe1662036db102025ac05f11a8da88a86bac4a2e"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:b164cbc83d5450ce01b1f7efa1d89c9b5ed4deffbe655b609d184a2b275abc38"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:93a084ea65e50e231ea42a0e52b215680db0e97f6069f3ced8b1f801c1bbb5e2"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:c26ede034dc401b0e02b8533688ba062ac23545c2b1ed044e0df27c7c7b34e8d"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:4ee79228cf9a204c9419aa5dbee1f48970782db6d77e8e4a355bc12bf0d8792b"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:b2b97f6ce1943b37a36a1fb71d272a3e7eb4c9a21610e990de8998575af0624b"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 4,
+      "occurrence_id": "occ1:9341f2f37f0271b3b2d58b00038cf37aaff21c31fbc6988d403bc3da165c0c3b"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 4,
+      "occurrence_id": "occ1:f3d461ff5fa87a8cbd2f51cdbb23e5ee2ab99c62a6202cdf08501e437cd4a995"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 4,
+      "occurrence_id": "occ1:bc5103308442a439876bae2fd06fd02a8c84a78d1b9ff3c5596a5d9585ab749e"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 4,
+      "occurrence_id": "occ1:fae03cb0693931aef720c380280ad2965911e9b62e358702bd76f1a7885cf4d8"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 4,
+      "occurrence_id": "occ1:b61cd8a8824c34108b2b8e69b282b16ccde5a150463181f2d3178f0687a72af4"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 5,
+      "occurrence_id": "occ1:07f2fd97011f553a10ce02bd18a1c4aace3a687dae2481bfb21f476ba66ede04"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 5,
+      "occurrence_id": "occ1:eeef369bf1dae40fc03a99ed8c7ccf089a18860754f57c3c0fd9a7af675a352f"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 5,
+      "occurrence_id": "occ1:21b16fc5fef3b54dcbc0c7af0392ffd561a03813e7df0a79802e7eaa0799a519"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 5,
+      "occurrence_id": "occ1:b2a28d2f2955b7f866d0d76f5cd9c0a16fed764703cace8869581268043bcd5a"
+    },
+    {
+      "section": "Matrix calculus",
+      "page": 5,
+      "occurrence_id": "occ1:872d66485772ddc8dbcb63880e5fe1e2525131b7c72f12556eb02d64c8196b85"
+    },
+    {
+      "section": "Matrix calculus",
+      "page": 5,
+      "occurrence_id": "occ1:5cf00f143d3dba615fdae008c02555032143682ade58cf9634bc932171bc7efb"
+    },
+    {
+      "section": "Matrix calculus",
+      "page": 5,
+      "occurrence_id": "occ1:79025cb66e6e30e166f614d9ab9eb49286cf7c80bb90898e52d31eec3626cdba"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 5,
+      "occurrence_id": "occ1:ed0f1df2c26491d49bbc80179409a88b775f4991d9d331211163a07dfaa9af14"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 5,
+      "occurrence_id": "occ1:cba7e86076b766c015b4b4ee2dff1e79ad9f140f6ed11d57461f621135604259"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 5,
+      "occurrence_id": "occ1:a34438def1091082f3048d036ab51f98904977191ef27531e686ed8873645d64"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 5,
+      "occurrence_id": "occ1:8c47bc5ffb19772539797d4db1f8146255ffd92b827afec557dacbee68026e55"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 5,
+      "occurrence_id": "occ1:453e7f33f42bd6535a96b5b56261c80024a39e411355696e3807839c4b0f5230"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 5,
+      "occurrence_id": "occ1:f51534ec503121d8b47151de30430cded406e18a286dbdff9d46c5ebbe716706"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 5,
+      "occurrence_id": "occ1:3ffed7996412e0706e862dda2292950b547d1692526f2799245a6c77602eca69"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 5,
+      "occurrence_id": "occ1:f3fee6fd085d684fd7d24803daa64e93f329cd62356149aa65c4643b91677e52"
+    },
+    {
+      "section": "Matrix calculus",
+      "page": 5,
+      "occurrence_id": "occ1:5e01c1a2dff41826b32c8ebfaee99fde40fa0cb46119dc1a197ba34bc74d7771"
+    },
+    {
+      "section": "Introduction to vector calculus and partial derivatives",
+      "page": 5,
+      "occurrence_id": "occ1:311046d62cc333a2cf2c1625219c45997dbb9124bd211cc6f1778df61ea1c0d3"
+    },
+    {
+      "section": "Matrix calculus",
+      "page": 5,
+      "occurrence_id": "occ1:200a6aece620d496b7067159b9f426d0b6284b8c5a78fb21fecdc363fd83ecf9"
+    },
+    {
+      "section": "Matrix calculus",
+      "page": 5,
+      "occurrence_id": "occ1:014d02b5ea5e3b9d58ac359e94ce3d057e8b65ad40ca2e519f8c8218bf635ed1"
+    },
+    {
+      "section": "Matrix calculus",
+      "page": 5,
+      "occurrence_id": "occ1:eef1796a10ac5b92b4f13bda8cb2d4cb415c4d83cdfd65c3b415c35fa36b2d2f"
+    },
+    {
+      "section": "Review: Scalar derivative rules",
+      "page": 6,
+      "occurrence_id": "occ1:1b7d01a5f64f72eb1480fb6e722b3d51a6883ab6d05ba5a1c501c3f8ffde515e"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:fecdf4a5a8accc00fe152e5b0f1a5f81ea6f33bedbdacbca0e9043c95c69259f"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:d7777a820a893f4684d61342f25fb549e79ef7e9d2f7e105fea59e1e5b5ca787"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 6,
+      "occurrence_id": "occ1:bc8d3cb2c395d5ba4940d9f20bcbcfe96de46be7d62fe7fc2076dcdeffa6f3c8"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:fdc6958112fff3d1c1598d43037403543db5b9f22bb7232a91555f5c83ab1133"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:1d3031390d9b4d53c36d7646083d67a9b56bc21eeaba51d16e5ed77dd7ae2f93"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:5619c34ad95083d89d5144c99b08c94545bf74a53283067484b08723f878b866"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:98884f6692bc5fff98d7a818b6bf8fffad23a0b6cf02d2dfc117aa207428ffda"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:86eda77cec88a576706fb530b118031833ecfad67db122eefdf3b2ca84ffd5e8"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:eaa4be3e1329baadfa7b3fd079db5bb1d7b6e336191e05487077895228abdeea"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:32da54030ae920f04f98074333afe75041d371dda6f5ef82eac36622c9f4ede6"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:303895d5e67462679e08500854cc87ec173cfb8cc7da58145b70919a5b500e5a"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:f06d7dc28b546f5d1c0565f3e18827e18eb502309c184d736b16cd8f21eb46bf"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:aa53ab9fe8fbbfd5ee7c2793a1a6ae28b4c96d04e503cc2113acbfa697088617"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 6,
+      "occurrence_id": "occ1:8f33be7ae922b58323dc2beac88cda68447592aba75670434f6cf8723749da87"
+    },
+    {
+      "section": "The gradient with respect to the weights",
+      "page": 6,
+      "occurrence_id": "occ1:cb62ee8544dd1ae4215a3bb7b6cb500fb1dfcd46e78af6eaf75fb8b56cb85caa"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:e783784436426acab9ac685a252d9ca72204b4cc7bae7660197f76d2316bc480"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:194453a160231c2f53b95af4c8484ffe786ded1f8c965e05892abc912dd1c67e"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:4e8811b44192fa362181762a17c07fd5c1aff3d7bea3c79972de7a992fc021db"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:5d61d403ee3bf503eaabefad9221fbd2ca87de41af1727fd36adaf2290d4d817"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:eb6bad4642e44746d061222dedcaec5bdce7f7738527a82cdb481bdb52e5db8d"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:e7b0002c0e8dc767dd933c1d66d1ebfdf7a53fd647bc916c5d6ae678bba74280"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:d88c296656b3dd4dee38055e6ab9a31fc7e764c923abe349476a4b70802c35d4"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:ad8ccf9dea4bda80f8c5d8f4f23dc0a5213f2120217d1d36db79f91236342018"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:7cebfcdd2682a017932e0573d7ff6ddbf5a2940293f6ed7f20d1baa55a85bcc4"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:3e43fddc91717999662526857c19f5c1d18f3aa822fa4a54701bdf40423eed8d"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 6,
+      "occurrence_id": "occ1:c725c6936e6cf920f3f3ee8c3e2b12be6691682e86b8bcf1a0c43ed859b06fcf"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 7,
+      "occurrence_id": "occ1:1de6112ec529744c97aef42c7fa653504eb5409eaef5bec013f8d9d0d4f03089"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 7,
+      "occurrence_id": "occ1:837875ce6bf984d4d9c9bb9cdc8fdbc5d0ea752f60b5bf2f7e60330e37655bfb"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 7,
+      "occurrence_id": "occ1:99df45f3760dbdc101a0968622d9f79f7bcd0fe9422b16a75ea52308c4af23e2"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 7,
+      "occurrence_id": "occ1:3a88aab561e9017f558bc455770e89f608bf0a87fa8e83ca4cffb3baf181c500"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 7,
+      "occurrence_id": "occ1:bcd393da803d82dd2a66b6b8d2d5b69e45483e42569a094165c491d42f9e8db3"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 7,
+      "occurrence_id": "occ1:e82c923429b043eff862460ed7610bbe75438b226ff9d5b17f59c04bed8b0e9e"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 7,
+      "occurrence_id": "occ1:4feae649fe4a5f3284cfcb6c57d45a4d6cdd1ec054fc5d3c15dcbb9b89635c97"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 7,
+      "occurrence_id": "occ1:39c28dfd5fb697d10b3b5825b06645da11a2eba2a6e8755777e1ef961fc62000"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 7,
+      "occurrence_id": "occ1:10959c16b4b2af2e6c75684d92a30dbc449d891ae0496bd7e313fcd0905f4095"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 7,
+      "occurrence_id": "occ1:073d7edba13ab5a2b946eb55419bb49346503f18a8592d70ad5bf02442212958"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 8,
+      "occurrence_id": "occ1:9d6e9089e6af577d05009e7432050e62d71e2aedb1dbb71078b93dbceca34605"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 8,
+      "occurrence_id": "occ1:8affbf0aaf38cbc62fd9c5080ce3615c83ea57eb8d1c8f2c94d837e1abfe921e"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 8,
+      "occurrence_id": "occ1:f6ffca6aac317a0fbdef6430c3646c8d35cbb42191a56df9f01bd9a63f9243f9"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 8,
+      "occurrence_id": "occ1:d2333d9c3fb17b3ef90b0d58cd84acdc422a4a0e53ad7c7798beed90d89c4f3e"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 8,
+      "occurrence_id": "occ1:2c07cf5e282aea069115f0111cb000ac1e00d50e730a8cdb329e3376183debd6"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 8,
+      "occurrence_id": "occ1:04a29499080f8758d90f8b20ae188a5e8774ea40b3dc006410701e9e50537624"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 8,
+      "occurrence_id": "occ1:f235038c4bcdc3cdc7cfc6ef0229e46ab2713e5b37a5ece72693f5041f18814b"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 8,
+      "occurrence_id": "occ1:6f252a7ff2836b6a12d162f176f9f163df319b1e6449ca653ccf546a713be9aa"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 8,
+      "occurrence_id": "occ1:eeab0c2af3b7a56f94b6a2ffcd8e2fd6f6a184278088f753685a34dcb8691edb"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 8,
+      "occurrence_id": "occ1:b979879697cc4263dd4d51e9c79683a004ef9803b78f89975ebf6079b1a5e1ae"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 8,
+      "occurrence_id": "occ1:8575bfc7a79226e8edebcaa79f3e96a7e212df0c6115500639e6bb269668d728"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 8,
+      "occurrence_id": "occ1:b3198a95272fe663b5a306a4061f785075936f634fed21e982203529ca64f035"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 8,
+      "occurrence_id": "occ1:818403d586eb64a2f27f12b7e346419de814d5f1cf87816f23576a3e75cb8077"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 8,
+      "occurrence_id": "occ1:2ebeb6046662bdeb1223a57709216e80d08198ce00c801fcd489caa3c1658aad"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 8,
+      "occurrence_id": "occ1:429b0533eadc150dec16c3afcaa3f2186687fad87852f4a9111224489d3f7242"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 8,
+      "occurrence_id": "occ1:238b8aaacdb8d95f95be11a8064393eb4ee03c95b34f7ee23460122c078c518d"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 8,
+      "occurrence_id": "occ1:ace7c2f56a5f2e797d5674e5fc169ebd5c0785afd5d13ea7e119f9902adeeb3c"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 8,
+      "occurrence_id": "occ1:7d57359936329652455099ca24aa1b47d59f886605e74709ae9e2d85c53001bf"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 8,
+      "occurrence_id": "occ1:ef74eaa09ddaaa8a69ca2db144c2bd5094f1669c49a1d712c180b68a9670927e"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 8,
+      "occurrence_id": "occ1:9ecd72f313ba6b875f528339ddb4491c86141a05966a515f17c90289bc81bc93"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 8,
+      "occurrence_id": "occ1:ffb58d79d642978bd18d105649d486074b002dfc1eeff2184501778d8e79da96"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 9,
+      "occurrence_id": "occ1:0413c908650455d500b1ffb4187880b0681e93d598afbe259bb889e45308a936"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 9,
+      "occurrence_id": "occ1:76cc2f3f9eb0fc03711ba3bc443b7f3e1c06432f1b133e4ae7eb00041b258267"
+    },
+    {
+      "section": "Element-wise operations on vectors",
+      "page": 9,
+      "occurrence_id": "occ1:df6212dc43a5919ac7e7d4196866896ec756bfb4d2355c72b46b74f9a2f5a089"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 9,
+      "occurrence_id": "occ1:2a7a8f5a4152449b4f0a331c840ccb40059958f109e323227aefdc6d87161f10"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 9,
+      "occurrence_id": "occ1:d717787834cfaa637b91e99fded35ed32004f6868980a8e97e2ce9c2eeec8385"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 9,
+      "occurrence_id": "occ1:98f3ca432ad273113f6e64d652342216e7235d1313a4a4c29f1bac471b9c241b"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 9,
+      "occurrence_id": "occ1:cfb8e23c080eb305bfac61bc6e2c373eae57ea1687cdc591f77747c98f274dcc"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 9,
+      "occurrence_id": "occ1:937a256ef66b2d52e1be7ffa484641b620e46d8486520fd0bf44c91134fc6bb3"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 9,
+      "occurrence_id": "occ1:803104b07b7fb43f77963b7ec9f2e61137b1e76d64cb8c77a56723b19ec124e0"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 9,
+      "occurrence_id": "occ1:f6dbe94ae7a42537497d18946a5f81214f9d8a00bf1c8820ea7b9ce81578b017"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 9,
+      "occurrence_id": "occ1:ea51ed32e3bed91e4b571f21b65539c9d40c944f8be2e9085b38f02b034db828"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 9,
+      "occurrence_id": "occ1:80484f23c2e7661c651608f01da96759b48676ff99ad26790944b82788fb49f0"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 9,
+      "occurrence_id": "occ1:73b0e4dbea35237c2e16274408d4f69f336dc85762c45927c9b1b6e8e44ea15b"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 9,
+      "occurrence_id": "occ1:6ca036c2cbb511c6a9ee0bb71d87776632f27249b45e5024a1beb04f837e5fcf"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 9,
+      "occurrence_id": "occ1:6d6e6a1641427d514b8cb2fee70ae5b1fb6501f2073d98fb620c76ebc7080221"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 9,
+      "occurrence_id": "occ1:481f9fdb8f2db3ffacd78ca8b978b7f215eb1e4637385b85ed76e64139478cc3"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 10,
+      "occurrence_id": "occ1:22cb80e435cbe575e7aa0b21d93bfcd966afce42d7c04c2a6fc6b06be1d90013"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 10,
+      "occurrence_id": "occ1:29830e0a5a78b26366106b3f55731c375b38fc41125130237994f3bdc671cbb7"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 10,
+      "occurrence_id": "occ1:fe6dfb1368ecce2ab7b6f1b25083c00acd238e4a1c8a658e2031deb3d732834b"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 10,
+      "occurrence_id": "occ1:95e92abe66b4b9c33ff48b1d037cdd1264a1dcfbbce8c73a519a9e41051d5f5c"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 10,
+      "occurrence_id": "occ1:d68252340a44b30a73a9512f54727583454e88eef8f49b368159fd37491a6dad"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 10,
+      "occurrence_id": "occ1:07400340f69f676daf14520f1f05368ce6f90e03e58c6904ad41f943962725c4"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 10,
+      "occurrence_id": "occ1:75b86b1ee46cdf4796d1d0e43c55ebbf32b83a3ea6d2659792b1724c909e1ddf"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 10,
+      "occurrence_id": "occ1:c3d5b159dd726cde5bb92cbe8ab6e9f2cec49bdfac165d5c98c790bbbc0305f4"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 10,
+      "occurrence_id": "occ1:c7068e3cdc42376b38a1161f758becc7a0db4126155f8e0f4c079f054f3db270"
+    },
+    {
+      "section": "Derivatives of vector element-wise binary operators",
+      "page": 10,
+      "occurrence_id": "occ1:63e1f7b7dfb78e58b5afd02f412e6c970bdbcb5c3a95c95fd25253a282676e14"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 10,
+      "occurrence_id": "occ1:a1e8c28cb55e35d013599413c471c70ca2bc672584da1a3a656301158e9722fd"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 10,
+      "occurrence_id": "occ1:e78078361d05e48d0631300ed470b1179f891d2cc78857bdbb3fe76fab862a48"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 10,
+      "occurrence_id": "occ1:b57cf24292eaef8b6d71f94fbc46415e5abab6068d2f7477207e9eb4db160de3"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 10,
+      "occurrence_id": "occ1:6acc783c9ce2783e1523362c9103da974d582c0c22c687c86da4d367363ce608"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 10,
+      "occurrence_id": "occ1:f396a0776ece1611a9a7236eb0c971e29ed11bc4b5e0b0beaa8736bc1bbc7471"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 10,
+      "occurrence_id": "occ1:eba7cab6103a1039fb17f9d50002620821966c9ff4416dfede74442bfe33fe8e"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 10,
+      "occurrence_id": "occ1:332a046c2a6b91c7496e51a6935072eb50feb76a6bf01136155caace2cf0f077"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 10,
+      "occurrence_id": "occ1:4f72f58ab55bc03492279cf60a622b985eeb21b37a33467e3e7e77e881d017f2"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 10,
+      "occurrence_id": "occ1:a377e377e5d114fd8398c25ebaf7a2045ff45580db8e0bb661356124a55bc8aa"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 11,
+      "occurrence_id": "occ1:2ae672fe508c9e40aafdcb0b827d3c1f7d136ead04ff286e7f5b10cb2fa63b49"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 11,
+      "occurrence_id": "occ1:c85fa01a14efc4c855332dba4c8c1df08cc82814e96680d5f06ba5e5871f2e2e"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 11,
+      "occurrence_id": "occ1:ede05d3a69f6c8b8f6821ffb6099e13a3ffb87609ce9f6ac0cdbc703db686167"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 11,
+      "occurrence_id": "occ1:2299ddf3ab813da3b1a56dbf9a8c2611766414f067dc1fced005db16170d672f"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 11,
+      "occurrence_id": "occ1:f80449c31bd1e440dc7ff3411b5bf3ac0232494467290c467bd75130370361e9"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 11,
+      "occurrence_id": "occ1:ed7e089a91a1eade38a1bb0323714c2b8e1fa8831ac9a37af6f308d9de7d43a8"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 11,
+      "occurrence_id": "occ1:9cd459c2ce8f5a2e2698ffd35d3b61aa1c0a47065cc597a85ae8378f7cf54b7f"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 11,
+      "occurrence_id": "occ1:f139a7cef6d499a7acccfb6e9e65c753d442922eefd7f5d70c0d0907aa096155"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 11,
+      "occurrence_id": "occ1:6bb54e8d3caf2794537bac99c5abaa672f05d1bce1fc1eebcb8832b0e6a3aeb8"
+    },
+    {
+      "section": "Derivatives involving scalar expansion",
+      "page": 11,
+      "occurrence_id": "occ1:7a1d144dbe7bd9e7244a073df2a81bf4162cbc00d1ef7a1060fdd4e3dde00e71"
+    },
+    {
+      "section": "Vector sum reduction",
+      "page": 12,
+      "occurrence_id": "occ1:6bd60395c9bcbf10ca59a8e2cf50c5efd9f1807991b2c79ada5a589281e33411"
+    },
+    {
+      "section": "Vector sum reduction",
+      "page": 12,
+      "occurrence_id": "occ1:6177cbfb518e69ec4d0aa7d4ee3ed65391efc818278f6a394b05e9f4b2832c00"
+    },
+    {
+      "section": "Vector sum reduction",
+      "page": 12,
+      "occurrence_id": "occ1:05867bca59687ec1c4f5e8d378093ec001792ca1ac43326d09a1633270bf75f5"
+    },
+    {
+      "section": "Vector sum reduction",
+      "page": 12,
+      "occurrence_id": "occ1:aa4ccc2f5310cb854e2d43407d26c6893d231d37fa9b36b2ea98b556ba5306c1"
+    },
+    {
+      "section": "Vector sum reduction",
+      "page": 12,
+      "occurrence_id": "occ1:6890caf6fe646926aef341d56b27a3c3e01558e5ab997b9e6ebd53a04b471057"
+    },
+    {
+      "section": "Vector sum reduction",
+      "page": 12,
+      "occurrence_id": "occ1:5529b4286f3b8d7c4d55dffb8ff4e2d2137c564435cb6411b71a28ce75de0f70"
+    },
+    {
+      "section": "Vector sum reduction",
+      "page": 12,
+      "occurrence_id": "occ1:b6d46a46d18fd9ea8c05d5f904037581ea34d3deefb17654238adbba79114eed"
+    },
+    {
+      "section": "Vector sum reduction",
+      "page": 12,
+      "occurrence_id": "occ1:df7d9cf35f11ba804e33dcd03a32f8fd9b50695199d5ebeeb9ba38848d142763"
+    },
+    {
+      "section": "Vector sum reduction",
+      "page": 12,
+      "occurrence_id": "occ1:bf7ebe40932ca9f08b8351576edb928edd7a35cb21d5664389aaa1942969adca"
+    },
+    {
+      "section": "Vector sum reduction",
+      "page": 12,
+      "occurrence_id": "occ1:ec3259ebbb1d6f3a9c06b3e6e915ead3bae47d6f6b99d2d511b67a3f034c9ba9"
+    },
+    {
+      "section": "Vector sum reduction",
+      "page": 12,
+      "occurrence_id": "occ1:3b3d4c9f77186214494332553e69eb9072343adc4f2264efa33114b7df4e21ee"
+    },
+    {
+      "section": "Vector sum reduction",
+      "page": 12,
+      "occurrence_id": "occ1:65630ecda525a17ca63a2a55d711b6b74d82d69ceac73214cd380fd305a701f3"
+    },
+    {
+      "section": "Vector sum reduction",
+      "page": 12,
+      "occurrence_id": "occ1:73d0e92167fce9a4807a9af69172b5668e01ee8c042df61139257dedca6659e4"
+    },
+    {
+      "section": "The Chain Rules",
+      "page": 13,
+      "occurrence_id": "occ1:25ac9f22a759b873fcf4599180164bb03a5f05f795eaf466cfc7eb589d4983a2"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 13,
+      "occurrence_id": "occ1:9f354403ef31668177152ae53d42347e8b88867f9b8affd576d80a9f943f11e2"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 13,
+      "occurrence_id": "occ1:4f9eb8734656a128d24f1a4b72b0268dd817fe3b4376f1d3fba7780aa125da9c"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 13,
+      "occurrence_id": "occ1:05a6085b78dddf27b162b29c0088062ec78f147c84b18c7f6ab02e8b4763a650"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 13,
+      "occurrence_id": "occ1:0b084cbbd435d81ccf30583fb17fbffbea0877d9b5a14ea797c56daa7249131d"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 13,
+      "occurrence_id": "occ1:8b959c0a5d8f6cf617eecec1df6cd2e42db86c977eccc4ca992faf37310736c9"
+    },
+    {
+      "section": "The Chain Rules",
+      "page": 13,
+      "occurrence_id": "occ1:4a7683eb4df0badc9c244d060fd5ceec78b482972b7127560ab00d373a3c2616"
+    },
+    {
+      "section": "The Chain Rules",
+      "page": 13,
+      "occurrence_id": "occ1:ca2d508c9503105dbbbbc70ba93677be1aba8ff09665250a92df88c06b619ac4"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 13,
+      "occurrence_id": "occ1:ffb6293cf39265335c3ddb637e66adb665dd9be29a75dc599e98c83b6e329ced"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 13,
+      "occurrence_id": "occ1:b2953323062175cf8834c2e2ca34aaf25e0e6cc42e25a4df44d6e58c2904768b"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 13,
+      "occurrence_id": "occ1:b98ea303a0fe253d3a30f7e69b89fbe0960e24407e3d4543640100dc3eec40ef"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 13,
+      "occurrence_id": "occ1:bb4f1bb534295bcf7cd47e9577a8cd16e9d206bf6f3e5a70d2bdcc005b50666f"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 14,
+      "occurrence_id": "occ1:34fba5b982c06bb126caf146140b287d8634ed143a44a3b551c5b83a2ce9d7be"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 14,
+      "occurrence_id": "occ1:7ccee910f558eb34fb27b2bdf775abe22fef361307105938a3391ef4636f9c11"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 14,
+      "occurrence_id": "occ1:c0a7afc614dcd951a6ce731a2d5f4c1a78880394993859c2e3d12c9605276af7"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 14,
+      "occurrence_id": "occ1:b2c26a418f76ee0f7a15478a6d788c6512a555a4e34d5a9e07e8a6ec2ce8580e"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 14,
+      "occurrence_id": "occ1:b0e66f576c59ff9bd9ded33ff5a6c6eff7071fbd32d6c9e41c01f4f28f678953"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 14,
+      "occurrence_id": "occ1:88bb91c776b9eb9a0f3bdfcf0956a8322fd304dc102769f168f036ede0e89c5c"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 14,
+      "occurrence_id": "occ1:863611647c95d201fd557e1366605ea42a6a09511abd0de411b4d4402c1eb806"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 14,
+      "occurrence_id": "occ1:b0887d9319c5e2a756e0e12f640299ba2c63c727364b773b44a30ec98b3afbf6"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:35a7aa729b2a5d0e5c86073149cc4ddddddd10f3cdb58a26220c0ba64242dc2a"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:f337eff3aee5aabfed7d37612ad6294324a97e9393a1f37867a09baf628918c4"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:19221bbae4e054ec7d530b36ec0f821de3180241cbd232f3592608a8b75aef6a"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:2d1642d5a8483367a294716ea43334b3c9cb437d5a0b927aff8ca64e22838732"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:b26f26629e220f9fcd37c23d9668b86cef65937770132c537bec59ceaf3568ac"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:95291e441090e372ae7cb3b3778b47ee4711b6823491140fc200109d4eeb5e4d"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:ad84fe0f5366b5d095240409a1b21e55e7e36f4815b0419093bcfe19ece49819"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:51e47b6bd1255490407cd061c01d854b1168cc10bcf971072b1c2f6b5f22b716"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:f53acfae19c7fdba4522589f209e30bdd6d897df99547a376d1d16e8f7e0cc8d"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:4090e9f88a45038df5981a0b539dff36f16dc59c101c3b20ad1d8c1d89e8db56"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:46bb22c59ca6493fc45abfed01c5ca8f7b707fbde615b7af63a668dda8267613"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:787c04b42d918cf8121bff6aa924fc96d24fab89b2b2cec098126537974d16ac"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:c9fae4879e4991c36aef5f8be95f2b0e84e8617852ba01ee7e714c73a8a4c45d"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:14894f9cf84bdff9190a4a5689cb78e010b42af6a580eba5962f7862ae76ceb3"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:aa1b79bae99632be0233b8592cf236657cb624d63d0c587e1326d152e45c3b5d"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:30c1c04ed2bf4762f4a5535ead762dae7c21556a1fbc16129a7ba3ac74f8047b"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:02cd6dc56aab436dac89b0720a3c87ce5ee1e1c6527f9f41efb6cd2198cb7743"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:e87dd8d70300816acdc3dc10b9125dc42cf4c906a480a720e348b1dc8efe3dbb"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:69695cc65c17d2652aa974059e33ce276dbeb2c8fa631a33cac49cceb7f206e4"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:2931ad4494928d0c663b9e28615aca690c5ca2a6a615b0ca43ac5b8e29922e6b"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:30b205c8c321ff31998e0e6589267343ddf8921e07830fb7265a26cc64376590"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 15,
+      "occurrence_id": "occ1:c790367bbe7ebed96b4b96ecf6033b4be229c560d060dc81e34dd4a5c06cab04"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 16,
+      "occurrence_id": "occ1:328c0644527f2ed6c4700f643d84fe3ad7abb6f6df397ddb1702149f8d6ba063"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 16,
+      "occurrence_id": "occ1:245334f9d37052aca5f62aaeee4caf852f2d0559bda32569694ed8f0bfc98310"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 16,
+      "occurrence_id": "occ1:63496724c95b4343618ffc3f2821102fdfcef5d57f4dd22853412be29e2b334f"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 16,
+      "occurrence_id": "occ1:11ff405af0eeb3de2e180d9f55eb7ce041c734bdeaf51bbf9a0589ded7518a74"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 16,
+      "occurrence_id": "occ1:13a3ea67dff4bd15cd4dc35361f547d16d12715584aa11c0e55658ad3638b102"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 16,
+      "occurrence_id": "occ1:ed067e36153f9d6d8679ed9c8fcd2acf85c00fd715941ee455fb94ddcebeb2de"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 16,
+      "occurrence_id": "occ1:47b977708166506362e41d07da2437093b7d9adcd19182a128bf3af7e5b2944e"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 16,
+      "occurrence_id": "occ1:a23c78c25f3b0df042efd11d2a4179aa4f41f9e459ed6f00015b939083588049"
+    },
+    {
+      "section": "Single-variable chain rule",
+      "page": 16,
+      "occurrence_id": "occ1:cee5ac4f3dfa79900993e536fe9654afb5312c582cd0827c23d70708531ebca0"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:045bba171e6a4319ea30d1d3671e492da06765d32c18efa99196de815ffd4569"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:c9e4dff5f2db0e5bd238473f3e167af9f1fb0adb3194cb6d9660046bc8472c40"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:cccf6de24679f9e4d1bb14e8f841fdf6dcbeefb27d703a5edc541c19372eded5"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:e627fb97e347892c0150a23eb25e139416dbe0ee69e69a1a22e0911e4f6f8df9"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:6aede928a4ddab0912fc67c4e085bfc8c2329ffaef79501834c9e3b1fe8daa6e"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:1d298c06920f653671366b4822b8ca9351dcfdbbf712b85ac4d330984448a499"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:468d1bde7f23f30eb61e09845c43dad2c1de42b4659811f2a926075b0393fd2a"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:f47a419d806f3a057ff811ed9a9cb6397828840cd327bc4d296250f284cf7432"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:f6efb64af2feb1f4d69769c28cace6653f90741eb87460b35a2c0c260d611371"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:19a1924edddfddd3768018ef4fb3fb8b169996a37c0dc5229159eb2bec47567d"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:bfeba880faca921958e6e0a2c96c682db733a5912bd8484fed0ed57f25b88be5"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:eefa84f1c22fa30daa52429d7fdb45220d9bbfbdc50d86f37d7037bcfdbfbb20"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:fb534d3376a982362c69a095a1282e89ab6f54998b28bbbb3a64880358066d0d"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:2831fe8c3c31f29d44c1fc7ad135ae23d58d08785baa2935656c67826bb432f7"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:eb8f3061513c8bb6ce8c066be05b46e05cd04b697fd5baff88c266330bc19e51"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:0987860018c10f9cd602b05a16a656b6776ef3952a822f6054e73370874bf939"
+    },
+    {
+      "section": "Vector reductions",
+      "page": 17,
+      "occurrence_id": "occ1:48f47dd5b5c8913a99027330b34003ec2e4ac9f7ab10bdec9d44cc8f862a5b55"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:605cb07bc5832ada0ac58ef54b40a9cedd778f217439c49d745cd642ba079169"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:f9e1b7968b0299dd64e9c2853e941b5a491db0e9073309d7b1b405f6a6420823"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:f908b3f08c3c3baa867d354a2317ffa40c605b0046aae76d6d21d7a5cacda752"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:7ff0ad899b81496fe707786c57995915ddae4ec1538e1c94effd0137133a2c7b"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:7e7dad91ad0341353bdc9ff48aa7a722d024a31187b74b52689f75a2e4f49f04"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:b81b06d770bafc6e56ac060d5293a8a8799af51f2379c2f5fe6b193c210cdb70"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:7f6430633e324b0ab19835735c0fa1cf97c89523b1c1682b942a8a653e1a1a29"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:bbef40653b6e39bfad52e22909e18b4ac5d15f1ad601d91d0faa8558d6ac8cf6"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:dfcd0380dd3c587960327bae1006241271d17827b9e572cfd5cdaddf6d0be0ea"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 17,
+      "occurrence_id": "occ1:b5bb58871f3fbabe37ce05b935bf09fe49ea841d227f7d0c6424e19ec4c6a92b"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:953a1d0b012b95bd572c0f8d80ecc1f259daccfd931406a9c3287f8eaa2626ed"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:d82789b163cc3091662cb258312d08ce5823f4b38efded488d8c60919dc3a0c4"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:cf8a8b31c4b85981b9ae8c306d9d8cd4d7cafcb89037834d6ab0bcbbd27957ae"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:0da087597c6e9d6b1292a06ed5541cc9568cf792218d1ced34a806c4fce82ddf"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:3ea4640914340f157c72dd7c17ea81def017512bab0c7a8932c172cfaffb3398"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:eb742adec95ab05d59ed79c38c6523c684ec96dba1d645803bc0477f8f723146"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:3ab8e5a8fd52412541dfd2c16fdaebde379b54a2f506257c4bf134623a90609e"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:0f111e7757ab5d2a88255475b0299d3aab2133c3600d200fa682b07184e5c69b"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:c05a99a2f813bd8d08d9dd888ff12245f6eaac67f7eb20ddb2a4349e510f33d2"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:ac392e01136fe116016b97e4a8752cdee927c90279a91ad0773ea4123e3a004a"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:fa27e066db6c49ce60f926bd3307b36c1be7beca7d60a36f3d685bb68429f40f"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:10abc645d770abda5bedc6df7e01d90b4a411206185392db709ed7e478cecdc3"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:73646977687595642d6f3928c52ce726786b6ff699ead67e095cea8b9af05bbd"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:23750cbf26db20b02c70f990ee7a2a396898fd9fff3f9084e0d8ac50629ccf22"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:e1c55f9d6413283f91b44a5e46964169d1971d33bb281ff758ab8746fdd58e85"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:0290c2b6ec75ca97b4c7ee9380011451b5d9e1ba0f505481a132192fa449a190"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:b13b8d6d7a9fbd41a0b4a44441aeb343ff6bd96f5d899a51487e3ed610b10821"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:88b9614ea2fcafc30cab9664b41a9f28b5acce0ba627b596ea7ba47785ba3bf6"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:cca8a9c7410db55b3d938a348ecb66de6b1bbcc1d465f8a670f7be964b8764ac"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:c9c83fc14d8ce2e223a5c1d8ebca2f1e650094505e87913dd5368a27cc783d50"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:bc25c1a77f0eb0d2d0450aef83071a78ace5764c8fabce6d2407de21c4ee84a1"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:e87b4288c986334f0a4847e0f1c9062d3ec0d6879d0867f50fb344fc74b78323"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:dc14c98f061d122061e8cac90488d3c3944f06e0a2594347b5ecfcf79fd73c46"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 18,
+      "occurrence_id": "occ1:9643dc27beed89a782af12dc1d8ae7d5b4e9e010c4138eb1cc24d98e86f088cd"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 19,
+      "occurrence_id": "occ1:e8028876443cbcf6985e7e8decd0ee26ac9c3cb4577347175dab3975b5867a7a"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 19,
+      "occurrence_id": "occ1:a146297be7e4ad71cc0cb5bb47dce4f725a7275e2e95de238edb48056f303dc9"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 19,
+      "occurrence_id": "occ1:a09290d6ab5c34c2c9e6b4b80d69a3d27853628c78c6e401ad1640462c1b014f"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 19,
+      "occurrence_id": "occ1:f1d02ac9cdd2b1b5d565be67752b8f88dac1dff0e77f2bc75a3460703a1cd94c"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 19,
+      "occurrence_id": "occ1:e1f292bd17d35a7f1c3f2f43fdb3eaadf9a9b4983620f53bfcd43dafae892478"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 19,
+      "occurrence_id": "occ1:7d4c55997f9a48dabb136531873316d5d14d1e325b79020352eff8927db81648"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 19,
+      "occurrence_id": "occ1:7ddbbd3518d8655bae07f2ad9c6af858f5f983a2f98d612335ac92496a040b80"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 19,
+      "occurrence_id": "occ1:2cfddb25c9c2c4a23b66c50972f5a51391803705146d36a25c1011bec7244530"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 19,
+      "occurrence_id": "occ1:37bf94c0646db15690cc3b787de1b9bd0a51ac538642f9c7f1d0a2ddf408e387"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 19,
+      "occurrence_id": "occ1:6a36c15efe3a0ce2af38eea7f1d7bc5e20f2863a7c2612220499a37a796385c2"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 19,
+      "occurrence_id": "occ1:4879e17d6269e679d06ab0d507c900e92ed2e1492c4f1431d73341e0aa775320"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 19,
+      "occurrence_id": "occ1:c895398c24550a7ea05ae4e83a056c768ba4602bc9bc270f4f3b44a5aa94c4f3"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 19,
+      "occurrence_id": "occ1:26198acc35017033866e5f47e08910148018d37df048b2725df812f21e64ba85"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 19,
+      "occurrence_id": "occ1:17f85d7795cf2b2b0df20853dab036df8250338159fb20ce2daa0404543d78dd"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 20,
+      "occurrence_id": "occ1:ce5c88f84ffd65ed8eb9854013621fc20ca8e3732e64f12da6d39fb93d6e8de0"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 20,
+      "occurrence_id": "occ1:b5d6685910b11b1df3b737ba3f3a052ceb262f9fb9cfefeac2210f29950f9a2d"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 20,
+      "occurrence_id": "occ1:3d598263af459242877136700c448239a240e60d6c00a02699003283f6949d6a"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 20,
+      "occurrence_id": "occ1:06586d0b7fbd54af0011b4c9a46830847b5bc532eda4d2e19ad55de93c4770f4"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 20,
+      "occurrence_id": "occ1:888d0a054f12bf9da229eafaa2e5b8de698e0986fc33a3de93c028c92023e58f"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 20,
+      "occurrence_id": "occ1:c6eec3a108f258e249033a4540c7608a3ff8c464e77455764f0041c4256e96c1"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 20,
+      "occurrence_id": "occ1:27f1dc41f94e56a301e28db984652b2e2e75567407f2846bcb28f0e8ddd7bacc"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 20,
+      "occurrence_id": "occ1:cd2ec1619dd70b94c5582658c721bfaee7c485a48b573120989c8e40dbf8019c"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 20,
+      "occurrence_id": "occ1:9c1dce95be958ed6d3760006a17e2b4850ac8ab8fba778ea699032228dfa6a0c"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 20,
+      "occurrence_id": "occ1:e723c454a402a8c15c7438fce28d36ea15e9fd5882f9a9e6263f23711a3d7303"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 20,
+      "occurrence_id": "occ1:c894565ccef3810af11ae7acc9795709c40aa36d2bfe684f3bf86bbfd0c36b1a"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 20,
+      "occurrence_id": "occ1:a5c6079697b7cfac207f3fe9c859d6d23fad0b5cc8895a4b233fba148326fb2b"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 20,
+      "occurrence_id": "occ1:6c5cd0ef26f7336a6e0e556805e226d17b9300cea10cf19f2567cbd3290e518f"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 20,
+      "occurrence_id": "occ1:c1d90e568ab08ec2e7e6a8a31f8795d30a7a6fa72adca5e9026b836bbdad0f26"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 20,
+      "occurrence_id": "occ1:251c5d6d1ac7b228f8178fefee4bf543c4d3789bf0044b582b77cf4b708fd3b8"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 20,
+      "occurrence_id": "occ1:2e4b09163c40b26fb16a9557725e7d69154b208b4862860e3087bf2f1e1d0898"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 20,
+      "occurrence_id": "occ1:ee0e22374b81b6b0ae7b177dc887c859752114e03c3a205bb378478ce42fb9a0"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 21,
+      "occurrence_id": "occ1:6a4608ce5b25ee7d00f750b52be8195d6e9cc8b85c4f3437fcd05275c185ee0a"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 21,
+      "occurrence_id": "occ1:65400223ac864b0e154607b031c3575a81c6cc7054c4d2d6801ce0099bee8f57"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 21,
+      "occurrence_id": "occ1:09a39da3a0bb222dd3225f94b645ab48ce89804428e035df78d9b377f308358a"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 21,
+      "occurrence_id": "occ1:6ec2c8cba645a1c5efb9ed0bad32287f5033d232f0d31fcfab29a70e028127f6"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 21,
+      "occurrence_id": "occ1:aab254f5ca20117a073e38835e793ba01c71299ee0ec655352e4d659d5476962"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 21,
+      "occurrence_id": "occ1:0555ebac906917030859ef5f8e1a228d76ff3d7eb18a0a72bc4081079f504572"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 21,
+      "occurrence_id": "occ1:91bb0949aab76e30002fca1bc0d27f8b9dec924562d95619036bd7f5e3c905c0"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 21,
+      "occurrence_id": "occ1:dc841fd0ac60910524aec25b22d87690ff9ef9719a1e0f724099c74f3efda22d"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 21,
+      "occurrence_id": "occ1:9ebfcf59f95ce9009c0c8d8c28098cd5e3c05a95fb64766e8e58f0dc12d49697"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 21,
+      "occurrence_id": "occ1:403a8832132756959aeeb85e4f0eddc58e1f32682325e875f0926acc70ba77e2"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 21,
+      "occurrence_id": "occ1:2c5404a2ad59e6d47d6f58270df2671e3c8c53e4ee982d589dd3c54f779e0f98"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 21,
+      "occurrence_id": "occ1:50c9757d0f02e1a4f10429b1471f14382d9ee16e0f2573f4f2b50c2813600c71"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 21,
+      "occurrence_id": "occ1:0a3f39ab1e167c716e127ef2c9693525b6b45838633adb3e5f40630ec4c6851a"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 21,
+      "occurrence_id": "occ1:b12a640b88bfab025d39a43a13ecc0355eb55a046b92eb65c31af27446c9f884"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 21,
+      "occurrence_id": "occ1:1efa8f1b980255ec96c04db8fe09c17c033cf24b233c99c2574e68aadc65226f"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 22,
+      "occurrence_id": "occ1:863ba001a5e1e239d06ded835cd3ea763993a42d254b56e0e208013bb04e2ae8"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 22,
+      "occurrence_id": "occ1:6ea6eabc0276e8b01248014a5e91ea9c20ca5b6986bdf402369c27f8a1c8b1e7"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 22,
+      "occurrence_id": "occ1:e2c97a9c17fdbe93d9ffb6442b5f7bdd4b159a60d5a4b36248d1f1daea9b95b7"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 22,
+      "occurrence_id": "occ1:4c9f179576bd29de86a24b754bcf982454e12b6a43884ec20d76ec647371bd6f"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 22,
+      "occurrence_id": "occ1:93713b64a6994897fda17f98d731af282b0c843494dd1b9b75ae9a5376c0b234"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 22,
+      "occurrence_id": "occ1:9a177bc832e37c7d7ae4fc266f9d7fa03194fda9310b718a42f15b20516477a3"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 22,
+      "occurrence_id": "occ1:d3459dd0f7346bed300e608bca4e783abf812bea2f774ca822aa917990403746"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 22,
+      "occurrence_id": "occ1:5d8770271a86d48a5e8d60c7d8da129451fe7e68d06314612f643eed14e5fa8f"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 22,
+      "occurrence_id": "occ1:77d6978287bdb32c4fd81aec2ea052b80cd66eacbe1ee9c870db50c671c6bee8"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 22,
+      "occurrence_id": "occ1:82c2714b49c8a56e188f563c53eec96c5e16a9d62c4152b32f52cda461bc6aa3"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 22,
+      "occurrence_id": "occ1:3d9b60b90990399704f7b8142a62324f3d844728d63c4e0c1027023ca0e2a109"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 22,
+      "occurrence_id": "occ1:d2b99197d3c93fdc9a50d4194bc26a100d631ca52a503e94df960eac05fcc88a"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 22,
+      "occurrence_id": "occ1:8253d27de9bb5d4af04e3bde2eb644c5659b478c04d1cd1b2128a5cb62e5a02d"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 22,
+      "occurrence_id": "occ1:73be30fea5edad9186d1c6283dcc72219cae723e7656e662df6c92027c4a361f"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 22,
+      "occurrence_id": "occ1:2b6fca202f653b951fc807e7892653e6055c632edd6ec87ac0d12efea0627fad"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 22,
+      "occurrence_id": "occ1:bc5e36128c88042dccf070a8ca79316fe31a45ca84f142e9ed0336c5ad2312b7"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 22,
+      "occurrence_id": "occ1:11917e276261848820a5db6bae1be2089c87372fdab1f841aee321670c338fd0"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 22,
+      "occurrence_id": "occ1:b8513feeccafea22b3571b36c1be9d01319bac642a42b7e4bb113e5a498af17f"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 22,
+      "occurrence_id": "occ1:f6f1faa8471a25beee068b190095fd4282a88db28e018bbf02d4fd433829c849"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 22,
+      "occurrence_id": "occ1:e3b0191e80bd998eee90b3f7a80211bdaf080bbcaecaf6c58ed4cf5150478b32"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 22,
+      "occurrence_id": "occ1:c1ba9b2c4662b0c3afa0a1b94df0d6119f5b5d2e64df1a20ac339e71bf15b519"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 22,
+      "occurrence_id": "occ1:4c269793fe848f974b4d56708ad20f1f82d72615ae5025b6a26490926fe1e7fe"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 23,
+      "occurrence_id": "occ1:cb257c2057af6bbf83c19fa837cc07fc2eaebdfdde92340580d9742226d38860"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 23,
+      "occurrence_id": "occ1:02c7a84d384f4680630642e51c878f00a269fc51f1ecbfa07e57069af8281284"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 23,
+      "occurrence_id": "occ1:6a301ebdca40cacb4ec0e22b0f84b0a6e42897264507d808bd361ba2a103fc02"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 23,
+      "occurrence_id": "occ1:3c30363f5534f144e9062bc282ab35f199f9f92a68018fa1b3bc47ac43924b8c"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 23,
+      "occurrence_id": "occ1:cc017801ddc0d32db5106d523b685206fd41c0c710117942e7bf14e0dd2cf5b0"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 23,
+      "occurrence_id": "occ1:738d9e250bde9a0c2ea24f1578175f612ba96d58112c393f5af439ec927208f0"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 23,
+      "occurrence_id": "occ1:c2ad744e3965d57aba883f8de2d340d25e912a0014a65e376086ee430d7ad7c4"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 23,
+      "occurrence_id": "occ1:bf043a38507b960dd9e3bec2a0294b8d5c6c2f40b6fee8b39d478621bbb26134"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 23,
+      "occurrence_id": "occ1:503908b76a7430fd411cb5bc8dfec1fbf5bc2ad6786931e8215b1286d6b407cc"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 23,
+      "occurrence_id": "occ1:859af76f1c5e22bd81282b8a4566fe56ceede070eb04cd130b2e0ea328e30d24"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 23,
+      "occurrence_id": "occ1:6a456ebfa960886c8d9cc4bcf80bd80d0a57e1661affac42d5bdf9385a33e32a"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 23,
+      "occurrence_id": "occ1:24067c295189a6d79b1a61992b9bdcbff4da9645c622a37d0cb630da0af5f9d8"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 23,
+      "occurrence_id": "occ1:d38287d0649063ab1198775146da27d3b27353bab2e970103dbb65ac07ea7775"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 23,
+      "occurrence_id": "occ1:7a1c7b710fabe4af09b1fcd43d941f5ec4590ddc97a8872289af3cc08b0114a3"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 23,
+      "occurrence_id": "occ1:302805073d307a0421e07c0f68a549dcf2777d3ab5f1df896f283921576ae5aa"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 23,
+      "occurrence_id": "occ1:0f77a0f499c3520b6cc1f0886461dfc5c5030be3cb055637289995740ca62694"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 23,
+      "occurrence_id": "occ1:a20d9a39edbd8279a60ed0b0211e5494b1e4367128e7506e786a84c521aaccb7"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 24,
+      "occurrence_id": "occ1:7721bda2d3c926aa4153a5585bde5db58cfd05c5ffd5c7b37d31aadb2339b6e0"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 24,
+      "occurrence_id": "occ1:b1deda3449affe8bcd59ef77e0f1b9f01aa69facb2e5ab9bfa1e91b984fb83f9"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 24,
+      "occurrence_id": "occ1:4d4a688eb4e9acf664808f1564683bf911f50401f2b5c6e3ce6f151d354f6549"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 24,
+      "occurrence_id": "occ1:cc21ce8b5e63c3cee7d911518836f3aa89e7d13fe6bb6e75b1b0c4b67a1066db"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 24,
+      "occurrence_id": "occ1:9b4a7ceee231bfb40235ebeaf0207d79c5dd8af5df11276eeb3c150a61819ae6"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 24,
+      "occurrence_id": "occ1:72eaea1960cefb68c7e02e757106e67a2cd6404cacc6406f85265f97a23c3935"
+    },
+    {
+      "section": "The gradient of the neural network loss function",
+      "page": 24,
+      "occurrence_id": "occ1:f088b36afa5532d89752ebf74d11813a764b37ca8e84cb665aba5691299a973c"
+    },
+    {
+      "section": "The gradient of the neural network loss function",
+      "page": 24,
+      "occurrence_id": "occ1:a3a477686e9969b224e3d865da55e2dde69805b88db6ae54481d5a02a7a8b168"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 24,
+      "occurrence_id": "occ1:97d4f042845e7c26b404f0f1f0f989f2847a0ed2b2f19476aa12b34560c7c2c4"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 24,
+      "occurrence_id": "occ1:8de446aa38654c77d761a11c4f7349528acc28d45d111561abe74a980294eb35"
+    },
+    {
+      "section": "The gradient of neuron activation",
+      "page": 24,
+      "occurrence_id": "occ1:dfc3182d8298afea7f164ba26a9ba5e26c527730491d51afae9495082af6a21f"
+    },
+    {
+      "section": "The gradient with respect to the weights",
+      "page": 25,
+      "occurrence_id": "occ1:960413d17c70d93bb6818d84d9066c5689320e9ec4eea4325c9669ce55e310cb"
+    },
+    {
+      "section": "The gradient of the neural network loss function",
+      "page": 25,
+      "occurrence_id": "occ1:722dfdc8bb0ad1c6998622659f964e0fd78111b6e2d400b2d54324d20b3538c1"
+    },
+    {
+      "section": "The gradient of the neural network loss function",
+      "page": 25,
+      "occurrence_id": "occ1:fd0e80e62830dbaa38ffcc4997f6de09b68e1011d9f400d749b473b9dfcfc89d"
+    },
+    {
+      "section": "The gradient with respect to the weights",
+      "page": 25,
+      "occurrence_id": "occ1:a32829aee5c82e336d0595d6a7da3e1d65d99334af985743a00d4dcd93899924"
+    },
+    {
+      "section": "The gradient with respect to the weights",
+      "page": 25,
+      "occurrence_id": "occ1:18889c1b850e52a40952344369407a1d119db69ba7b79bb4c9a909aad5a51526"
+    },
+    {
+      "section": "The gradient with respect to the weights",
+      "page": 25,
+      "occurrence_id": "occ1:71f11532ba753a7b336a758a28fc9081a3585c20ca2e70125d53d4d2249c8708"
+    },
+    {
+      "section": "Vector chain rule",
+      "page": 26,
+      "occurrence_id": "occ1:b5f4f39a6d5150a24fd4967a334d0e1033106af2f43759aaef19a1aa598910aa"
+    },
+    {
+      "section": "The gradient with respect to the weights",
+      "page": 26,
+      "occurrence_id": "occ1:d4a3a7d529c67db667db849d4d4e1fc17a4f6d0dc2e6688a6162bfa2f00f6bb7"
+    },
+    {
+      "section": "The gradient with respect to the weights",
+      "page": 26,
+      "occurrence_id": "occ1:f4f4c22d75cc4e18dc77411bf1ab5d8eace20039453983ae746f00e1bae88253"
+    },
+    {
+      "section": "The gradient with respect to the weights",
+      "page": 26,
+      "occurrence_id": "occ1:ca74042433546d916065c91b8e3b8aa6bafecde0d43e1f0254b807be20d26ad6"
+    },
+    {
+      "section": "The gradient with respect to the weights",
+      "page": 26,
+      "occurrence_id": "occ1:755dc9ef4a4cd731833635a52be5fe2f554605afa94e814d1a78163ae0387946"
+    },
+    {
+      "section": "The gradient with respect to the weights",
+      "page": 26,
+      "occurrence_id": "occ1:d5f11d49fc70dd711f83a6cf61cb06bf07fa82557c4b52ed20619527b91dfe25"
+    },
+    {
+      "section": "The gradient with respect to the weights",
+      "page": 26,
+      "occurrence_id": "occ1:56e2aa4eb48f613089479939b58d6e4cde2ac76c81ad70e8ca23dcbd67dd674e"
+    },
+    {
+      "section": "Vector reductions",
+      "page": 26,
+      "occurrence_id": "occ1:7426d7bd0b3d82acc8e607ddbf2425ba2ec53e6c22fa14e4e63b83271bc7c176"
+    },
+    {
+      "section": "The derivative with respect to the bias",
+      "page": 26,
+      "occurrence_id": "occ1:c05c25fcb05462f1e004e57a22c2eddc8766546b6adbff6c04be4982ca77e451"
+    },
+    {
+      "section": "The derivative with respect to the bias",
+      "page": 26,
+      "occurrence_id": "occ1:b12118cdc1361eab65ca4472e9edea109838a481de696fad890e7c590a2611bc"
+    },
+    {
+      "section": "The derivative with respect to the bias",
+      "page": 26,
+      "occurrence_id": "occ1:0a93647d0923751e28cf8826381d1838e00c332ddc7ae4636e63762c625a6259"
+    },
+    {
+      "section": "The derivative with respect to the bias",
+      "page": 27,
+      "occurrence_id": "occ1:48ae9198fb0c4cabc8693255078d8460ae882218e7239fe8f2865be643ee3a61"
+    },
+    {
+      "section": "The derivative with respect to the bias",
+      "page": 27,
+      "occurrence_id": "occ1:ed3bfdc4dba3a4c599dfc2fb6fdab8d12c5dcb044bb3abb7cd325350def0d00f"
+    },
+    {
+      "section": "The derivative with respect to the bias",
+      "page": 27,
+      "occurrence_id": "occ1:033cd8dfee8fce4fbc6ece862bda552c5ac878d11fef48e22d98c200fcc2816b"
+    },
+    {
+      "section": "The derivative with respect to the bias",
+      "page": 27,
+      "occurrence_id": "occ1:432f5be48a55d102c4a2c37fa41db2423b9538b73224b0203351d7215392135a"
+    },
+    {
+      "section": "The derivative with respect to the bias",
+      "page": 28,
+      "occurrence_id": "occ1:d31cb12c42cd596fa8732485977bee2bbacbaa7613a8c783da88965e7754f06b"
+    },
+    {
+      "section": "The derivative with respect to the bias",
+      "page": 28,
+      "occurrence_id": "occ1:715130014ef3cdb84847fce9646d80bed054323b374a34c7295670a7aca8fde4"
+    },
+    {
+      "section": "The derivative with respect to the bias",
+      "page": 28,
+      "occurrence_id": "occ1:d8128d553c0985e32988f32d18828e49bf3a31d3bd05b73be6087670125372f0"
+    },
+    {
+      "section": "Gradients and Jacobians",
+      "page": 28,
+      "occurrence_id": "occ1:341df8fd979d4261e5918f0f9312933d7f91623f5b3591eff77aff1d48492e0e"
+    },
+    {
+      "section": "Gradients and Jacobians",
+      "page": 28,
+      "occurrence_id": "occ1:21e19e82f596cc05938523e9f3739b207901e8b026214ad0adb9db410753e811"
+    },
+    {
+      "section": "Gradients and Jacobians",
+      "page": 28,
+      "occurrence_id": "occ1:5518f03d126a0f1f14a90c467d022fc6d329ed36fbf5c0176f2729945ed0e8a5"
+    },
+    {
+      "section": "Gradients and Jacobians",
+      "page": 28,
+      "occurrence_id": "occ1:a2ddc54fe920841e045191a369d56d20a4d10c5919a8d889ca3112d2b59d8fc9"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 28,
+      "occurrence_id": "occ1:06131769cb3e90857dc5faaa721afac75b91408580fb4080f233c6db04a8edde"
+    },
+    {
+      "section": "Generalization of the Jacobian",
+      "page": 28,
+      "occurrence_id": "occ1:057daec2268eaa4a85a181fac3477f9cdc4c9d492229915cd780e131def2ac07"
+    },
+    {
+      "section": "Element-wise operations on vectors",
+      "page": 29,
+      "occurrence_id": "occ1:6987ac64edb0949a0e6d99d88ec9480361e3337dbd9d402acf608d9de38ace37"
+    },
+    {
+      "section": "Element-wise operations on vectors",
+      "page": 29,
+      "occurrence_id": "occ1:8e071f4b3c629ca3af2087542a59a6368f1e0a1f87a0a8a2c457f29f86663aa8"
+    },
+    {
+      "section": "Scalar expansion",
+      "page": 29,
+      "occurrence_id": "occ1:5fb2e3b74a0ee30c3ad7a77a71c38dcc4728bab2fbe852dd515844e998bf1fe6"
+    },
+    {
+      "section": "Element-wise operations on vectors",
+      "page": 29,
+      "occurrence_id": "occ1:77c177ea9f8ec00303763deb4327eac7ff05a47e30ec741a0633b807cc7052ce"
+    },
+    {
+      "section": "Scalar expansion",
+      "page": 29,
+      "occurrence_id": "occ1:90ce09eb3cec5ac47c1f45d4ed158f510478e26af8c5e5fe4a375de7070f4b6f"
+    },
+    {
+      "section": "Scalar expansion",
+      "page": 29,
+      "occurrence_id": "occ1:2419424333895dc2948c6005cf94574ea9a5fb996552dc682d995cc5d03b6e1f"
+    },
+    {
+      "section": "Scalar expansion",
+      "page": 29,
+      "occurrence_id": "occ1:53ee2dfd01eafadccdd1f12a90efa5ce8f6bfc199b7d8cde1aa880429b9ecebd"
+    },
+    {
+      "section": "Scalar expansion",
+      "page": 29,
+      "occurrence_id": "occ1:b100ab42619f27c959a5f8151f6e86c557093507cdcacc9f7b9245d1373f9305"
+    },
+    {
+      "section": "Scalar expansion",
+      "page": 29,
+      "occurrence_id": "occ1:979b819831cc70cadfc8d3aad4a7c93ccf1c58eaf75ec9f8fcc19e84d7551548"
+    },
+    {
+      "section": "Scalar expansion",
+      "page": 29,
+      "occurrence_id": "occ1:792b19d6dac796e9d2661ec410470e291e0011a9133e4896691a3959979066c1"
+    },
+    {
+      "section": "Scalar expansion",
+      "page": 29,
+      "occurrence_id": "occ1:4a933bf03130603b739cb3812dde20af635b29a7bf9b268bc73e39f2f02f5a21"
+    },
+    {
+      "section": "Element-wise operations on vectors",
+      "page": 29,
+      "occurrence_id": "occ1:7cef734f5ef363836204c288717708d692e5bde25b070ef5621035073cd85a66"
+    },
+    {
+      "section": "Element-wise operations on vectors",
+      "page": 29,
+      "occurrence_id": "occ1:181379a9559b96fb37bce8e80ec335b1d857e79321ac1c243bb26bb1dd587716"
+    },
+    {
+      "section": "Element-wise operations on vectors",
+      "page": 29,
+      "occurrence_id": "occ1:72204456ace58fb60b844e1b36316c0506ac5b94c9f6cf8084eb58ee483d2325"
+    },
+    {
+      "section": "Element-wise operations on vectors",
+      "page": 29,
+      "occurrence_id": "occ1:16c28f0feac719153d31dafcfeac23903bad8ab6ec090547f81e721e0b9fa9da"
+    },
+    {
+      "section": "Chain rules",
+      "page": 30,
+      "occurrence_id": "occ1:1ee7e2f9b11971a72d7dc30303fba53916e60e35ad2ffba82a147bdbb9bd9a98"
+    },
+    {
+      "section": "Notation",
+      "page": 30,
+      "occurrence_id": "occ1:7544328ac5d667ea6a9898eedb8e3b2178e09114cd99bc1b9182141088a0832b"
+    },
+    {
+      "section": "Notation",
+      "page": 30,
+      "occurrence_id": "occ1:3e2dad2cd27830f2dca56976ae273f146cee71f22412b1152c4a0c3e31c47d04"
+    },
+    {
+      "section": "Notation",
+      "page": 30,
+      "occurrence_id": "occ1:5d093f4556650dd89992790ba41c3c6d9edbca39c1ea1c290de2fef208ce675a"
+    },
+    {
+      "section": "Notation",
+      "page": 30,
+      "occurrence_id": "occ1:75374051ddffcf69efd9686d6bdde4bb0d7d6fcdf039faca3dcf5f4e0de41fed"
+    },
+    {
+      "section": "Notation",
+      "page": 30,
+      "occurrence_id": "occ1:1a3b825b03cf9adb29721d84be1449b4118d1de52aec3b233348efdf57b0c64b"
+    },
+    {
+      "section": "Notation",
+      "page": 30,
+      "occurrence_id": "occ1:0ad56a99bb716483a8c6eaba1841491377922e82d67d2c8325342f8285af2efd"
+    },
+    {
+      "section": "Notation",
+      "page": 30,
+      "occurrence_id": "occ1:b6df88e99ec2c7d1723279422d12b4f99b94dc4e34bf04f5f50981bd1dc76be9"
+    },
+    {
+      "section": "Notation",
+      "page": 30,
+      "occurrence_id": "occ1:02e5e075e79801f7ee459c287265fcb39bd3054480942353c705fe96955d588a"
+    },
+    {
+      "section": "Vector reductions",
+      "page": 30,
+      "occurrence_id": "occ1:9721c63c7eb10391e71d77ccb42b4cea001505a79259ae47fe677852da18279c"
+    },
+    {
+      "section": "Vector reductions",
+      "page": 30,
+      "occurrence_id": "occ1:37b86d8514efaef8797decf30db11cd880d620506730ab5fcf141195360b1f91"
+    },
+    {
+      "section": "Vector reductions",
+      "page": 30,
+      "occurrence_id": "occ1:7ee4b9ff91b33b4c355605aa5124655096b2c295f3afb71d867bad3112420387"
+    },
+    {
+      "section": "Vector reductions",
+      "page": 30,
+      "occurrence_id": "occ1:5526698e53f007fe21e2597e682318226ee35f3c5289354db6f4170d1ec8c639"
+    },
+    {
+      "section": "Chain rules",
+      "page": 30,
+      "occurrence_id": "occ1:1023bd3c088817958d52a123d8e5241081bae1749db0db445f9f4b165efe83da"
+    },
+    {
+      "section": "Vector reductions",
+      "page": 30,
+      "occurrence_id": "occ1:458ad75f7317081c49dad25ef84680257b7fc29080521a5ac75d75b2d2edd7e0"
+    },
+    {
+      "section": "Chain rules",
+      "page": 30,
+      "occurrence_id": "occ1:3f5c30d97132bad47f245499d042343c537b6ed85d727ee1fe6d82fad1e2c3de"
+    },
+    {
+      "section": "Vector reductions",
+      "page": 30,
+      "occurrence_id": "occ1:abd745a75f0463eb813d99da3769836a2738decde7dbf5ac205edca0b62050c1"
+    },
+    {
+      "section": "Notation",
+      "page": 30,
+      "occurrence_id": "occ1:eec725e15b9f616f6eb356318c06a22eb02463ed1e5d6918952e04ea2ccec58f"
+    },
+    {
+      "section": "Notation",
+      "page": 30,
+      "occurrence_id": "occ1:0f25a4a7a0d66ac465954b7955ccdabc26b5c31fdb66796c38b38af89f1bf438"
+    },
+    {
+      "section": "Notation",
+      "page": 30,
+      "occurrence_id": "occ1:e44adf98435fba71984b8565534f4461d4181a56c539f344347ccee2dcf19109"
+    },
+    {
+      "section": "Notation",
+      "page": 30,
+      "occurrence_id": "occ1:3832f22effba43e8cb5424a45de0892491f2bc9d7bda33bee61fb871f1152248"
+    },
+    {
+      "section": "Notation",
+      "page": 30,
+      "occurrence_id": "occ1:ca12f9101ebe36dfde3c688bbdc5ec023992f8e879d404eab65eb5eb76921df3"
+    },
+    {
+      "section": "Notation",
+      "page": 30,
+      "occurrence_id": "occ1:0729138cab6159bb4801af070e923acf735b9a31605943e7dc869c88018fc91a"
+    },
+    {
+      "section": "Vector reductions",
+      "page": 30,
+      "occurrence_id": "occ1:944830e039bd1e6085d25eb7a3ab4d015d5b5fdd191d193e2b560b541f6fc65b"
+    },
+    {
+      "section": "Vector reductions",
+      "page": 30,
+      "occurrence_id": "occ1:a7bbcb6ec04e92a2c21cb9d080dcc647ef738e1fc78f3ebc44c642d74ef348cf"
+    },
+    {
+      "section": "Chain rules",
+      "page": 30,
+      "occurrence_id": "occ1:cdf0d1262913505415427b647b4d3563972b71a0dd2ce0b83c0d55dbf3113007"
+    },
+    {
+      "section": "Vector reductions",
+      "page": 30,
+      "occurrence_id": "occ1:9dab4155dd6609f1218c73ce2ce171687ec62a3f1b4e4ec700dbaa3dec5db0b7"
+    },
+    {
+      "section": "Notation",
+      "page": 31,
+      "occurrence_id": "occ1:9da11148c347b23455060c00737973c8a3942672afb6cd184670059f3c4ee859"
+    },
+    {
+      "section": "Notation",
+      "page": 31,
+      "occurrence_id": "occ1:da29ce31004ffa4df7ff27447f59cecf97ddc741af6e95f95f851a6410462837"
+    },
+    {
+      "section": "Notation",
+      "page": 31,
+      "occurrence_id": "occ1:9afda96a18187a6a5b1874b3c9a4272f505d560e5252078fd097097f0920efdd"
+    },
+    {
+      "section": "Resources",
+      "page": 31,
+      "occurrence_id": "occ1:e564d217b29d413c358aa7d49028674a39c5a155004b05770c0a489da54b7001"
+    },
+    {
+      "section": "Resources",
+      "page": 31,
+      "occurrence_id": "occ1:4cf998dc2b0a8068923282e201f43c76cbaef59a9d26d095fbf4f4ae5c61fd27"
+    },
+    {
+      "section": "Notation",
+      "page": 31,
+      "occurrence_id": "occ1:ffda24cfea90f9e0091dee127a44d23cc8f658f92e0c5b6b72e255e96794ef68"
+    },
+    {
+      "section": "Notation",
+      "page": 31,
+      "occurrence_id": "occ1:928711da29e2f9df8549acea74dc6ba777885cbd5c3d460e7f709c7af3bf0f4c"
+    },
+    {
+      "section": "Notation",
+      "page": 31,
+      "occurrence_id": "occ1:06470f13842adf010024497e192d3194c3f892c4fc17a1234817e58c4a4fd2ae"
+    },
+    {
+      "section": "Resources",
+      "page": 31,
+      "occurrence_id": "occ1:3edb4c6f99a0ec2781c557b0486eb04d0aa764b8e41e0579ca74ceb0fc0d4462"
+    },
+    {
+      "section": "Notation",
+      "page": 31,
+      "occurrence_id": "occ1:2ce3a434703d44ec6403c07b53124df51055293b9287bfca7b5455cd386512ca"
+    },
+    {
+      "section": "Notation",
+      "page": 31,
+      "occurrence_id": "occ1:1b837a14a1702d081f6b2042314a7e6674ec2d5b190e48a12f7c66388aba1a53"
+    },
+    {
+      "section": "Notation",
+      "page": 31,
+      "occurrence_id": "occ1:f75460b64b0d4d681d626d19cd263437cac419b22f824ce8c5a4be803dcd6826"
+    },
+    {
+      "section": "Notation",
+      "page": 31,
+      "occurrence_id": "occ1:a0ad3a6e6702568a2e9ac27f87a3c9b6e27d405329d7fadd9016e755b53b5567"
+    },
+    {
+      "section": "Notation",
+      "page": 31,
+      "occurrence_id": "occ1:08be835f30a8a6dc4d969533df3fd98203e781b577ab585075373c230e788961"
+    },
+    {
+      "section": "Notation",
+      "page": 31,
+      "occurrence_id": "occ1:bf6f91b5762a4a0c79e12386d5296f2f116dc7fe1b0551fee916bf9f87be5d9e"
+    },
+    {
+      "section": "Notation",
+      "page": 31,
+      "occurrence_id": "occ1:c0723fb911ddddde6a12961aa69b14cb53a9e6bd7532d9cc57a733c6739a585a"
+    },
+    {
+      "section": "Notation",
+      "page": 31,
+      "occurrence_id": "occ1:16cff20d57a29959dcce36fbaa8608d72c3eecfca3e02a3dc46e50848de8dbe6"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 31,
+      "occurrence_id": "occ1:e6b6fd75a5808d171d66bdbdfda90093f46528ed7c61eb8c70de2d40f359066c"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 31,
+      "occurrence_id": "occ1:5633e410837bdbf304a853563340aa1abb0c92f1a8dbca4eb28e85a074851e7b"
+    },
+    {
+      "section": "Single-variable total-derivative chain rule",
+      "page": 31,
+      "occurrence_id": "occ1:e3ff605ba6f9d0d122b963e2575327f03eaca493fc7339dfabc0bbb8474b3c18"
+    },
+    {
+      "section": "Resources",
+      "page": 32,
+      "occurrence_id": "occ1:3ca248d66ff8265c42a056ee699d90e545fce09a50437fdac9de39c804aa4100"
+    },
+    {
+      "section": "Resources",
+      "page": 32,
+      "occurrence_id": "occ1:0dbbb653b59f0b73ba8fc4bf636500d53e3b1ffbdf1bc6b8110ab53676465ecf"
+    }
+  ]
+}

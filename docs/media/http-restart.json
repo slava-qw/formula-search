@@ -1,0 +1,275 @@
+{
+  "method": "Local HTTP preparation/search/restart benchmark with pinned paper bytes.\n\nIncludes archive processing, spawned PDF work, index construction, response JSON\nand mapping-cache writes. Excludes remote downloads and Chrome rendering.\nCompare all returned matches after restart, not just counts or rectangles.\n",
+  "papers": [
+    {
+      "paper": "attention",
+      "hashes": {
+        "pdf": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+        "source": "2e7a7d9ee2520d22eb23dae0cb148e167be02a30d6cb3f11b1c67723194339c6"
+      },
+      "runs": [
+        {
+          "mode": "cold",
+          "prepare_ms": 1938.3495000001858,
+          "search_http_ms": 16.486900000018068,
+          "search_backend_ms": 5.02,
+          "matches": 1,
+          "persisted_mappings": 1,
+          "process": {
+            "formula_count": 125,
+            "source_type": "tex",
+            "pdf_cached": true,
+            "pdf_warning": "",
+            "cache_hit": false,
+            "reused_session": false,
+            "pdf_cache_hit": false,
+            "resolved_arxiv_id": "1706.03762v7",
+            "shared_preparation": false
+          }
+        },
+        {
+          "mode": "resident",
+          "prepare_ms": 3.7646999990101904,
+          "search_http_ms": 1.953999999386724,
+          "search_backend_ms": 0.3,
+          "matches": 1,
+          "persisted_mappings": 1,
+          "process": {
+            "formula_count": 125,
+            "source_type": "tex",
+            "pdf_cached": true,
+            "pdf_warning": "",
+            "cache_hit": false,
+            "reused_session": true,
+            "pdf_cache_hit": false,
+            "resolved_arxiv_id": "1706.03762v7",
+            "shared_preparation": false
+          }
+        },
+        {
+          "mode": "restart",
+          "prepare_ms": 1521.2505999988934,
+          "search_http_ms": 3.2793000027595554,
+          "search_backend_ms": 0.49,
+          "matches": 1,
+          "persisted_mappings": 1,
+          "process": {
+            "formula_count": 125,
+            "source_type": "tex",
+            "pdf_cached": true,
+            "pdf_warning": "",
+            "cache_hit": true,
+            "reused_session": false,
+            "pdf_cache_hit": true,
+            "resolved_arxiv_id": "1706.03762v7",
+            "shared_preparation": false
+          }
+        }
+      ],
+      "match_sha256": "31e9b9b5170a9bce5b39e953042b49710a2aa6eaa9048fd0e0d32dd6211aaa85"
+    },
+    {
+      "paper": "2307.09288v2",
+      "hashes": {
+        "pdf": "1df284ce95f783002074bfe8f21d47c646b396ceb1736ea3ec0ea212fc070d91",
+        "source": "0a0a39ea6a6ec13474bca12d84badb5d142a6ce5d98824c4167ed13aa9254c0a"
+      },
+      "runs": [
+        {
+          "mode": "cold",
+          "prepare_ms": 5930.119699998613,
+          "search_http_ms": 33.29509999821312,
+          "search_backend_ms": 20.58,
+          "matches": 5,
+          "persisted_mappings": 5,
+          "process": {
+            "formula_count": 103,
+            "source_type": "tex",
+            "pdf_cached": true,
+            "pdf_warning": "",
+            "cache_hit": false,
+            "reused_session": false,
+            "pdf_cache_hit": false,
+            "resolved_arxiv_id": "2307.09288v2",
+            "shared_preparation": false
+          }
+        },
+        {
+          "mode": "resident",
+          "prepare_ms": 2.03719999990426,
+          "search_http_ms": 3.069800000957912,
+          "search_backend_ms": 0.7,
+          "matches": 5,
+          "persisted_mappings": 5,
+          "process": {
+            "formula_count": 103,
+            "source_type": "tex",
+            "pdf_cached": true,
+            "pdf_warning": "",
+            "cache_hit": false,
+            "reused_session": true,
+            "pdf_cache_hit": false,
+            "resolved_arxiv_id": "2307.09288v2",
+            "shared_preparation": false
+          }
+        },
+        {
+          "mode": "restart",
+          "prepare_ms": 2191.964300000109,
+          "search_http_ms": 3.923600001144223,
+          "search_backend_ms": 0.58,
+          "matches": 5,
+          "persisted_mappings": 5,
+          "process": {
+            "formula_count": 103,
+            "source_type": "tex",
+            "pdf_cached": true,
+            "pdf_warning": "",
+            "cache_hit": true,
+            "reused_session": false,
+            "pdf_cache_hit": true,
+            "resolved_arxiv_id": "2307.09288v2",
+            "shared_preparation": false
+          }
+        }
+      ],
+      "match_sha256": "538c0bd92c636b65e6fb59f2fb4f21af3783c11f53bec8bdc660d037ffc02dff"
+    },
+    {
+      "paper": "1802.01528v3",
+      "hashes": {
+        "pdf": "5ec0f6fc76751527bbcf9ec076a82a490ad2f6fde05f2c140b181386bbeffbd8",
+        "source": "725e5d8d47a1d3e57d274f93ddb7a03966d2cd453bb55bc16dd28a2bb9a424c0"
+      },
+      "runs": [
+        {
+          "mode": "cold",
+          "prepare_ms": 2721.9202000014775,
+          "search_http_ms": 2625.7762999994156,
+          "search_backend_ms": 2206.53,
+          "matches": 490,
+          "persisted_mappings": 490,
+          "process": {
+            "formula_count": 735,
+            "source_type": "tex",
+            "pdf_cached": true,
+            "pdf_warning": "",
+            "cache_hit": false,
+            "reused_session": false,
+            "pdf_cache_hit": false,
+            "resolved_arxiv_id": "1802.01528v3",
+            "shared_preparation": false
+          }
+        },
+        {
+          "mode": "resident",
+          "prepare_ms": 2.7203999998164363,
+          "search_http_ms": 48.98220000177389,
+          "search_backend_ms": 17.2,
+          "matches": 490,
+          "persisted_mappings": 490,
+          "process": {
+            "formula_count": 735,
+            "source_type": "tex",
+            "pdf_cached": true,
+            "pdf_warning": "",
+            "cache_hit": false,
+            "reused_session": true,
+            "pdf_cache_hit": false,
+            "resolved_arxiv_id": "1802.01528v3",
+            "shared_preparation": false
+          }
+        },
+        {
+          "mode": "restart",
+          "prepare_ms": 2050.365300001431,
+          "search_http_ms": 68.40379999994184,
+          "search_backend_ms": 24.94,
+          "matches": 490,
+          "persisted_mappings": 490,
+          "process": {
+            "formula_count": 735,
+            "source_type": "tex",
+            "pdf_cached": true,
+            "pdf_warning": "",
+            "cache_hit": true,
+            "reused_session": false,
+            "pdf_cache_hit": true,
+            "resolved_arxiv_id": "1802.01528v3",
+            "shared_preparation": false
+          }
+        }
+      ],
+      "match_sha256": "1212ec2ed2b4d76695e76f0be85f50f1efd64a44fc5880ec1bacc893475904d1"
+    },
+    {
+      "paper": "2312.00752v2",
+      "hashes": {
+        "pdf": "adf70ed1803c85b1899dec3e21f3af0b124411439e8654b840ea65f7b9f52b2e",
+        "source": "e44586835a0845a837bff72905a6c2d9d5e8702f5f473ea299785064d80c5301"
+      },
+      "runs": [
+        {
+          "mode": "cold",
+          "prepare_ms": 2690.723600000638,
+          "search_http_ms": 202.22540000031586,
+          "search_backend_ms": 160.57,
+          "matches": 37,
+          "persisted_mappings": 37,
+          "process": {
+            "formula_count": 408,
+            "source_type": "tex",
+            "pdf_cached": true,
+            "pdf_warning": "",
+            "cache_hit": false,
+            "reused_session": false,
+            "pdf_cache_hit": false,
+            "resolved_arxiv_id": "2312.00752v2",
+            "shared_preparation": false
+          }
+        },
+        {
+          "mode": "resident",
+          "prepare_ms": 2.379999998083804,
+          "search_http_ms": 7.62620000023162,
+          "search_backend_ms": 4.25,
+          "matches": 37,
+          "persisted_mappings": 37,
+          "process": {
+            "formula_count": 408,
+            "source_type": "tex",
+            "pdf_cached": true,
+            "pdf_warning": "",
+            "cache_hit": false,
+            "reused_session": true,
+            "pdf_cache_hit": false,
+            "resolved_arxiv_id": "2312.00752v2",
+            "shared_preparation": false
+          }
+        },
+        {
+          "mode": "restart",
+          "prepare_ms": 1854.0528000012273,
+          "search_http_ms": 15.306099998269929,
+          "search_backend_ms": 8.25,
+          "matches": 37,
+          "persisted_mappings": 37,
+          "process": {
+            "formula_count": 408,
+            "source_type": "tex",
+            "pdf_cached": true,
+            "pdf_warning": "",
+            "cache_hit": true,
+            "reused_session": false,
+            "pdf_cache_hit": true,
+            "resolved_arxiv_id": "2312.00752v2",
+            "shared_preparation": false
+          }
+        }
+      ],
+      "match_sha256": "a69fb656e1f457860594551bb46a3c1a735042412d178b46b169ef53a7701f79"
+    }
+  ],
+  "version": "0.11.1",
+  "cross_version_complete_match_parity": "All four papers equal the archived 0.11.0 complete-match SHA-256."
+}

@@ -1,0 +1,68 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=24mm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{xcolor}
+\definecolor{ink}{HTML}{17344B}
+\definecolor{accent}{HTML}{087F8C}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt}
+\begin{document}
+\pagestyle{plain}
+{\color{accent}\small FORMULA SEARCH / EXAMPLE DOCUMENT}
+
+{\color{ink}\Huge Find the notation.\\[3pt] Keep the context.}
+
+This short, original document is a playground for Formula Search. Open this PDF
+in Chrome, open the extension, and try the queries printed below. These are
+illustrative equations, not research findings.
+
+\section*{1. A matrix score}
+For compatible matrices, a scaled score can be written as
+\begin{equation}
+ S = \frac{QK^T}{\sqrt{d_k}}.
+\end{equation}
+Try the numerator with \emph{Contains this notation}. Superscripts, order,
+and the denominator matter: the expression is not an unstructured bag of letters.
+
+\section*{2. A simple objective}
+A squared error with a penalty gives another expression to explore:
+\begin{equation}
+ L = (y-\hat{y})^2 + \lambda w^2.
+\end{equation}
+Try the squared weight. Copy the returned LaTeX, save a bookmark, or inspect
+the original PDF excerpt from the result card.
+
+\vfill
+{\small\color{accent} Local search. Original PDF. Explicit matching modes.}
+\newpage
+{\color{accent}\small FORMULA SEARCH / EXAMPLE DOCUMENT}
+
+{\color{ink}\Huge One symbol,\\[3pt] several contexts.}
+
+\section*{3. Repeated notation}
+The same squared weight can appear on a different page:
+\begin{equation}
+ R = \lambda w^2.
+\end{equation}
+Search the squared weight and use the page filter to keep only the occurrence
+on this page. A bookmark identifies an occurrence, not only its formula text.
+
+\section*{4. Scalar algebra is an explicit choice}
+For commuting scalars, an expanded square is
+\begin{equation}
+ z = x^2 + 2xy + y^2.
+\end{equation}
+The algebraic matching mode has a different contract from notation search.
+It is bounded, may report incomplete checks, and assumes commuting scalars.
+Do not use that assumption for arbitrary matrix products.
+
+\section*{What to expect}
+This example exercises PDF text extraction. On supported arXiv documents,
+Formula Search can also search TeX source and retain its file and line reference.
+Some expressions cannot be mapped precisely to a PDF location; the interface
+reports that uncertainty. Scanned equations require the optional OCR model
+and a review before adding recognized notation to the session.
+
+\vfill
+{\small Created for the Formula Search project. See examples/README.md.}
+\end{document}
