@@ -48,6 +48,9 @@ def extract_block(path: Path, begin_marker: str, end_marker: str) -> str:
 
 
 def main() -> int:
+    # check_extension.py decodes captured results as UTF-8, including UI symbols.
+    # Windows hosted runners can otherwise use cp1252 for redirected stdout.
+    sys.stdout.reconfigure(encoding='utf-8')
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("test_script", type=Path, help="JS test file to run last")
     parser.add_argument("--dom", type=Path, default=REPO_ROOT / "tools" / "js_fake_dom.js", help="Fake DOM/chrome shim to load first")

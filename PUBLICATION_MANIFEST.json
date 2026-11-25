@@ -1,7 +1,7 @@
 {
   "project": "Formula Search",
   "version": "0.11.1",
-  "base_revision": "1e769aff61abbe229788ee2e99c0d8caaa63423a",
+  "base_revision": "207a536a7c7ccc7ff1da4e36a1c6602974399f61",
   "snapshot": "Current selected working-tree files, including uncommitted publication changes.",
   "excluded": [
     "Git history",
@@ -1350,6 +1350,11 @@
       "sha256": "ca0facf7a9ac3742b93a3708947c9604271a69d2ca16635533e0929329fe3257"
     },
     {
+      "path": "tests/test_js_runner_encoding.py",
+      "bytes": 962,
+      "sha256": "47ce5f48b573faab9f2a3e81d360b4c5a2f6bfee1ebbd75fea10d2056541be00"
+    },
+    {
       "path": "tests/test_line_index_cache.py",
       "bytes": 10751,
       "sha256": "121889873cad2a28116ef5f6539112cd05c70a1a173ac6f73a2e93c6240e41d9"
@@ -1836,8 +1841,8 @@
     },
     {
       "path": "tools/run_js_test.py",
-      "bytes": 3857,
-      "sha256": "562803a2a0122c116f59b7f5903c79235c26568646e984cfd18d1a16a81b8938"
+      "bytes": 4061,
+      "sha256": "6d71c7589e4321037826041f520173946020303e7983b270c863d71e2f45ea7c"
     },
     {
       "path": "tools/smoke_accent_checks.py",
